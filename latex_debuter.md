@@ -1,7 +1,7 @@
 # Latex commandes
 
 Document comprenant les bases à connaître pour débuter LaTeX.  
-Ce document est écrit à partir du livre **Apprends LATEX !** de **Marc Baudoin**.
+Ce document est écrit à partir du livre "**Apprends LATEX !**"" de **Marc Baudoin**.
 
 ## Commandes de base
 
