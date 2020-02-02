@@ -1,13 +1,14 @@
 # Latex commandes
 
-## Base
+Document comprenant les bases à connaître pour débuter LaTeX.  
+Ce document est écrit à partir du livre **Apprends LATEX !** de **Marc Baudoin**.
+
+## Commandes de base
 
 Structure des commandes et arguments :  
 ```
-\commande[argumentOptionnel]{argobligatoire1,arg2}
+\commande[argumentOptionnel]{argumentObligatoire1,arg2}
 ```
-
-## Commandes de base
 
 #### Première ligne
 
@@ -54,12 +55,31 @@ Seules les **lignes blanches** permettent de créer un nouveau parapraphe. Les f
 
 * Espace insécable  
 Pour pas que deux mois soient séparés en fin de ligne, il est possible de les coller avec le caractère **~**.  
+En cas d'erreur suivante :  
+```Overfull \hbox (63.46103pt too wide) in paragraph at lines 99--99```  
+Il faut utiliser l'espace insécable comme ceci :  
+```Je veux cou\-per ici.```
 
 * Les caractères réservés  
 Possibilité des les échapper avec un **\\** placé avant le mot ou caractère.  
 
-	* Commentaires  
-	Insertion des commentaires avec le caractère **%**.  
+* Commentaires  
+Insertion des commentaires avec le caractère **%**.  
+
+#### Les commandes
+
+##### Commandes de base
+
+* **Titre :** ```\\title{titre}```
+* **Auteur :** ```\\author{auteur}``` - Séparer avec ```\\and``` si plusieurs auteurs.
+* **Date :** ```\\date{01/02/2020}```- La date du jour est affichée automatiquement, pour ne pas l'afficher utiliser la commande ```\\date{}```.
+* **Note de bas de page :** ```\title{Titre avec note\thanks{voici la note}}```
+
+##### Hiérarchisation du document
 
 
-rendu page 18
+rendu page 25
+
+
+
+
