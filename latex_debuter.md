@@ -77,8 +77,30 @@ Insertion des commentaires avec le caractère **%**.
 
 ##### Hiérarchisation du document
 
+Commandes pour hiérarchiser un document :  
 
-rendu page 25
+* Partie : ```\part{nom}```
+* Châpitre : ```\chapter{nom}``` - non disponible pour la classe article
+* Section : ```\section{nom}```
+* Sous-section : ```\subsection{nom}```
+* Sous-sous-section : ```\subsubsection{nom}```
+
+Les numéros des châpitres et sections sont générés automatiquement. La taille de la police sera aussi différent. **Pas besoin de se soucier de la numérotation des châpitres et sections**.  
+
+Si on ne veut pas numéroter, utiliser la commande étoilée : ```\chapter*{Avant propos}```. Cela sert pour les petits rapports. Par défaut, cela n'apparaît pas dans la table des matières mais on peut le rajouter avec ```\addcontentsline{toc}{niveau}{titre}```. Il faut remplacer **niveau** par **part, chapter, section, subsection, subsubsection**. Exemple pour inclure l'avant propos dans la table des matières :  
+```
+\chapter*{Avant-propos}
+\addcontentsline{toc}{chapter}{Avant-propos}
+```  
+
+La table des matières s'affiche avec la commande ```\tableofcontents```. Deux compilations sont nécessaires pour afficher la table des matières. La première compilation enregistre la table des matières dans un fichier **.toc** et la seconde l'inclut dans le document. **.toc** pour **table of contents**.  
+
+La commande ```\listoftables``` imprime la liste des tableaux, et ```\listoffigures```la liste des figures. Pareil que pour la table des matières, deux compilations sont nécessaires, avec des fichiers **.lot** et **.lof**.  
+
+
+
+
+rendu page 26
 
 
 
