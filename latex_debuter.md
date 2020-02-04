@@ -99,16 +99,16 @@ La commande ```\listoftables``` imprime la liste des tableaux, et ```\listoffigu
 
 La commande ```\appendix``` permet de définir une annexe. Elles sont numérotées A, B, C.  
 
-#### Construire document avec plusieurs fichiers
+##### Construire document avec plusieurs fichiers
 
 ```\include{fichier.text}``` permet d'inclure un document dans un autre. Cela peut-être util pour écrire un châpitre par fichier par exemple. Include se place avant le ```\end{document}```. Include génère une nouvelle page. Si on ne veut pas générer de nouvelle page il faut utiliser la commande ```\input{fichier}```.  
 
-#### Annotation de document
+##### Annotation de document
 
 * Note de bas de page : ```\footnote{note}``` - LaTeX numérote automatiquement.  
 * Note dans la marge : ```\marginpar[texte de gauche]{texte de droite}```
 
-#### Références croisées
+##### Références croisées
 
 * Label : ```\label{nom}``` - place repère invisible à l'impression sur l'objet du document auquel on se réfère.
 * Référence : ```ref{nom}``` - faire référence au numéro de l'objet repéré par __nom__. Il doit d'agir de quelque chose de numéroté.
@@ -116,7 +116,7 @@ La commande ```\appendix``` permet de définir une annexe. Elles sont numéroté
 * Référence au numéro de paragrapge : ```\ref{section/references}``` - ici on affiche le numéro du paragraphe.
 * Référence au numéro de la page où est situé le paragraphe : ```\pageref{section/references}```
 
-#### Caractères spéciaux
+##### Caractères spéciaux
 
 * Ensemble vide : ```\o``` ou ```\O```
 * 'oe' collés : ```\oe```
@@ -130,7 +130,77 @@ La commande ```\appendix``` permet de définir une annexe. Elles sont numéroté
 * Argument vide : ```\TeX{}```
 * Accolade : ```{\TeX}```
 
+##### Changements de style
+
+Le contenu de ces commandes sont affectées par le style. Pas le reste qui suit la commande.  
+
+* Italique : ```\textit{phrase en italique}```
+* Incliné : ```\textsl{incliné}``` - sl pour slanted
+* Petites capitales : ```\textsc{texte}``` - sc pour small caps
+* Maigre : ```\textmd{texte}``` - md pour medium
+* Gras : ```\textbf{texte}``` - bf pour boldface
+* Linéal : ```\textsf{texte}``` - sf pour sans serif
+* Machine à écrire : ```\texttt{texte}``` - tt pour typewriter
+
+Possibilité d'imbriquer les commandes de style : 
+```
+Ceci est mon \textsl{mon texte \texttt{avec double} style.}
+```
+
+##### Mise en page
+
+* Nouvelle ligne : ```\newline``` ou ```\\``` - ne pas en abuser, préférer la ligne blanche
+* Nouvelle page : ```\newpage``` ou ```\clearpage```
+
+##### Définition de nouvelles commandes
+
+Possibilité de définir des nouvelles commandes pour appliquer des styles.   
+La définition des commandes se fait dans le préambule généralement.  
+
+```
+\newcommand{\macommande}[nombre d'arguments]{définition}
+\newcommand{\test}{test} % Affiche 'test' à chaque fois que la commande \test est appelée
+\newcommand{\latin}[1]{\textit{#1}} % Affiche l'argument de la commande \latin en italique
+```
+
+
+#### Les environnements
+
+Les commandes gèrent des mots ou des petites phrases.  
+Lorsque l'on souhaite appliquer des modifications sur des grandes parties ou textes, on utilise des syntaxes d'environnement.  
+
+```
+\begin{environnement}
+\end{environnement}
+```
+
+Exemple : 
+
+```
+\begin{quotation}
+Ce texte est entre quote
+Il met des alinéas aux paragraphes.
+\end{quotation}
+```
+
+Environnements : 
+* verse : pour la poésie
+* center : centrer le texte
+* flushleft, flushright : mettre le texte à droite ou à gauche
+* verbatim : afficher le texte complet, ne prends pas en compte les commandes
+
+Créer une liste :
+```\item``` imprime un tiret, ```\enumerate``` un numéro.
+
+```
+\begin{itemize}
+\item de structurer ses idées ;
+\item d’aérer le texte ;
+\item d’améliorer sa lisibilité.
+\end{itemize}
+```
 
 
 
-rendu page 31
+
+rendu page 45 - aller jusqu'à chap 6
