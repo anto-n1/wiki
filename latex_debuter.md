@@ -190,7 +190,7 @@ Environnements :
 * verbatim : afficher le texte complet, ne prends pas en compte les commandes
 
 Créer une liste :
-```\item``` imprime un tiret, ```\enumerate``` un numéro.
+La commande ```\item``` imprime un tiret, ```\enumerate``` un numéro.
 
 ```
 \begin{itemize}
@@ -200,7 +200,4 @@ Créer une liste :
 \end{itemize}
 ```
 
-
-
-
-rendu page 45 - aller jusqu'à chap 6
+rendu page 49 les tableaux
