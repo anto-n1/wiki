@@ -133,8 +133,4 @@ La commande ```\appendix``` permet de définir une annexe. Elles sont numéroté
 
 
 
-rendu page 26
-
-
-
-
+rendu page 31
