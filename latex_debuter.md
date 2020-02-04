@@ -12,7 +12,7 @@ Structure des commandes et arguments :
 
 #### Première ligne
 
-* **\\documentclass** : Définit type du document et influe sur sa mise en page.  
+* ```\\documentclass``` : Définit type du document et influe sur sa mise en page.  
 
 **Argument obligatoire :**  
 * **article** : documents courts (ne gère pas les chapitres)
@@ -95,18 +95,18 @@ Si on ne veut pas numéroter, utiliser la commande étoilée : ```\chapter*{Avan
 
 La table des matières s'affiche avec la commande ```\tableofcontents```. Deux compilations sont nécessaires pour afficher la table des matières. La première compilation enregistre la table des matières dans un fichier **.toc** et la seconde l'inclut dans le document. **.toc** pour **table of contents**.  
 
-La commande ```\listoftables``` imprime la liste des tableaux, et ```\listoffigures```la liste des figures. Pareil que pour la table des matières, deux compilations sont nécessaires, avec des fichiers **.lot** et **.lof**.  
+La commande ```\listoftables``` imprime la liste des tableaux, et ```\listoffigures``` la liste des figures. Pareil que pour la table des matières, deux compilations sont nécessaires, avec des fichiers **.lot** et **.lof**.  
 
 La commande ```\appendix``` permet de définir une annexe. Elles sont numérotées A, B, C.  
 
 ##### Construire document avec plusieurs fichiers
 
-```\include{fichier.text}``` permet d'inclure un document dans un autre. Cela peut-être util pour écrire un châpitre par fichier par exemple. Include se place avant le ```\end{document}```. Include génère une nouvelle page. Si on ne veut pas générer de nouvelle page il faut utiliser la commande ```\input{fichier}```.  
+La commande ```\include{fichier.text}``` permet d'inclure un document dans un autre. Cela peut-être util pour écrire un châpitre par fichier par exemple. Include se place avant le ```\end{document}```. Include génère une nouvelle page. Si on ne veut pas générer de nouvelle page il faut utiliser la commande ```\input{fichier}```.  
 
 ##### Annotation de document
 
 * Note de bas de page : ```\footnote{note}``` - LaTeX numérote automatiquement.  
-* Note dans la marge : ```\marginpar[texte de gauche]{texte de droite}```
+* Note dans la marge : ```\marginpar[texte de gauche]{texte de droite}```  
 
 ##### Références croisées
 
