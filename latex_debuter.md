@@ -97,6 +97,39 @@ La table des matières s'affiche avec la commande ```\tableofcontents```. Deux c
 
 La commande ```\listoftables``` imprime la liste des tableaux, et ```\listoffigures```la liste des figures. Pareil que pour la table des matières, deux compilations sont nécessaires, avec des fichiers **.lot** et **.lof**.  
 
+La commande ```\appendix``` permet de définir une annexe. Elles sont numérotées A, B, C.  
+
+#### Construire document avec plusieurs fichiers
+
+```\include{fichier.text}``` permet d'inclure un document dans un autre. Cela peut-être util pour écrire un châpitre par fichier par exemple. Include se place avant le ```\end{document}```. Include génère une nouvelle page. Si on ne veut pas générer de nouvelle page il faut utiliser la commande ```\input{fichier}```.  
+
+#### Annotation de document
+
+* Note de bas de page : ```\footnote{note}``` - LaTeX numérote automatiquement.  
+* Note dans la marge : ```\marginpar[texte de gauche]{texte de droite}```
+
+#### Références croisées
+
+* Label : ```\label{nom}``` - place repère invisible à l'impression sur l'objet du document auquel on se réfère.
+* Référence : ```ref{nom}``` - faire référence au numéro de l'objet repéré par __nom__. Il doit d'agir de quelque chose de numéroté.
+* Référence de page : ```\pageref{nom}``` - faire réfénrence au numéro de la page où se trouve le repère __nom__.
+* Référence au numéro de paragrapge : ```\ref{section/references}``` - ici on affiche le numéro du paragraphe.
+* Référence au numéro de la page où est situé le paragraphe : ```\pageref{section/references}```
+
+#### Caractères spéciaux
+
+* Ensemble vide : ```\o``` ou ```\O```
+* 'oe' collés : ```\oe```
+* Beta : ```\ss```
+* LaTeX ou Tex : ```\LaTeX``` ou ```\TeX``` 
+* Euro : ```\EUR{10}``` ou ```\euro\``` - extension **eurosym** nécessaire.
+
+**Attention**, une commande sans argument ne prend pas en compte les espaces, il faut donc utiliser les commandes d'une des manières suivantes :
+
+* Barre oblique inversée : ```\TeX\```
+* Argument vide : ```\TeX{}```
+* Accolade : ```{\TeX}```
+
 
 
 
