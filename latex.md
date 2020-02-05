@@ -1,6 +1,9 @@
 # Débuter avec LaTeX
 
 Document comprenant les bases à connaître pour débuter LaTeX.  
+
+
+
 Ce document est écrit à partir du livre "**Apprends LATEX !**" de **Marc Baudoin**.
 
 ## Commandes de base
@@ -9,6 +12,14 @@ Structure des commandes et arguments :
 ```
 \commande[argumentOptionnel]{argumentObligatoire1,arg2}
 ```
+
+
+
+
+
+
+
+
 
 ### Première ligne
 
