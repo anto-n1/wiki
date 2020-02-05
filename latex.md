@@ -200,4 +200,102 @@ La commande ```\item``` imprime un tiret, ```\enumerate``` un numéro.
 \end{itemize}
 ```
 
-rendu page 49 les tableaux
+#### Les tableaux
+
+Commencer un tableau : ```\begin{tabular}``` et finir avec ```\end{tabular}```.
+
+Arguments :
+* Centrer : ```c``` - centrer le texte
+* Droite et gauche : ```r``` - pour right et ```l``` pour gauche
+* Taille de la colonne : ```p{taille}``` - exemple ```p{5cm}```
+* 
+* Utiliser ```|``` entre les arguments de ```tabular``` pour tracer des lignes verticale
+
+Corps du tableau :  
+* Penser à terminler une ligne avec ```\\```  
+* Séparer les valeurs par ```&```
+* Utiliser des lignes horizontale pour délimiter le tableau avec ```\hline```
+* Laisser une case vide : ```\cline{2-3}``` - trace une ligne entre les colonnes 2 et 3
+* Mutlicolomn ```\multicolomn{nombre}{format}{texte}``` permet d'étendre un tableau sur plusieurs colonnes, et aligner une case pour supprimer certains filets verticaux
+
+Exemple de tableau complet :  
+
+```
+\begin{tabular}{|p{5cm}|*{2}{c|}}
+\cline{2-3}
+\multicolumn{1}{c|}{}       & \multicolumn{2}{c|}{Commande} \\
+\cline{2-3}
+\multicolumn{1}{c|}{}       & Contenance & Quantité \\
+\hline
+\bfseries Blanche de Bruges &   33 cl         &   10   \\
+\hline
+\bfseries Guinness          &     1 pint      &    5   \\
+\hline 
+\bfseries Kronenbourg       &     33    cl    &    0    \\
+\hline
+\end{tabular}
+```
+
+#### Les environnements table et figure
+
+Les environnements table et figure permettent de faire flotter des tableau et figures, pour les déplacer, mais aussi leur donner un titre et les numéroter.  
+Important de pouvoir faire flotter car sinon LaTeX ne les coupe pas en bas de page, ils peuvent donc dépasser.  
+
+Arguments : 
+* ```!``` demande à LaTeX de rescpecter l'ordre indiqué ensuite
+* ```h``` (here) ici, si possible
+* ```t``` (top) en haut d'une page, celle-ci ou la suivante
+* ```b``` (bottom) en bas d'une page, celle-ci ou la suivante
+* ```p``` (page of floats) sur une page spéciale ne contenant que des tableaux et figures
+
+On met donc généralement ```[!tpb]``` pour placer le tableau dans la mesure du possible conformément à sa position dans le document.  
+
+Quelques commandes :
+
+* ```\centering``` : centrer le tableau
+* ```\caption``` : donner une légende au tableau ou à la figure
+* ```\label``` : placée **obligatoirement** après ```\caption``` permet de lui faire référence grâce aux commandes ```\ref``` ou ```\pageref```
+
+Faire figurer la liste des tableaux et figures se fait comme vu précédemment avec les commandes ```\listoftables``` et ```\listoffigures```.  
+
+Exemple avec le tableau précédent :
+```
+\begin{table}[!htbp]
+\centering
+\begin{tabular}{|l|l|}
+\hline
+table  & figure \\
+\hline
+tableaux & dessins \\
+\hline
+\end{tabular}
+\caption{Exemple d’environnement \environnement{table}}
+\label{tableau/exemple}
+\end{table}
+```
+
+#### Personnaliser la page de titre
+
+La commande ```\maketitle``` propose un titre minimale, qu'il est possible de modifier.  
+
+Possible avec l'environnement ```titlepage``` :
+
+* Environnement ```center``` pour centrer le texte
+* Changer les tailles avec ```\large```
+* Espacement avec ```\vspace``` et ```\hspace``` pour aérer le texte
+* ```\includegraphique``` permet d'inclure une image
+
+**Attention**, l'environnement ```titlepage``` doit se trouver juste après la commande ```\begin{document}```
+
+#### Définition de nouveaux environnements
+
+Pssibilité de définir de nouveau environnements grâce à la commande ```\newenvironment{nom}[nombre d'arguments]{définition de début}{définition de fin}```. On place généralement ces commandes dans le préambule. Lorsque LaTeX recontrera ```\begin{nom}``` il remplacera par ```définition de début``` et pareil pour la fin.  
+
+Exemple :
+```
+\newenvironment{italitemize}
+{\begin{itemize} \itshape}
+{\end{itemize}}
+```
+
+Revoir la mise en page
