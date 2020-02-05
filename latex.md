@@ -1,9 +1,6 @@
 # Débuter avec LaTeX
 
 Document comprenant les bases à connaître pour débuter LaTeX.  
-
-
-
 Ce document est écrit à partir du livre "**Apprends LATEX !**" de **Marc Baudoin**.
 
 ## Commandes de base
@@ -12,14 +9,6 @@ Structure des commandes et arguments :
 ```
 \commande[argumentOptionnel]{argumentObligatoire1,arg2}
 ```
-
-
-
-
-
-
-
-
 
 ### Première ligne
 
@@ -81,10 +70,10 @@ Insertion des commentaires avec le caractère **%**.
 
 ### Commandes de base
 
-* **Titre :** ```\title{titre}```
-* **Auteur :** ```\author{auteur}``` - Séparer avec ```\and``` si plusieurs auteurs.
-* **Date :** ```\date{01/02/2020}```- La date du jour est affichée automatiquement, pour ne pas l'afficher utiliser la commande ```\date{}```.
-* **Note de bas de page :** ```\title{Titre avec note\thanks{voici la note}}```
+* Titre : ```\title{titre}```
+* Auteur : ```\author{auteur}``` - Séparer avec ```\and``` si plusieurs auteurs.
+* Date : ```\date{01/02/2020}```- La date du jour est affichée automatiquement, pour ne pas l'afficher utiliser la commande ```\date{}```.
+* Note de bas de page : ```\title{Titre avec note\thanks{voici la note}}```
 
 ### Hiérarchisation du document
 
@@ -219,7 +208,6 @@ Arguments :
 * Centrer : ```c``` - centrer le texte
 * Droite et gauche : ```r``` - pour right et ```l``` pour gauche
 * Taille de la colonne : ```p{taille}``` - exemple ```p{5cm}```
-* 
 * Utiliser ```|``` entre les arguments de ```tabular``` pour tracer des lignes verticale
 
 Corps du tableau :  
