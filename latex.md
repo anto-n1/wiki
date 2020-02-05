@@ -12,7 +12,7 @@ Structure des commandes et arguments :
 
 ### Première ligne
 
-* ```\\documentclass``` : Définit type du document et influe sur sa mise en page.  
+* ```\documentclass``` : Définit type du document et influe sur sa mise en page.  
 
 **Argument obligatoire :**  
 * **article** : documents courts (ne gère pas les chapitres)
