@@ -1,4 +1,4 @@
-# Latex commandes
+# Débuter avec LaTeX
 
 Document comprenant les bases à connaître pour débuter LaTeX.  
 Ce document est écrit à partir du livre "**Apprends LATEX !**" de **Marc Baudoin**.
@@ -10,7 +10,7 @@ Structure des commandes et arguments :
 \commande[argumentOptionnel]{argumentObligatoire1,arg2}
 ```
 
-#### Première ligne
+### Première ligne
 
 * ```\\documentclass``` : Définit type du document et influe sur sa mise en page.  
 
@@ -27,7 +27,7 @@ Structure des commandes et arguments :
 * **twocolumn** : présenter le document sur deux colonnes
 * **twoside** : régler les marges pour l'impression recto-verso (la marge intérieure est dans ce cas plus petite que la marge extérieure)
 
-#### Préambule et extensions
+### Préambule et extensions
 
 Le préambule est la partie du document comprise entre les commandes **\\documentclass** et **\\begin{document}**. Il contient les commandes de chargement des extensions (package en anglais).  
 La commande utilisée pour ajouter une extension est **\\usepackage**.  
@@ -46,7 +46,7 @@ Installer le package **texlive-lang-french** via apt pour utiliser l'option fren
 L'odre de déclarartion des package n'a pas d'importance.  
 SAUF **hyperref** qui doit être obligatoirement déclaré en dernier.  
 
-#### Le document
+### Le document
 
 Le document est situé entre **\\begin{document}** et **\\end{document}**. Tout texte placé après **\\end{document}** est ignoré.  
 
@@ -66,16 +66,16 @@ Possibilité des les échapper avec un **\\** placé avant le mot ou caractère.
 * Commentaires  
 Insertion des commentaires avec le caractère **%**.  
 
-#### Les commandes
+## Les commandes
 
-##### Commandes de base
+### Commandes de base
 
 * **Titre :** ```\title{titre}```
 * **Auteur :** ```\author{auteur}``` - Séparer avec ```\and``` si plusieurs auteurs.
 * **Date :** ```\date{01/02/2020}```- La date du jour est affichée automatiquement, pour ne pas l'afficher utiliser la commande ```\date{}```.
 * **Note de bas de page :** ```\title{Titre avec note\thanks{voici la note}}```
 
-##### Hiérarchisation du document
+### Hiérarchisation du document
 
 Commandes pour hiérarchiser un document :  
 
@@ -99,16 +99,16 @@ La commande ```\listoftables``` imprime la liste des tableaux, et ```\listoffigu
 
 La commande ```\appendix``` permet de définir une annexe. Elles sont numérotées A, B, C.  
 
-##### Construire document avec plusieurs fichiers
+### Construire document avec plusieurs fichiers
 
 La commande ```\include{fichier.text}``` permet d'inclure un document dans un autre. Cela peut-être util pour écrire un châpitre par fichier par exemple. Include se place avant le ```\end{document}```. Include génère une nouvelle page. Si on ne veut pas générer de nouvelle page il faut utiliser la commande ```\input{fichier}```.  
 
-##### Annotation de document
+### Annotation de document
 
 * Note de bas de page : ```\footnote{note}``` - LaTeX numérote automatiquement.  
 * Note dans la marge : ```\marginpar[texte de gauche]{texte de droite}```  
 
-##### Références croisées
+### Références croisées
 
 * Label : ```\label{nom}``` - place repère invisible à l'impression sur l'objet du document auquel on se réfère.
 * Référence : ```ref{nom}``` - faire référence au numéro de l'objet repéré par __nom__. Il doit d'agir de quelque chose de numéroté.
@@ -116,7 +116,7 @@ La commande ```\include{fichier.text}``` permet d'inclure un document dans un au
 * Référence au numéro de paragrapge : ```\ref{section/references}``` - ici on affiche le numéro du paragraphe.
 * Référence au numéro de la page où est situé le paragraphe : ```\pageref{section/references}```
 
-##### Caractères spéciaux
+### Caractères spéciaux
 
 * Ensemble vide : ```\o``` ou ```\O```
 * 'oe' collés : ```\oe```
@@ -130,7 +130,7 @@ La commande ```\include{fichier.text}``` permet d'inclure un document dans un au
 * Argument vide : ```\TeX{}```
 * Accolade : ```{\TeX}```
 
-##### Changements de style
+### Changements de style
 
 Le contenu de ces commandes sont affectées par le style. Pas le reste qui suit la commande.  
 
@@ -147,12 +147,12 @@ Possibilité d'imbriquer les commandes de style :
 Ceci est mon \textsl{mon texte \texttt{avec double} style.}
 ```
 
-##### Mise en page
+### Mise en page
 
 * Nouvelle ligne : ```\newline``` ou ```\\``` - ne pas en abuser, préférer la ligne blanche
 * Nouvelle page : ```\newpage``` ou ```\clearpage```
 
-##### Définition de nouvelles commandes
+### Définition de nouvelles commandes
 
 Possibilité de définir des nouvelles commandes pour appliquer des styles.   
 La définition des commandes se fait dans le préambule généralement.  
@@ -164,7 +164,7 @@ La définition des commandes se fait dans le préambule généralement.
 ```
 
 
-#### Les environnements
+## Les environnements
 
 Les commandes gèrent des mots ou des petites phrases.  
 Lorsque l'on souhaite appliquer des modifications sur des grandes parties ou textes, on utilise des syntaxes d'environnement.  
@@ -200,7 +200,7 @@ La commande ```\item``` imprime un tiret, ```\enumerate``` un numéro.
 \end{itemize}
 ```
 
-#### Les tableaux
+### Les tableaux
 
 Commencer un tableau : ```\begin{tabular}``` et finir avec ```\end{tabular}```.
 
@@ -236,7 +236,7 @@ Exemple de tableau complet :
 \end{tabular}
 ```
 
-#### Les environnements table et figure
+### Les environnements table et figure
 
 Les environnements table et figure permettent de faire flotter des tableau et figures, pour les déplacer, mais aussi leur donner un titre et les numéroter.  
 Important de pouvoir faire flotter car sinon LaTeX ne les coupe pas en bas de page, ils peuvent donc dépasser.  
@@ -274,7 +274,7 @@ tableaux & dessins \\
 \end{table}
 ```
 
-#### Personnaliser la page de titre
+### Personnaliser la page de titre
 
 La commande ```\maketitle``` propose un titre minimale, qu'il est possible de modifier.  
 
@@ -287,7 +287,7 @@ Possible avec l'environnement ```titlepage``` :
 
 **Attention**, l'environnement ```titlepage``` doit se trouver juste après la commande ```\begin{document}```
 
-#### Définition de nouveaux environnements
+### Définition de nouveaux environnements
 
 Pssibilité de définir de nouveau environnements grâce à la commande ```\newenvironment{nom}[nombre d'arguments]{définition de début}{définition de fin}```. On place généralement ces commandes dans le préambule. Lorsque LaTeX recontrera ```\begin{nom}``` il remplacera par ```définition de début``` et pareil pour la fin.  
 
@@ -297,5 +297,3 @@ Exemple :
 {\begin{itemize} \itshape}
 {\end{itemize}}
 ```
-
-**Revoir la mise en page**
