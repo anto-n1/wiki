@@ -298,4 +298,4 @@ Exemple :
 {\end{itemize}}
 ```
 
-Revoir la mise en page
+**Revoir la mise en page**
