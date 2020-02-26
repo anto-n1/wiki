@@ -1,6 +1,6 @@
 # CCNA 2 - ROUTAGE ET COMMUTATION
 
-## Vlan
+### Vlan
 
 * **Afficher les vlan**
 	```

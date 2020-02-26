@@ -25,7 +25,7 @@ Ce fichier présente les commandes de base à connaître pour administrer des ro
 
 * **Mots de passes**
 
-	* Mettre un mot de passe :
+	* Mettre un mot de passe accès privilégié :
 	```
 	(config)# enable secret <monpassword>
 	```
@@ -72,6 +72,22 @@ Ce fichier présente les commandes de base à connaître pour administrer des ro
 	# reload
 	```
 
+	* Supprimer toute configuration
+	```
+	# delete flasj:vlan.dat
+	# erase startup-config
+	```
+
+	* Examiner contenu répertoire flash
+	```
+	# show flash
+	```
+
+	* Analyser un fichier
+	```
+	# dit flash:nom_fichier
+	```
+
 * **Filtrage des commandes show**
 
 	* Filtrer les résultats - équivalent 'grep' Linux
@@ -99,4 +115,9 @@ Ce fichier présente les commandes de base à connaître pour administrer des ro
 	# terminal history size 200
 	```
 
+* **Tips**
 
+	* Désactiver la recherche DNS
+	```
+	(config)# no ip domain-lookup
+	```

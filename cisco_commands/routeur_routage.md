@@ -1,8 +1,6 @@
 # CCNA 2 - ROUTAGE ET COMMUTATION
 
-# Routes
-
-## Commandes générales sur les routes
+### Commandes générales sur les routes
 
 * **Afficher les routes**
 	```
@@ -10,7 +8,7 @@
 	# show ipv6 route
 	```
 
-## Routes statiques
+### Routes statiques
 
 * **Configurer route statique IPV4**
 	```
@@ -40,4 +38,4 @@
 	```
 	Attention pas sécurisé, tout est autorisé.
 
-## Routage dynamique
+### Routage dynamique

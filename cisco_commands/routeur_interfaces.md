@@ -1,8 +1,6 @@
 # CCNA 2 - ROUTAGE ET COMMUTATION
 
-## Gestion d'un routeur
-
-### Gestion des interfaces
+### Gestion des interfaces des routeurs
 
 * **Configurer interface IPV4**
 	```
@@ -33,7 +31,7 @@
 
 	Possibilité de choisir plusieurs numéros d'interfaces de loopback.
 
-* **Vérifier ses interfaces**
+* **Vérifier ses interfaces IPV4**
 	```
 	# show ip interface brief
 	# show ip route
@@ -48,6 +46,8 @@
 
 	**show interfaces** affiche les informations sur l'interface et le nombre de flux de paquets sur toutes les interfaces.
 
-	RENDU 1.1.4.1 CCNA2
-
-
+* **Vérifier ses interfaces IPV6**
+	```
+	# show ipv6 interface brief
+	# show ipv6 route
+	```
