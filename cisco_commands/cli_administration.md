@@ -6,7 +6,7 @@ Ce fichier présente les commandes de base à connaître pour administrer des ro
 	
 	* Ajouter un nom d'hôte :
 	```
-	# conf t
+	# configure terminal
 	(config)# hostname sw-name-1
 	```
 
@@ -71,3 +71,32 @@ Ce fichier présente les commandes de base à connaître pour administrer des ro
 	```
 	# reload
 	```
+
+* **Filtrage des commandes show**
+
+	* Filtrer les résultats - équivalent 'grep' Linux
+	```
+	# show running-config | section line vty
+	# show ip interface brief | include up
+	# show ip interface brief | exclude unassigned
+	# show ip route | begin Gateway
+	```
+	4 choix possibles :
+		1. section : affiche la section qui commence par l'expression de filtrage
+		2. include : inclu les lignes qui contiennent l'expression
+		3. exlude : exclure les ligne qui contiennent l'expression
+		4. begin : affiche les lignes en commençant par la ligne qui correspond à l'expression de filtrage
+
+* **Historique des commandes**
+
+	* Afficher l'historique des commandes tapées
+	```
+	# show history
+	```
+
+	* Changer la taille du tampon de l'historique des commandes
+	```
+	# terminal history size 200
+	```
+
+

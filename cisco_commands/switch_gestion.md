@@ -11,3 +11,5 @@
 	(config)# ip default-gateway 192.168.1.254
 	```
 	Définir la gateway par défaut pour sortir du réseau
+
+* **

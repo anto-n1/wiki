@@ -16,7 +16,7 @@
 
 * **Faire passer un vlan sur une interface**
 	```
-	# interface FastEthernet 0/1
+	(config)# interface FastEthernet 0/1
 	(config-if)# switchport access vlan 10
 	```
 

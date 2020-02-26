@@ -48,4 +48,6 @@
 
 	**show interfaces** affiche les informations sur l'interface et le nombre de flux de paquets sur toutes les interfaces.
 
+	RENDU 1.1.4.1 CCNA2
+
 
