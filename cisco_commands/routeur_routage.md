@@ -39,3 +39,15 @@
 	Attention pas sécurisé, tout est autorisé.
 
 ### Routage dynamique
+
+* **Afficher les protocoles de routage disponibles**
+	```
+	(config)# router ?
+	(config)# ipv6 router ?
+	```
+
+* **Activer routage IPV6**
+	```
+	(config)# ipv6 unicast-routing
+	```
+	ATTENTION : ceci est INDISPENSABLE pour activer le routage IPV6.
