@@ -1,8 +1,15 @@
+% ------------------------------- %
+% ------- DEBUT PREAMBULE ------- %
+% ------------------------------- %
+
 \documentclass[a4paper,french,11pt]{report}
 
 \usepackage[french]{babel}
 \usepackage[utf8]{inputenc}
-\usepackage{lmodern}
+
+\usepackage{lmodern} % Utiliser police de base
+%\renewcommand*\familydefault{\sfdefault} % Utiliser Arial
+
 \usepackage{titling} % Permet de personnaliser la page de titre
 
 \usepackage{graphicx} % Permet d'ajouter des images
@@ -20,8 +27,23 @@
 \titleformat{\chapter}[display]{\Huge\bfseries}{}{0pt}{\thechapter.\ }
 \titleformat{name=\chapter,numberless}[display]{\Huge\bfseries}{}{0pt}{}
 
-\usepackage{hyperref}
+% Réduire espace avant chapitre
+\titlespacing*{\chapter}{0pt}{-20pt}{40pt}
 
+% Ajouter un footer : uniquement sur les pages ne comprenant pas de titre de chapitre
+\usepackage{fancyhdr}
+\fancyhead{}
+\fancyhead[LE]{\textit{\nouppercase{\leftmark}}}
+\fancyhead[RO]{\textit{\nouppercase{\rightmark}}}
+\fancyfoot{}
+\fancyfoot[C]{\thepage}
+
+\usepackage{hyperref}
+\hypersetup{
+    hyperfigures = true, % Ajouter les liens (table des matières vers les parties lors du clic)
+    colorlinks = true, % Colorer les liens
+    linkcolor=black % Couleur des liens
+    }
 
 
 
@@ -30,7 +52,9 @@
 \date{02/02/2020}
 %\date{} pour ne pas afficher la date
 
-
+% ------------------------------- %
+% -------- FIN PREAMBULE -------- %
+% ------------------------------- %
 
 
 % ------------------------------ %
@@ -59,10 +83,8 @@ Ceci est un exemple de texte\thanks{ajout note de bas de page}
 
 Changement de paragraphe.
 
-
 \end{document}
 
 % ------------------------------ %
 % -------- FIN DOCUMENT -------- %
 % ------------------------------ %
-
