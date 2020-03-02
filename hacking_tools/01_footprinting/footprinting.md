@@ -10,6 +10,7 @@ Cette étape est indispensable avant de commencer la phase de hacking. Il est im
 ## Objectifs de la prise d'empreinte
 
 Les objectifs principaux de la prise d'empreinte sont d'obtenir :
+
 * **Informations réseaux et systèmes**
 	* Domaines et sous domaines - DNS
 	* Adresses IP, localisation et OS des serveurs
@@ -20,7 +21,12 @@ Les objectifs principaux de la prise d'empreinte sont d'obtenir :
 	* Infos employés : noms, contacts, adresse, numéros téléphone, expérience pro, loisirs...
 	* Lecture et suivi de l'actualité de l'organisation : articles de presse
 
+Ces informations vont aider à :
 
+* Connaître la structure et la sécurité d'une entreprise, pour l'analyser et dresser un plan de hack
+* Affiner son attaque
+* Identifier ses faiblesses et vulnérabilités
+* Construire un plan du réseau de l'entreprise
 
 ## Types de prise d'empreinte
 
@@ -32,16 +38,19 @@ Obtenir des informations sur la cible sans interaction directe avec elle. Il ne 
 
 Les techniques de prise d'empreinte passive sont les suivantes :
 * Moteurs de recherche
-* Extraire données DNS, adresses IP, noms de domaines et TLD (Top-Level Domains)
+
 * Collecter des informations de localisation
 * Collecter informations à propos des employés via les réseaux sociaux et social engineering
 * Collecter informations financières avec outils de finance
 * Collecter informations sur la stratégie de l'entreprise à partir des offres d'emplois et comprendre vers où elle se dirige
-* Déterminer les OS utilisés par la cible
 * Trouver infos à partir de groupes, forums et blogs
 * Extraire des infos à partir d'archives internet
-* Monitorer le traffic du site internet
 * Traquer la réputation de la cible
+
+### Active
+
+* Extraire données DNS, adresses IP, noms de domaines et TLD (Top-Level Domains)
 * Faire des whois, traceroute
 * Extraire des métadonnées de documents et fichiers
-
+* Déterminer les OS utilisés par la cible
+* Monitorer le traffic du site internet
