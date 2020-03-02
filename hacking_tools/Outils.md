@@ -4,4 +4,6 @@ Cette page regroupe l'ensemble des outils utiles à utiliser pour toutes les pha
 
 # Footprinting
 
-* [googleguide.com](http://googleguide.com) : regroupe les opérateurs de recherche de Google
+* [Exploit DB](https://wwww.exploit-db.com) : outil web regroupant des CVE, pratiques GHDB...
+* [google.com/advanced_search](https://www.google.com/advanced_search ) : outil graphique de recherches avancées de Google
+* [googleguide.com](http://googleguide.com) : regroupe les opérateurs de recherche avancée de Google
