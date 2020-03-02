@@ -40,8 +40,8 @@ Ce fichier présente les commandes de base à connaître pour administrer des ro
 	* Mettre un mot de passe SSH/Telnet :
 	```
 	(config)# line vty 0 5
-	(config)# password <monpassword>
-	(config)# login
+	(config-line)# password <monpassword>
+	(config-line)# login local
 	```
 	'0 5' pour autoriser 5 connexions simultanées.
 
