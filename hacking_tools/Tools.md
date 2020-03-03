@@ -8,3 +8,4 @@ Cette page regroupe l'ensemble des outils utiles à utiliser pour toutes les pha
 * [Internet Archive](https://archive.org) : outil permettant d'afficher des pages web à travers le temps
 * [google.com/advanced_search](https://www.google.com/advanced_search ) : outil graphique de recherches avancées de Google
 * [googleguide.com](http://googleguide.com) : regroupe les opérateurs de recherche avancée de Google
+* [Netcraft](https://www.netcraft.com) : outil d'analyse d'un site web, ses noms de domaines, l'OS, le provider, les certificats

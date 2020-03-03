@@ -1,8 +1,10 @@
-# Footprinting via les moteurs de recherche
+# Footprinting via moteurs de recherche
 
 Les moteurs de recherche retournent des **SERPs**, des Search Engine Results Pages.  
 
-Les moteurs de recherche principaux sont [Google](https://www.google.com), [Yahoo](https://fr.yahoo.com), [Bing](https://www.bing.com), [Ask](https://uk.ask.com), [Aol](https://search.aol.co.uk), [Baidu](http://www.baidu.com), [DuckDuckGo](https://duckduckgo.com), [Qwant](https://qwant.com), [Startpage](https://www.startpage.com).  
+Les moteurs de recherche principaux sont [Google](https://www.google.com), [Yahoo](https://fr.yahoo.com), 
+[Bing](https://www.bing.com), [Ask](https://uk.ask.com), [Aol](https://search.aol.co.uk), [Baidu](http://www.baidu.com), 
+[DuckDuckGo](https://duckduckgo.com), [Qwant](https://qwant.com), [Startpage](https://www.startpage.com).  
 
 ## Advanced search operatos
 
@@ -76,8 +78,3 @@ Exemples pour trouver des infos à propos de VPN :
 | !Host=*.* intext:enc_UserPassword=* ext:pcf | Look for .pcf files which contains user VPN profiles                               |
 | filetype:rcf inurl:vpn                      | Finds Sonicwall Global VPN Client files containing sensitive information and login |
 | filetype:pcf vpn OR Group                   | Finds publicly accessible profile configuration files (.pcf) used by VPN clients   |
-
-## Les domaines et TLDs
-
-Les sous-domaines et TLDs sont importants car les connaître permet d'accéder à des pages non destinées au grand public.
-Ces pages sont utilisées

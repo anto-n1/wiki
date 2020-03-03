@@ -13,3 +13,7 @@ Cette page regroupe un ensemble de mots et abréviations utilisées dans le mond
 ## S
 
 * SERPs = Search Engine Results Pages
+
+## O
+
+* OSINT = Open Source Intelligence -> renseignement obtenu par sources d'informations publiques
