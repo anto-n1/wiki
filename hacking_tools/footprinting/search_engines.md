@@ -2,13 +2,15 @@
 
 Les moteurs de recherche retournent des **SERPs**, des Search Engine Results Pages.  
 
-Les moteurs de recherche principaux sont Google, Yahoo, Bing, Ask, Aol, Baidu, DuckDuckGo, Qwant, Startpage.  
+Les moteurs de recherche principaux sont [Google](https://www.google.com), [Yahoo](https://fr.yahoo.com), [Bing](https://www.bing.com), [Ask](https://uk.ask.com), [Aol](https://search.aol.co.uk), [Baidu](http://www.baidu.com), [DuckDuckGo](https://duckduckgo.com), [Qwant](https://qwant.com), [Startpage](https://www.startpage.com).  
 
 ## Advanced search operatos
 
 ### A quoi ça sert ?
 
-Chaque moteur dispose d'opérateurs de recherche avancée permettant d'affiner ses recherches. Cela est souvent appelé **Google Hacking**. C'est l'art de créer des recherches complexes qui révèlent des informations cachés dans les fins fonds d'internet.  
+Chaque moteur dispose d'opérateurs de recherche avancée permettant d'affiner ses recherches.
+Cela est souvent appelé **Google Hacking**. C'est l'art de créer des recherches complexes qui 
+révèlent des informations cachés dans les fins fonds d'internet.  
 
 Le Google Hacking permet entre autres de trouver/identifier/:
 * Messages d'erreurs et informations sensibles
@@ -22,7 +24,8 @@ Le Google Hacking permet entre autres de trouver/identifier/:
 Il faut aussi utiliser l'outil graphique de recherches avancée de Google : [google.com/advanced_search](https://www.google.com/advanced_search ).  
 L'outil [Exploit DB](https://wwww.exploit-db.com) regroupe nottament des informations sur le GHDB et les opérateurs utiles.
 
-En tant que hacker ethique, il faut signaler les contenus qui révèlent des informations sensibles à propos d'entreprise/personnes pour les supprimer de l'indexation des moteurs.  
+En tant que hacker ethique, il faut signaler les contenus qui révèlent des informations sensibles à 
+propos d'entreprise/personnes pour les supprimer de l'indexation des moteurs.  
 
 Le site [googleguide.com](http://googleguide.com) répertorie les opérateurs de recherche utilisables sur Google.  
 
@@ -73,3 +76,8 @@ Exemples pour trouver des infos à propos de VPN :
 | !Host=*.* intext:enc_UserPassword=* ext:pcf | Look for .pcf files which contains user VPN profiles                               |
 | filetype:rcf inurl:vpn                      | Finds Sonicwall Global VPN Client files containing sensitive information and login |
 | filetype:pcf vpn OR Group                   | Finds publicly accessible profile configuration files (.pcf) used by VPN clients   |
+
+## Les domaines et TLDs
+
+Les sous-domaines et TLDs sont importants car les connaître permet d'accéder à des pages non destinées au grand public.
+Ces pages sont utilisées

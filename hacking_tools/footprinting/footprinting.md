@@ -38,7 +38,6 @@ Obtenir des informations sur la cible sans interaction directe avec elle. Il ne 
 
 Les techniques de prise d'empreinte passive sont les suivantes :
 * Moteurs de recherche
-
 * Collecter des informations de localisation
 * Collecter informations à propos des employés via les réseaux sociaux et social engineering
 * Collecter informations financières avec outils de finance
