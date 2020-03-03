@@ -10,6 +10,8 @@ Les étapes du hacking sont les suivantes :
 3. 3
 4. 4
 
-Avancement : cours CEH chapitre 2, page 117
+Avancement : cours CEH chapitre 2, page 122
 
-To do : scripter et automatiser le déploiement de VM et outils
+# To do
+
+* scripter et automatiser déploiement et utilisation d'outils

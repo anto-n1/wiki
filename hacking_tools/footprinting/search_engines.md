@@ -14,7 +14,7 @@ Chaque moteur dispose d'opérateurs de recherche avancée permettant d'affiner s
 Cela est souvent appelé **Google Hacking**. C'est l'art de créer des recherches complexes qui 
 révèlent des informations cachés dans les fins fonds d'internet.  
 
-Le Google Hacking permet entre autres de trouver/identifier/:
+Le Google Hacking permet entre autres de trouver/identifier/ :
 * Messages d'erreurs et informations sensibles
 * Fichiers comprenant des mots de passe
 * Répertoires sensibles
@@ -23,7 +23,7 @@ Le Google Hacking permet entre autres de trouver/identifier/:
 * Version des logiciels
 * Code source des applications web
 
-Il faut aussi utiliser l'outil graphique de recherches avancée de Google : [google.com/advanced_search](https://www.google.com/advanced_search ).  
+Il faut aussi utiliser l'outil graphique de recherches avancée de Google : [google.com/advanced_search](https://www.google.com/advanced_search).  
 L'outil [Exploit DB](https://wwww.exploit-db.com) regroupe nottament des informations sur le GHDB et les opérateurs utiles.
 
 En tant que hacker ethique, il faut signaler les contenus qui révèlent des informations sensibles à 
