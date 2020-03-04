@@ -25,3 +25,4 @@ D'autres outils permettent de regrouper des informations sur les personnes. [Pip
 * [Zaba Search](http://www.zabasearch.com)
 * [WebMii](http://webmii.com)
 
+L'outils [InSpy](https://github.com/leapsecurity/InSpy) permet de trouver des gens via LinkedIn à partir de noms d'entreprises, numéros de téléphone, noms, adresses...
