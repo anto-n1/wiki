@@ -27,16 +27,16 @@
 (config)# 
 ```
 
-* DHCP exclure adresses
-```
-(config)# ip dhcp excluded-address 10.10.10.10 10.10.10.100
-(config)# ip dhcp excluded-address 10.10.10.10
-```
+* **DHCP exclure adresses**
+	```
+	(config)# ip dhcp excluded-address 10.10.10.10 10.10.10.100
+	(config)# ip dhcp excluded-address 10.10.10.10
+	```
 
-* Créer pool DHCP
-```
-(config)# DHCP pool LAN_name
-```
+* **Créer pool DHCP**
+	```
+	(config)# DHCP pool LAN_name
+	```
 
 * 
 ```

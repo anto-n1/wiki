@@ -2,13 +2,13 @@
 
 ## Routeur - NAT - PAT
 
-* Configurer NAT
-```
-(config)# interface serial s0/0/0
-(config-if)# ip address 10.10.10.10 255.255.255.0
-(config-if)# ip nat inside
-```
-Il faut configurer une adresse sur l'interface en amont
+* **Configurer NAT**
+	```
+	(config)# interface serial s0/0/0
+	(config-if)# ip address 10.10.10.10 255.255.255.0
+	(config-if)# ip nat inside
+	```
+	Il faut configurer une adresse sur l'interface en amont
 
 * 
 ```
