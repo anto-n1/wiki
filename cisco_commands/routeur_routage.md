@@ -64,3 +64,12 @@
 	(config)# ipv6 unicast-routing
 	```
 	ATTENTION : ceci est INDISPENSABLE pour activer le routage IPV6.
+
+* Activer routage protocole RIP
+```
+(config)# router rip
+version 2
+passive-interface s0/0/0
+netwot 10.0.0.0
+default-information originate
+```
