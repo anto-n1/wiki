@@ -1,6 +1,7 @@
 # Liste des outils de hacking
 
-Cette page regroupe l'ensemble des outils utiles à utiliser pour toutes les phases de hacking. Les outils sont classés par catégories.
+Cette page regroupe l'ensemble des outils utiles à utiliser pour toutes les phases de hacking.  
+Les outils sont classés par catégories.
 
 ## Prise d'empreinte
 
@@ -20,15 +21,28 @@ Cette page regroupe l'ensemble des outils utiles à utiliser pour toutes les pha
 * [Startpage](https://www.startpage.com)
 * [Yahoo](https://fr.yahoo.com)
 
-### Réseaux sociaux
+### Réseaux et outils sociaux
 
+* [AnyWho](https://www.anywho.com)
+* [BeenVerified](https://www.beenverified.com)
 * [Facebook](https://www.facebook.com)
 * [Instagram](https://www.instagram.com)
+* [Intelius](https://www.intelius.com)
+* [InSpy](https://github.com/leapsecurity/InSpy) : trouver des gens via LinkedIn à partir de noms d'entreprises, numéros de téléphone, noms, adresses...
 * [LinkedIn](https://www.linkedin.com)
 * [Pinterest](https://www.pinterest.com)
+* [Pipl](https://pipl.com) : agrégateur d'informations sur des personnes
+* [PrivateEye](http://www.privateeye.com)
+* [Public Background Checks](http://www.publicbackgroundchecks.com)
+* [Spokeo](https://www.spokeo.com)
 * [Twitter](https://twitter.com)
 * [YouTube](https://www.youtube.com)
-  
+* [US Search](https://ussearch.com)
+* [Veromi](http://www.veromi.net)
+* [WebMii](http://webmii.com)
+* [Zaba Search](http://www.zabasearch.com)
+* [411](http://www.411.com)
+
 ### Noms de domaines
 
 * [Netcraft](https://www.netcraft.com) : outil d'analyse noms de domaines, d'OS, de provider, des certificats d'un site web
