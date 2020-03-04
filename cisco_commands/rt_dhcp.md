@@ -1,6 +1,4 @@
-# CCNA 2 - ROUTAGE ET COMMUTATION
-
-## Routeur - DHCP
+# DHCP routeurs
 
 * 
 ```
@@ -42,3 +40,7 @@
 ```
 (config-dhcp)# network 10.10.10.192 2552.55.255.192
 ```
+
+ip dhcp pool LAN
+ network 10.10.10.192 255.255.255.192
+ default-router 10.10.10.193

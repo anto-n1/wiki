@@ -1,6 +1,4 @@
-# CCNA 2 - ROUTAGE ET COMMUTATION
-
-### Gestion des interfaces d'un switch
+# Gestion interfaces switch
 
 * **Configurer interface de gestion***
 	```

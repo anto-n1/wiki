@@ -1,6 +1,4 @@
-# CCNA 2 - ROUTAGE ET COMMUTATION
-
-## Routeur - NAT - PAT
+# Routeur - NAT
 
 * **Configurer NAT**
 	```

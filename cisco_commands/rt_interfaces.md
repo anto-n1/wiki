@@ -1,6 +1,4 @@
-# CCNA 2 - ROUTAGE ET COMMUTATION
-
-### Gestion des interfaces des routeurs
+# Gestion interfaces des routeurs
 
 * **Configurer interface IPV4**
 	```

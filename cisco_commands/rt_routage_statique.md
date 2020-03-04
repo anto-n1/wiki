@@ -1,20 +1,4 @@
-# CCNA 2 - ROUTAGE ET COMMUTATION
-
-### Commandes générales sur les routes
-
-* **Afficher table routage**
-	```
-	# show ip route
-	# show ip route static
-	# show ipv6 route
-	```
-
-* **Afficher table de routage pour un réseau particulier**
-	```
-	# show ip route 192.168.1.0
-	```
-
-### Routes statiques
+# Routage statique routeurs
 
 * **Configurer route statique IPV4**
 	```
@@ -50,26 +34,3 @@
 	(config)# ipv6 route ::/0 S0/0/1
 	```
 	Attention pas sécurisé, tout est autorisé.
-
-### Routage dynamique
-
-* **Afficher les protocoles de routage disponibles**
-	```
-	(config)# router ?
-	(config)# ipv6 router ?
-	```
-
-* **Activer routage IPV6**
-	```
-	(config)# ipv6 unicast-routing
-	```
-	ATTENTION : ceci est INDISPENSABLE pour activer le routage IPV6.
-
-* Activer routage protocole RIP
-```
-(config)# router rip
-version 2
-passive-interface s0/0/0
-netwot 10.0.0.0
-default-information originate
-```
