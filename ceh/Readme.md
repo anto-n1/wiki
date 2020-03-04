@@ -10,7 +10,13 @@ Les étapes du hacking sont les suivantes :
 3. 3
 4. 4
 
-Avancement : cours CEH chapitre 2, page 122
+**Avancement** : cours CEH chapitre 2, page 127/1510
+
+8% - [##------------------------------------------------]
+
+<!--
+50 caractères soit 1 '#' = 2%
+-->
 
 # To do
 

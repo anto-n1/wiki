@@ -56,3 +56,22 @@ Les outils sont classés par catégories.
 * [National Geographic Maps](http://maps.nationalgeographic.com) : service de cartographie de National Geographic
 * [Wikimapia](http://www.wikimapia.org) : service de cartographie de Wikimapia
 * [Yahoo Maps](https://maps.yahoo.com) : service de cartographie de Yahoo
+
+### Finance
+
+* [Google Finance](https://google.com/finance) : obtenir des informations financières
+* [MarketWatch](https://wwww.marketwatch.com)
+* [TheStreet](https://www.thestreet.com)
+* [Yahoo! Finance](https://finance.yahoo.com)
+
+### Offres d'emplois
+
+* [CareerBuilder](https://wwww.careerbuilder.com)
+* [Dice](https://wwww.dice.com)
+* [Glassdor](https://wwww.glassdor.com)
+* [Idealist](https://wwww.idealist.org)
+* [Indeed](https://wwww.indeed.com)
+* [LinkedIn](https://wwww.linkedin.com)
+* [Monster](https://wwww.monster.com)
+* [Simply Hired](https://wwww.simplyhired.com)
+* [USA Jobs](https://wwww.usajobs.gov)

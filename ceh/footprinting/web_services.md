@@ -19,3 +19,27 @@ Il est utile de connaître la localisation géographique d'une entreprise. On pe
 * [National Geographic Maps](http://maps.nationalgeographic.com) : service de cartographie de National Geographic
 * [Wikimapia](http://www.wikimapia.org) : service de cartographie de Wikimapia
 * [Yahoo Maps](https://maps.yahoo.com) : service de cartographie de Yahoo
+
+## Informations financières
+
+[Google Finance](https://google.com/finance) est un outil intéréssant pour se renseigner sur les finances d'une entreprise. Il peut être utile de connaître les informations de valeur de l'entreprise, ses informations boursières, son profil, ses concurrents...
+
+D'autres outils sont disponibles :
+
+* [MarketWatch](https://wwww.marketwatch.com)
+* [TheStreet](https://www.thestreet.com)
+* [Yahoo! Finance](https://finance.yahoo.com)
+
+## Offres d'emplois
+
+Les offrs d'emploi dans les entreprises montrent ce que les entreprises recherchent, et donnent des indications sur ce que cherche à accomplir celle-ci, mais également vers quoi elle se dirige. On peut deviner la stratégie d'une entreprise en fonction des profils qu'elle recherche. Les sites principaux de recherche d'emploi, en plus des sites internet de chaque société, sont :
+
+* [CareerBuilder](https://wwww.careerbuilder.com)
+* [Dice](https://wwww.dice.com)
+* [Glassdor](https://wwww.glassdor.com)
+* [Idealist](https://wwww.idealist.org)
+* [Indeed](https://wwww.indeed.com)
+* [LinkedIn](https://wwww.linkedin.com)
+* [Monster](https://wwww.monster.com)
+* [Simply Hired](https://wwww.simplyhired.com)
+* [USA Jobs](https://wwww.usajobs.gov)
