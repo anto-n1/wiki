@@ -32,5 +32,3 @@
 	```
 	1 est le numéro de système autonome, parallèle avec les VLAN et ACL. Ce numéro est à choisir.  
 	Attention à utiliser le wildcard lors de l'annonce des réseaux.
-
-* **

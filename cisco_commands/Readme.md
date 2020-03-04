@@ -1,7 +1,7 @@
 # Cisco commandes
 
-Les fichiers commençants par **cli_** présentent des commandes utilisables sur des routeurs et des switchs.  
-Les fichiers commençants par **rt_** présentent des commandes utilisables sur des routeurs.  
-Les fichiers commençants par **sw_** présentent des commandes utilisables sur des switchs.  
+Les fichiers commençants par **cli_** présentent des commandes utilisables sur des **routeurs et des switchs**.  
+Les fichiers commençants par **rt_** présentent des commandes utilisables sur des **routeurs**.  
+Les fichiers commençants par **sw_** présentent des commandes utilisables sur des **switchs**.  
 
 En cours d'écriture - rendu cours CCNA 2 2.2.5

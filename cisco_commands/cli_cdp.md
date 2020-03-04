@@ -1,8 +1,12 @@
+# CDP - Cisco Discovery Protocol
+
 * **Afficher infos CDP**
 	```
 	# show cdp
 	```
 
-* **Activer CDP**
-interface FastEthernet 01
-cdp enable
+* **Activer CDP sur une interface**
+	```
+	(config)# interface FastEthernet 01
+	(config-if)# cdp enable
+	```
