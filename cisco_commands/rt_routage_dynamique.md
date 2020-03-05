@@ -67,10 +67,21 @@
 	```
 	router ospf : activer OSPF et lui donner un numéro (il doit être égal sur les autres routeurs à côté).
 	router-id : donner un ID, on peut donner l'ip du routeur
-	network : définir un réseau et son wildcard à partager en OSPF
+	network : définir un réseau et son wildcard à partager en OSPF. L'area est la zone.
 	passive-inteface : eviter de polluer le réseau en envoyant de l'OSPF sur des liens qui ne vont pas vers des routeurs
+
+* **Activer OSPF et définir les réseaux connectés en IPV6**
+	```
+	(config)# ipv6 router ospf 10
+	```
 
 * **Effacer et arrêter OSPF**
 	```
-	(config)# clear ip ospf process
+	# clear ip ospf process
+	```
+
+* **Afficher les voisins ESPF**
+	```
+	# show ip ospf neighbor
+	# show ipv6 ospf neighbor
 	```

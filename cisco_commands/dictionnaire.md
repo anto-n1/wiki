@@ -1,6 +1,17 @@
 # Dictionnaire
 
+# A
+
 AD = Distance Administrative
-VLSM = Découpage des sous réseaux Acronyme :
-OSPF =
-EIGRP = 
+
+# E
+
+EIGRP (Enhanced Interior Gateway Routing Protocol) = protocole routage dynamique
+
+# O
+
+OSPF (Open Shortest Path First) = protocole routage dynamique
+
+# V
+
+VLSM (Variable-Length Subnet Masking) = Découpage des sous réseaux
