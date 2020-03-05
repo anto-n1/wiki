@@ -43,7 +43,7 @@ Ce fichier présente les commandes de base à connaître pour administrer des ro
 	(config-line)# password <monpassword>
 	(config-line)# login local
 	```
-	'0 5' pour autoriser 5 connexions simultanées.
+	'0 5' pour autoriser 6 connexions simultanées.
 
 	* Chiffrer les mots de passe :
 	```

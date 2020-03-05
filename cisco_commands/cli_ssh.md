@@ -21,6 +21,7 @@
 	* domaine-name : donner un nom DNS à l'équipement
 	* crypto : générer une clé RSA de 1024 bits
 	* unsername admin : créer utilisateur admin et lui donner un mot de passe
+	* line vty 0 4 : autoriser 5 (0 à 4) connexion simultanées (seulement 0 pour une seule)
 	* login local : utiliser le user et mdp défini au dessus pour se connecter en SSH
 	* transport input ssh : accepter que SSH (pas telnet)
 	* ip ssh version 2 : utiliser la version 2 de SSH
