@@ -54,7 +54,6 @@ Les opérateurs sont les suivants :
 
 Exemples pour trouver des infos à propos de VoIP :
 
-
 |                         **Google Dork**                           |                  **Description**                 |
 |:-----------------------------------------------------------------:|:------------------------------------------------:|
 | intitle:"Login Page" intext:"Phone Adapter Configuration Utility" | Pages containing login portal                    |

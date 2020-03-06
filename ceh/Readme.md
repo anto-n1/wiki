@@ -10,7 +10,9 @@ Les étapes du hacking sont les suivantes :
 3. 3
 4. 4
 
-**Avancement** : cours CEH chapitre 2, page 127/1510
+Les types de hacker :
+
+**Avancement** : cours CEH chapitre 2, page 136/1510
 
 8% - [##------------------------------------------------]
 

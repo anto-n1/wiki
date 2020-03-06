@@ -1,5 +1,7 @@
 # Footprinting via web services
 
+Cette page montre comment obtenir des informations sur une cible en utilisant des services accessibles via un navigateur internet.
+
 ## Les domaines et TLDs
 
 Les sous-domaines et TLDs sont importants car les connaître permet d'accéder à des pages 
@@ -7,7 +9,12 @@ non destinées au grand public. Ces pages sont utilisées par les employés ou a
 On peut trouver ces pages à l'aide de certains outils. En voici quelques uns :
 
 * [Netcraft](https://www.netcraft.com) : outil d'analyse d'un site web, ses noms de domaines, l'OS, le provider, les certificats
-* [Sublist3r](https://github.com/aboul3la/Sublist3r) : script python énumérant les sous-domaines d'un site à partir de plusieurs sources comme Google, Ask, Netcraft, DNSDumpster, ReverseDNS...
+
+## Systèmes d'exploitation
+
+Pour connaître les systèmes d'exploitation utilisés par la cible, il existe déffirents outils web.  
+[Shodan](https://www.shodan.com) permet de chercher des équipement sur internet (routeurs, serveurs, IOT...) ainsi que leur localisation, IP, vulnérabilités que l'on pourra exploiter par la suite.  
+[Censys](https://censys.io) : moteur de recherche par adresse IP qui donne des informations sur l'équipement : ports/services/localisation
 
 ## Localisation géographique
 

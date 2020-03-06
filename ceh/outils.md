@@ -75,3 +75,15 @@ Les outils sont classés par catégories.
 * [Monster](https://wwww.monster.com)
 * [Simply Hired](https://wwww.simplyhired.com)
 * [USA Jobs](https://wwww.usajobs.gov)
+
+## Suivi de cible - notificatioins
+
+* [Giga Alert](https://www.gigaalert.com) 
+* [Google Alerts](https://www.google.com/alerts)
+* [TalkWalker Alerts](https://wwww.talkwalker.com)
+* [Twitter Alerts](https://twitter.com/alerts)
+
+## OS - Vulnérabilités - localisation
+
+* [Shodan](https://www.shodan.com) : chercher des équipement sur internet : routeurs, serveurs, IOT...  
+* [Censys](https://censys.io) : moteur de recherche par adresse IP qui donne des informations sur l'équipement : ports/services/localisation

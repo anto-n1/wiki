@@ -1,6 +1,25 @@
 # Footprinting via réseaux sociaux et outils sociaux
 
-Les réseaux sociaux et outils de recherche de personnes sont intéréssants pour trouver des informations sur les personnes ciblées, et les employés d'entreprises.
+Les réseaux sociaux et outils de recherche de personnes sont intéréssants pour trouver des informations sur les personnes ciblées, et les employés d'entreprises.  
+
+Ce que récolte l'attaquant en fonction des informations données par une personne :
+
+|           **Ce que l'utilisateur fait**                           |      **Ce que l'attaquant voit sur sa cible**       |
+|:-----------------------------------------------------------------:|:---------------------------------------------------:|
+| Maintien du profil à jour                                         | Informations de contact, localisation               |
+| Liste d'amis                                                      | Infos sur les amis, son type d'amis, ses connexions |
+| Partage de photos et vidéos                                       | Identifier la famille, intérêts de la personne      |
+| Rejoins un groupe/joue à des jeux                                 | Intérêts de la personne                             |
+| Créé/Participe à des évènements                                   | Les activités que la personne fait                  |
+
+Ce que récolte un attaquant par rapport à des informations données par une entreprise ou via sa communication :
+
+|           **Ce que l'entreprise poste**                           |      **Ce que l'attaquant voit sur sa cible**       |
+|:-----------------------------------------------------------------:|:---------------------------------------------------:|
+| Sondage utilisateurs/clients                                      | Stratégie business                                  |
+| Produits en promotion                                             | Profile des produits                                |
+| Support utilisateur                                               | Social engineering                                  |
+| Recrutement                                                       | Plateformes, technologies utlisées                  |
 
 Les réseaux sociaux les plus connus sont évidemment :
 
