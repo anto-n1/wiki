@@ -17,3 +17,4 @@ Les outils à utiliser pour ça sont :
 * [Burp Suit](https://portswigger.net) : tests de sécurité sur des applications web : mapping, analyse de la surface d'attaque, recherche de vulnérabilités
 * [Zaproxy]
 * [Paros Proxy]
+* [Firebug]
