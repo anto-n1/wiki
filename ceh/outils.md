@@ -3,6 +3,13 @@
 Cette page regroupe l'ensemble des outils utiles à utiliser pour toutes les phases de hacking.  
 Les outils sont classés par catégories.
 
+Les meilleurs et pires outils que j'ai testé sont représentés par les emojis suivants :
+
+:heart: -> coup de coeur
+:thumbsup: -> très bon
+:smile: -> bon
+:poop: -> outil merdique
+
 ## Prise d'empreinte
 
 ### Moteurs de recherche
@@ -87,3 +94,13 @@ Les outils sont classés par catégories.
 
 * [Shodan](https://www.shodan.com) : chercher des équipement sur internet : routeurs, serveurs, IOT...  
 * [Censys](https://censys.io) : moteur de recherche par adresse IP qui donne des informations sur l'équipement : ports/services/localisation
+
+### Vulnérabilités applications web
+
+* [Burp Suit](https://portswigger.net) : tests de sécurité sur des applications web : mapping, analyse de la surface d'attaque, recherche de vulnérabilités
+* [Zaproxy](https://www.zaproxy.org/) : trouver des vulnérabilités sur des applications web
+
+### Web crawler - spider - robot
+
+* [SpiderFoot](https://www.spiderfoot.net) : 
+* [Web data extractor](http://www.webextractor.com) : crawler pour extraire des informations sur des sites internet
