@@ -5,10 +5,12 @@ Les outils sont classés par catégories.
 
 Les meilleurs et pires outils que j'ai testé sont représentés par les emojis suivants :
 
-:heart: -> coup de coeur
-:thumbsup: -> très bon
-:smile: -> bon
-:poop: -> outil merdique
+:heart: -> coup de coeur  
+:thumbsup: -> très bon  
+:smile: -> bon  
+:poop: -> outil merdique  
+
+Les outils open source sont indiqués par :unlock: -  les propriétaires par :lock:.
 
 ## Prise d'empreinte
 
@@ -102,5 +104,5 @@ Les meilleurs et pires outils que j'ai testé sont représentés par les emojis 
 
 ### Web crawler - spider - robot
 
-* [SpiderFoot](https://www.spiderfoot.net) : 
-* [Web data extractor](http://www.webextractor.com) : crawler pour extraire des informations sur des sites internet
+* [SpiderFoot](https://www.spiderfoot.net) :unlock: : extraire des informations en tout genre
+* [Web data extractor](http://www.webextractor.com) :lock: : crawler pour extraire des informations sur des sites internet
