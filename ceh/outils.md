@@ -10,7 +10,8 @@ Les meilleurs et pires outils que j'ai testé sont représentés par les emojis 
 :smile: -> bon  
 :poop: -> outil merdique  
 
-Les outils open source sont indiqués par :unlock: -  les propriétaires par :lock:.
+Les outils open source sont indiqués par :unlock: et les propriétaires par :lock:.  
+Les outils gratuits sont représentés par :free:, les payants par :moneybag:, et les outils freemium (version gratuite limitée et payante complète ou avec période d'essai gratuite) par :money_with_wings:.
 
 ## Prise d'empreinte
 
@@ -104,5 +105,15 @@ Les outils open source sont indiqués par :unlock: -  les propriétaires par :lo
 
 ### Web crawler - spider - robot
 
+* [BeamUsUp](https://beamusup.com) :lock: : avoir des informations SEO sur les sites
+* [Scrapy](https://scrapy.org) :unlock::free: : framework python pour scraper des pages web
+* [ScreamingFrog](https://www.screamingfrog.co.uk) :lock::money_with_wings: : outils de SEO
 * [SpiderFoot](https://www.spiderfoot.net) :unlock: : extraire des informations en tout genre
+* [Visual SEO](https://visual-seo.com) :lock: : afficher des informations sur le SEO des sites internet
 * [Web data extractor](http://www.webextractor.com) :lock: : crawler pour extraire des informations sur des sites internet
+
+### Mirroring website
+
+* [HTTrack](https://www.httrack.com) :unlock::free: : aspirateur de site web
+* [NCollector Studio](http://www.calluna-software.com) :lock::money_with_wings: : télécharger des fichiers de sites en fonction de leur type
+* [Teleport pro](http://www.tenmax.com/home.htm) :lock::moneybag: : télécharger des fichiers de sites internet

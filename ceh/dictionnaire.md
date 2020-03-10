@@ -20,6 +20,10 @@ Cette page regroupe un ensemble de mots et abréviations utilisées dans le mond
 
 * Insider attack = attaque de l'intérieur
 
+## M
+
+* Mirroring website = fait de créer une réplique exacte d'un site internet
+
 ## S
 
 * SERPs = Search Engine Results Pages

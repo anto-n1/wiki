@@ -26,4 +26,14 @@ Les web spiders, crawler, ou encore robot sont des programmes et scripts automat
 
 Les outils existants pour le crawling sont :
 
+* [BeamUsUp](https://beamusup.com) : avoir des informations SEO sur les sites
+* [Scrapy](https://scrapy.org) : framework python pour scraper des pages web
+* [ScreamingFrog](https://www.screamingfrog.co.uk) : outils de SEO
+* [SpiderFoot](https://www.spiderfoot.net) : extraire des informations en tout genre
+* [Visual SEO](https://visual-seo.com) : afficher des informations sur le SEO des sites internet
 * [Web data extractor](http://www.webextractor.com) : crawler pour extraire des informations sur des sites internet
+
+## Mirroring de sites web
+
+Le mirroring de site web est le fait de cloner, créer une réplique exacte d'un site internet. Des outils permettent de télécharger tous les fichiers présents sur un site.  
+Différents outils existent : [HTTrack](https://www.httrack.com), [NCollector Studio](http://www.calluna-software.com), [Teleport pro](http://www.tenmax.com/home.htm).
