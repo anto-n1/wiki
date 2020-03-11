@@ -86,21 +86,18 @@ Les outils gratuits sont représentés par :free:, les payants par :moneybag:, e
 * [Simply Hired](https://wwww.simplyhired.com)
 * [USA Jobs](https://wwww.usajobs.gov)
 
-## Suivi de cible - notificatioins
+### Suivi de cible - notificatioins
 
 * [Giga Alert](https://www.gigaalert.com) 
 * [Google Alerts](https://www.google.com/alerts)
 * [TalkWalker Alerts](https://wwww.talkwalker.com)
 * [Twitter Alerts](https://twitter.com/alerts)
 
-## OS - Vulnérabilités - localisation
-
-* [Shodan](https://www.shodan.com) : chercher des équipement sur internet : routeurs, serveurs, IOT...  
-* [Censys](https://censys.io) : moteur de recherche par adresse IP qui donne des informations sur l'équipement : ports/services/localisation
-
-### Vulnérabilités applications web
+### OS - Vulnérabilités applications web - localisation
 
 * [Burp Suit](https://portswigger.net) : tests de sécurité sur des applications web : mapping, analyse de la surface d'attaque, recherche de vulnérabilités
+* [Censys](https://censys.io) : moteur de recherche par adresse IP qui donne des informations sur l'équipement : ports/services/localisation
+* [Shodan](https://www.shodan.com) : chercher des équipement sur internet : routeurs, serveurs, IOT...  
 * [Zaproxy](https://www.zaproxy.org/) : trouver des vulnérabilités sur des applications web
 
 ### Web crawler - spider - robot
@@ -116,4 +113,9 @@ Les outils gratuits sont représentés par :free:, les payants par :moneybag:, e
 
 * [HTTrack](https://www.httrack.com) :unlock::free: : aspirateur de site web
 * [NCollector Studio](http://www.calluna-software.com) :lock::money_with_wings: : télécharger des fichiers de sites en fonction de leur type
+* [Pavuk](http://www.pavuk.org) :unlock::free: : outil en ligne de commandes Linux et macOS pour télécharger des sites
+* [Portable Offline Browser](https://metaproducts.com) :lock::moneybag: : outils Windows portable pour télécharger des sites
 * [Teleport pro](http://www.tenmax.com/home.htm) :lock::moneybag: : télécharger des fichiers de sites internet
+* [wget](gnu.org) :unlock::free: : besoin de présenter ?
+
+### Métadonnées

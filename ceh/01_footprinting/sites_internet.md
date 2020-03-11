@@ -15,10 +15,7 @@ La prise d'empreinte de sites donne les informations suivantes :
 * Plateforme de script
 * CMS et détails de contacts
 
-Les outils à utiliser pour ça sont :
-
-* [Burp Suit](https://portswigger.net) : tests de sécurité sur des applications web : mapping, analyse de la surface d'attaque, recherche de vulnérabilités
-* [Zaproxy](https://www.zaproxy.org/) : trouver des vulnérabilités sur des applications web
+Les outils à utiliser pour ça sont [Burp Suit](https://portswigger.net) ou [Zaproxy](https://www.zaproxy.org) qui permet de réaliser des tests de sécurité sur des applications web : mapping, analyse de la surface d'attaque, recherche de vulnérabilités.
 
 ## Web spiders - Web crawler - Web robot
 
@@ -36,4 +33,4 @@ Les outils existants pour le crawling sont :
 ## Mirroring de sites web
 
 Le mirroring de site web est le fait de cloner, créer une réplique exacte d'un site internet. Des outils permettent de télécharger tous les fichiers présents sur un site.  
-Différents outils existent : [HTTrack](https://www.httrack.com), [NCollector Studio](http://www.calluna-software.com), [Teleport pro](http://www.tenmax.com/home.htm).
+Différents outils existent : [HTTrack](https://www.httrack.com), [NCollector Studio](http://www.calluna-software.com), [Teleport pro](http://www.tenmax.com/home.htm), [Portable Offline Browser](https://metaproducts.com). Des simple [wget](gnu.org) ou [Pavuk](http://www.pavuk.org) peuvent télécharger des sites internet.
