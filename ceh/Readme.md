@@ -6,20 +6,18 @@ Pour sécuriser, il faut connaître les méthodes de hacking offensives.
 Les étapes du hacking sont les suivantes :
 
 1. Prise d'empreinte et reconnaissance - footprinting
-2. 2
-3. 3
-4. 4
+2. Scan : scan de réseaux
+3. Exploitation : lancement d'attaque avec pour objectif de devenir administrateur sur la machine cible 
+4. Post-exploitation : garder un accès administrateur et effacer ses traces
 
-Les types de hacker :
-
-**Avancement** : cours CEH chapitre 2, page 136/1510
+**Avancement** : cours CEH chapitre 2, page 142/1510
 
 8% - [##------------------------------------------------]
 
 <!--
 50 caractères soit 1 '#' = 2%
--->
+
 
 # To do
-
 * scripter et automatiser déploiement et utilisation d'outils
+-->

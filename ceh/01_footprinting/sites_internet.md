@@ -34,3 +34,15 @@ Les outils existants pour le crawling sont :
 
 Le mirroring de site web est le fait de cloner, créer une réplique exacte d'un site internet. Des outils permettent de télécharger tous les fichiers présents sur un site.  
 Différents outils existent : [HTTrack](https://www.httrack.com), [NCollector Studio](http://www.calluna-software.com), [Teleport pro](http://www.tenmax.com/home.htm), [Portable Offline Browser](https://metaproducts.com). Des simple [wget](gnu.org) ou [Pavuk](http://www.pavuk.org) peuvent télécharger des sites internet.
+
+## Métadonnées
+
+Les métadonnées révèlent de précieuses informations sur une cible à partir de documents PDF, Word, Excel, images... Il faut être capable d'extraire celles-ci à partir de documents. Ces métadonnées sont cachées et non visibles directement sur les documents, elles peuvent être ananlysées avec des applications pour obtenir des noms de documents, pages, descriptions, mots-clés, dates de création/modification, date, noms, adresses mails...
+
+Il existe différents outils dédiés à l'extraction de métadonnées comme [Metagoofil](https://code.google.com/archive/p/metagoofil), [ExtractMetadata](https://www.extractmetadata.com), [FOCA](https://github.com/ElevenPaths/FOCA) ou encore la suite d'outils [BuzzStream ](http://tools.buzzstream.com/link-building).
+
+## Monitoring de pages et suivi
+
+Le monitoring de pages internet et suivi des changements est le fait de détecter les changements apportés à un sote, en recevant des notifications mail, SMS ou par n'importe quel moyen.
+
+Les outils existants sont [WebSite-Watcher](http://aignes.com), [VisualPing](https://visualping.io), [FollowThatPage](https://www.followthatpage.com), [Versionista](https://versionista.com). Il existe aussi des extensions Firefox : [Check4Change](https://addons.mozilla.org/en-US/firefox/addon/check4change) et [Update Scanner](https://addons.mozilla.org/fr/firefox/addon/update-scanner).
