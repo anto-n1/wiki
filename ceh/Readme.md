@@ -10,9 +10,9 @@ Les étapes du hacking sont les suivantes :
 3. Exploitation : lancement d'attaque avec pour objectif de devenir administrateur sur la machine cible 
 4. Post-exploitation : garder un accès administrateur et effacer ses traces
 
-**Avancement** : cours CEH chapitre 2, page 145/1510
+**Avancement** : cours CEH chapitre 2, page 149/1510
 
-8% - [##------------------------------------------------]
+10% - [###-----------------------------------------------]
 
 <!--
 50 caractères soit 1 '#' = 2%
