@@ -130,7 +130,7 @@ Les outils gratuits sont représentés par :free:, les payants par :moneybag:, e
 * [WebSite-Watcher](http://aignes.com) :lock::money_with_wings: : détecter automatiquement et suivre l'évolution de page web à partir de mots-clés, monitorer un site et flux RSS, surligner des changements...
 * [VisualPing](https://visualping.io) :lock::free: : outil en ligne prenant des screenshots de site et envoie un mail en cas de changement
 * [FollowThatPage](https://www.followthatpage.com) :lock::free: : outil en ligne checkant régulièrement les pages web et envoie mail en cas de changement
-* [Versionista](https://versionista.com) :lock::money_with_winds: : outil en ligne permettant de monitorer 5 URL gratuitement
+* [Versionista](https://versionista.com) :lock::money_with_wings: : outil en ligne permettant de monitorer 5 URL gratuitement
 * [Check4Change](https://addons.mozilla.org/en-US/firefox/addon/check4change) :lock::free: : extension Firefox pour monitorer des pages web en local
 * [Update Scanner](https://addons.mozilla.org/fr/firefox/addon/update-scanner) :unlock::free: : extension Firefox pour monitorer des pages web en local
 
