@@ -4,7 +4,7 @@ Description de l'arborescence d'un système Linux.
 Comprendre le nom des répertoires et leur utilité.  
 
 |       Répertoire      |     Signification        |                      Description                                                                          |
-|-----------------------|:------------------------:|:---------------------------------------------------------------------------------------------------------:|
+
 | /                     |                          | Racine : point d'entrée du système                                                                        |
 | /boot                 | boot                     | Contient le noyau Linux et l'amorceur                                                                     |
 | /bin                  | binaries                 | Contient les exécutables de base (mv, cp, ls...)                                                          |
@@ -21,4 +21,7 @@ Comprendre le nom des répertoires et leur utilité.
 | /opt                  | optional add-on software | Contient les programmes qui ne respectent pas les standards Linux (souvent propriétaires)                 |
 | /var                  | variable                 | Contient des fichiers/variables systèmes qui varient, ainsi que le cache et fichiers journaux             |
 | /srv                  | serve                    | Contient des fichiers statiques dédiés aux serveurs (FTP, HTTP...)                                        |
-| /run                  | runtime                  | Stocker les fichiers d'application qui tournent                                                           |
+| /run                  | runtime                  | Stocker les fichiers d'applications qui tournent                                                          |
+
+
+|-----------------------|--------------------------|-----------------------------------------------------------------------------------------------------------|
