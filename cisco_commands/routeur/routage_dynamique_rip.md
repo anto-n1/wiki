@@ -16,17 +16,18 @@
 	(config-router)# default-information originate
 	(config-router)# end
 	```
-1. **router rip** : activer le protocole de routage RIP
 
-2. **version 2** : utiliser la version 2 du protocole (si non précisé, V1 par défaut)
+	1. **router rip** : activer le protocole de routage RIP
 
-3. **network 10.0.0.0** : annoncer le/les réseaux que le routeur va devoir échanger avec les autres. Ces interfaces recoivent et envoient des paquets RIP
+	2. **version 2** : utiliser la version 2 du protocole (si non précisé, V1 par défaut)
 
-4. Idem que le point 3
+	3. **network 10.0.0.0** : annoncer le/les réseaux que le routeur va devoir échanger avec les autres. Ces interfaces recoivent et envoient des paquets RIP
 
-5. **passive-interface** : par défaut, les MAJ sont envoyées sur toutes les interfaces. Pour économiser bande passante et sécuriser, on coupe les MAJ sur les interfaces qui n'ont pas besoin de routage dynamique.
-
-6. **default-information originate** : propager la route par défaut (défini avec ```ip route 0.0.0.0 0.0.0.0```) dans les MAJ RIP pour informer les autres routeurs.
+	4. Idem que le point 3
+	
+	5. **passive-interface** : par défaut, les MAJ sont envoyées sur toutes les interfaces. Pour économiser bande passante et sécuriser, on coupe les MAJ sur les interfaces qui n'ont pas besoin de routage dynamique.
+	
+	6. **default-information originate** : propager la route par défaut (défini avec ```ip route 0.0.0.0 0.0.0.0```) dans les MAJ RIP pour informer les autres routeurs.
 
 * **Mettre toutes les interfaces en passive par défaut**
 	```

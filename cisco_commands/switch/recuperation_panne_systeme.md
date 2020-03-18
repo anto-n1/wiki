@@ -1,0 +1,1 @@
+# Switch - Récupération après panne système
