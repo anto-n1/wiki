@@ -1,4 +1,4 @@
-# Commandes générales routage routeurs
+# Commandes générales routage
 
 * **Afficher table routage**
 	```
@@ -16,4 +16,9 @@
 	```
 	# show ip route static
 	# show ipv6 route static
+	```
+
+* **Afficher les paramètres de protocole de routage IPV4**
+	```
+	# show ip protocols
 	```

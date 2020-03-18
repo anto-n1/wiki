@@ -1,4 +1,4 @@
-# Routage statique routeurs
+# Routage statique
 
 ## Routes statiques
 
@@ -61,7 +61,8 @@
 
 * **Vérifier que la route statique flottante n'est pas dans la table de routage**
 	```
-	# show ipv6 roue static | bgin S :
+	# show ip route static | begin S :
+	# show ipv6 route static | begin S :
 	```
 
 * **Tester une route statique flottante**

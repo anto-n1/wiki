@@ -1,4 +1,4 @@
-# Routage dynamique routeurs
+# Routage dynamique
 
 * **Afficher les protocoles de routage disponibles**
 	```
@@ -11,17 +11,6 @@
 	(config)# ipv6 unicast-routing
 	```
 	ATTENTION : ceci est INDISPENSABLE pour activer le routage IPV6.
-
-## Routage RIP
-
-* **Activer routage protocole RIP**
-	```
-	(config)# router rip
-	(config-router)# version 2
-	(config-router)# passive-interface s0/0/0
-	(config-router)# network 10.0.0.0
-	(config-router)# default-information originate
-	```
 
 ## Routage EIGRP
 

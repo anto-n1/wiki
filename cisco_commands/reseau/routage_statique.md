@@ -1,4 +1,19 @@
-# Routes statiques
+# Routage statique
+
+## Avantages et inconvénients
+
+### Avantages
+
+* Facile à implémenter dans un petit réseau
+* Sécurisé car aucun message envoyé
+* Route menant à destination est toujours la même
+* Pas de mécanisme d'algorithme de routage ou de mise à jour : pas de ressouce nécessaire
+
+### Inconvénients
+
+* Convient uniquement aux petits réseaux et usages spécifiques
+* Complexité de configurations augmente quand le réseau augmente
+* Intervention manuelle nécessaire pour réacheminer le trafic
 
 ## Routes statiques flottantes
 
