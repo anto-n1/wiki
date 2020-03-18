@@ -1,5 +1,7 @@
 # Cisco commandes
 
+Explication des différents dossiers :
+
 * **routeur** regroupe l'ensemble des fichiers qui expliquent des commandes de routeur.  
 * **switch** regroupe des fichiers en rapport avec les switchs.  
 * **cisco_ios** montre des commandes utilisable sur tous les équipements Cisco équipés du système d'exploitation IOS.  

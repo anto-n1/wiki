@@ -3,7 +3,7 @@
 Des LED sont placés devant les commutateurs pour informer sur l'état de fonctionnement de celui-ci.
 
 ![led commutateur image](../.images/switch_led_image.png "switch image")
-![led commutateur schema](../.images/switch_led_schema.png "switch schema")
+![led commutateur schema](../.images/switch_led_schema.png "switch schema")  
 
 |     Nom     | Numéro | Signification                                | 
 |-------------|--------|----------------------------------------------|
