@@ -74,7 +74,7 @@ Ce fichier présente les commandes de base à connaître pour administrer des ro
 
 	* Supprimer toute configuration
 	```
-	# delete flasj:vlan.dat
+	# delete flash:vlan.dat
 	# erase startup-config
 	```
 
@@ -113,6 +113,19 @@ Ce fichier présente les commandes de base à connaître pour administrer des ro
 	* Changer la taille du tampon de l'historique des commandes
 	```
 	# terminal history size 200
+	```
+
+* **Version**
+	* Afficher la version du matériel et du système
+	```
+	# show version
+	```
+
+* **Table ARP**
+	* Afficher la table d'adresses MAC
+	```
+	# show mac-address-table
+	# show mac address-table
 	```
 
 * **Tips**

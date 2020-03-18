@@ -1,4 +1,4 @@
-# Switchs et VLAN
+# Switch et VLAN
 
 * **Afficher les vlan**
 	```
