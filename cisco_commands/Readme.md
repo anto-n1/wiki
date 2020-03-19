@@ -8,4 +8,13 @@ Explication des différents dossiers :
 * **reseau** présente des informations et notes à connaître à propos des réseaux en général.  
 * **.images** regroupe les différentes images utilisées dans les fichiers Markdown mais ne possède aucune information importante à lui seul.
 
-En cours d'écriture - rendu cours CCNA 2 6.3.2.2
+En cours d'écriture - rendu cours CCNA 2 8.1.2.1
+
+**Avancement** :  
+<!--50 caractères soit 1 '#' = 2% -->
+
+**CCNA 1** :
+100% - [##################################################]
+
+**CCNA 2** :  
+70% - [###################################---------------]
