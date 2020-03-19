@@ -4,7 +4,7 @@
 
 L'image suivante présente le découpage d'un nom d'image Cisco :
 
-![Cisco IOS image](.images/cisco_image_ios.png "Cisco IOS image")  
+![Cisco IOS image](../.images/cisco_image_ios.png "Cisco IOS image")  
 
 ## Commande boot system
 
