@@ -4,7 +4,7 @@
 
 # Cisco commandes
 
-Explication des différents dossiers :
+**Explication des différents dossiers** :
 
 * **routeur** regroupe l'ensemble des fichiers qui expliquent des commandes de routeur.  
 * **switch** regroupe des fichiers en rapport avec les switchs.  
@@ -12,14 +12,17 @@ Explication des différents dossiers :
 * **reseau** présente des informations et notes à connaître à propos des réseaux en général.  
 * **.images** regroupe les différentes images utilisées dans les fichiers Markdown mais ne possède aucune information importante à lui seul.
 
-En cours d'écriture - rendu cours CCNA 2 9.0.1.1
-
 **Avancement** :  
+
+En cours d'écriture - rendu cours CCNA 2 9.0.1.1
 
 **CCNA 1** (version 6) :  
 100% - [##################################################]
 
 **CCNA 2** (version 6) :  
-90% - [#############################################-----]
+100% - [##################################################]
+
+**CCNA 3** (version 6) :  
+0% - [--------------------------------------------------]
 
 <!--50 caractères soit 1 '#' = 2% -->

@@ -7,9 +7,21 @@
 * AD = Distance Administrative
 * auto-MDIX (Medium Dependent Interface) = assurer le raccordement directement avec le support réseau.
 
+## C
+
+* CDP (Cisco Discovery Protocol) = protocole propriétaire de couche 2 de Cisco qui permet de rassembler des informations sur les périphériques Cisco qui partagent la même liaison de données. CDP fonctionne indépendamment des supports et protocoles et s'exécute sur tous les périphériques Cisco, tels que routeurs, commutateurs et serveurs d'accès
+
 ## E
 
 * EIGRP (Enhanced Interior Gateway Routing Protocol) = protocole routage dynamique propriétaire Cisco
+
+## L
+
+* LLDP (Link Layer Discovery Protocol) = protocole de détection de voisin indépendant similaire au protocole CDP. LLDP fonctionne avec des périphériques réseau, tels que des routeurs, des commutateurs et des points d'accès LAN sans fil. Ce protocole annonce son identité et ses fonctionnalités aux autres périphériques et reçoit des informations d'un périphérique physiquement connecté de couche 2.
+
+## N
+
+* NAT = Network Address Translation
 
 ## O
 
@@ -17,6 +29,7 @@
 
 ## P
 
+* PAT = Port Address Translation
 * PoE (Power over Ethernet) = faire passer de la tension pour alimenter un appareil en plus des données
 
 ## R
