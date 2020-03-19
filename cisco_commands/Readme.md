@@ -1,5 +1,7 @@
 # Cisco commandes
 
+![Cisco logo](.images/cisco_logo.png "Cisco logo")  
+
 Explication des différents dossiers :
 
 * **routeur** regroupe l'ensemble des fichiers qui expliquent des commandes de routeur.  
@@ -8,13 +10,13 @@ Explication des différents dossiers :
 * **reseau** présente des informations et notes à connaître à propos des réseaux en général.  
 * **.images** regroupe les différentes images utilisées dans les fichiers Markdown mais ne possède aucune information importante à lui seul.
 
-En cours d'écriture - rendu cours CCNA 2 8.1.3.2
+En cours d'écriture - rendu cours CCNA 2 9.0.1.1
 
 **Avancement** :  
 <!--50 caractères soit 1 '#' = 2% -->
 
-**CCNA 1** :  
+**CCNA 1** (version 6) :  
 100% - [##################################################]
 
-**CCNA 2** :  
-70% - [###################################---------------]
+**CCNA 2** (version 6) :  
+80% - [########################################----------]

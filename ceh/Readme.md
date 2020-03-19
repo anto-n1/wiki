@@ -1,4 +1,6 @@
-# Hacking tools
+# CEH - Certified Ethical Hacker
+
+![CEH logo](.images/ceh_logo.png "CEH logo")    
 
 Outils et techniques de hacking.  
 Pour sécuriser, il faut connaître les méthodes de hacking offensives.  
@@ -10,8 +12,9 @@ Les étapes du hacking sont les suivantes :
 3. Exploitation : lancement d'attaque avec pour objectif de devenir administrateur sur la machine cible 
 4. Post-exploitation : garder un accès administrateur et effacer ses traces
 
-**Avancement** : cours CEH chapitre 2, page 149/1510
+**Avancement** : 
 
+**CEHv10** chapitre 2, page 149/1510 :
 10% - [###-----------------------------------------------]
 
 <!--
