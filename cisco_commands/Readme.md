@@ -6,7 +6,7 @@
 
 Ce répertoire contient les fiches mémos des cours de CCNA : majoritairement des mémos de commandes, mais aussi quelques notions de réseau.
 
-**Explication des différents dossiers** :
+### Que contiennent les différents dossiers
 
 * **routeur** regroupe les fichiers qui expliquent des commandes utilisables sur des routeurs.  
 * **switch** regroupe les commandes utilisables sur les switchs.  
@@ -16,7 +16,7 @@ Ce répertoire contient les fiches mémos des cours de CCNA : majoritairement de
 
 * **.images** regroupe les différentes images utilisées dans les fichiers Markdown mais ne possède aucune information importante à lui seul.
 
-**Avancement** :  
+### Avancement
 
 **CCNA 1** :  
 100% - [##################################################]
