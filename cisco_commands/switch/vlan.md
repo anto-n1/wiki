@@ -51,6 +51,12 @@
 	```
 	La commande ```switchport access vlan``` force la création d'un vlan.
 
+* **Faire passer TOUS les vlan du switch sur une interface**
+	```
+	(config)# interface f0/5
+	(config-if)# switchport mode trunk
+	```
+
 * **Supprimer l'attribution d'un vlan**
 	```
 	(config)# interface FastEthernet 0/1
