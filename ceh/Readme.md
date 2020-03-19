@@ -1,6 +1,6 @@
-# CEH - Certified Ethical Hacker
+![CEH logo](.images/ceh_logo.png "CEH logo")  
 
-![CEH logo](.images/ceh_logo.png "CEH logo")    
+# CEH - Certified Ethical Hacker
 
 Outils et techniques de hacking.  
 Pour sécuriser, il faut connaître les méthodes de hacking offensives.  
@@ -17,10 +17,4 @@ Les étapes du hacking sont les suivantes :
 **CEHv10** chapitre 2, page 149/1510 :
 10% - [###-----------------------------------------------]
 
-<!--
-50 caractères soit 1 '#' = 2%
-
-
-# To do
-* scripter et automatiser déploiement et utilisation d'outils
--->
+<!-- 50 caractères soit 1 '#' = 2% -->

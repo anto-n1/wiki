@@ -1,6 +1,6 @@
-# Cisco commandes
-
 ![Cisco logo](.images/cisco_logo.png "Cisco logo")  
+
+# Cisco commandes
 
 Explication des différents dossiers :
 
@@ -13,10 +13,11 @@ Explication des différents dossiers :
 En cours d'écriture - rendu cours CCNA 2 9.0.1.1
 
 **Avancement** :  
-<!--50 caractères soit 1 '#' = 2% -->
 
 **CCNA 1** (version 6) :  
 100% - [##################################################]
 
 **CCNA 2** (version 6) :  
 80% - [########################################----------]
+
+<!--50 caractères soit 1 '#' = 2% -->
