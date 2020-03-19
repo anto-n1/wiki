@@ -11,9 +11,7 @@ Ce répertoire contient les fiches mémos des cours de CCNA : majoritairement de
 * **routeur** regroupe les fichiers qui expliquent des commandes utilisables sur des routeurs.  
 * **switch** regroupe les commandes utilisables sur les switchs.  
 * **cisco_ios** montre des commandes utilisable sur tous les équipements Cisco équipés du système d'exploitation IOS.  
-
 * **reseau** présente des informations et notes à connaître à propos des réseaux en général.  
-
 * **.images** regroupe les différentes images utilisées dans les fichiers Markdown mais ne possède aucune information importante à lui seul.
 
 ### Avancement
