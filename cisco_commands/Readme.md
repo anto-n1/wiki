@@ -14,8 +14,6 @@
 
 **Avancement** :  
 
-En cours d'écriture - rendu cours CCNA 2 9.0.1.1
-
 **CCNA 1** (version 6) :  
 100% - [##################################################]
 
