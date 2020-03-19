@@ -2,16 +2,18 @@
 
 ## A
 
+* ACE (Access Control Entry) = entrées de contrôle d'accès donnant ou supprimant des droits d'accès à une personne ou un groupe
+* ACL (Access List) = série de commande IOS qui déterminent si un routeur achemine ou abandonne les paquets en fonction des informations contenues dans l'en-tête du paquet
 * AD = Distance Administrative
 * auto-MDIX (Medium Dependent Interface) = assurer le raccordement directement avec le support réseau.
 
 ## E
 
-* EIGRP (Enhanced Interior Gateway Routing Protocol) = protocole routage dynamique
+* EIGRP (Enhanced Interior Gateway Routing Protocol) = protocole routage dynamique propriétaire Cisco
 
 ## O
 
-* OSPF (Open Shortest Path First) = protocole routage dynamique
+* OSPF (Open Shortest Path First) = protocole routage dynamique ouvert
 
 ## P
 
@@ -34,3 +36,7 @@
 ## V
 
 * VLSM (Variable-Length Subnet Masking) = Découpage des sous réseaux
+
+## W
+
+* Wildcard (masque générique) = soustraction d'un masque 255.255.255.255 avec le masque du réseau
