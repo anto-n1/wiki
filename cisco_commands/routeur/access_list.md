@@ -7,14 +7,14 @@
 Le calcul du wildcard se fait en effectuant la soustraction d'un maque 255.255.255.255 avec le masque du réseau concerné :
 
   255.255.255.255  
-- 255.255.255.192 ( pour un masque en /26 )  
+\- 255.255.255.192 ( pour un masque en /26 )  
 -----------------  
 =  0 . 0 . 0 . 63  
  
 Autre exemple pour un masque en /19
 
   255.255.255.255  
-- 255.255.224. 0  
+\- 255.255.224. 0  
 -----------------  
 =  0 . 0 . 31. 255  
 
