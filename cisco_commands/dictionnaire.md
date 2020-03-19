@@ -27,6 +27,7 @@
 
 ## S
 
+* SLAAC (Stateless Address Autoconfiguration) = autoconfiguration avec tirage pseudo aléatoire d'une adresse IPv6
 * SVI (Switch Virtual Interface) = interface VLAN du système de routage ou de commutation permettant l'administration à distance ou le routage inter-vlan. Ce n'est pas une interface physique; le VLAN et le SVI traitent les paquets provenant de tous les ports physiques associés au VLAN.
 
 ## T
