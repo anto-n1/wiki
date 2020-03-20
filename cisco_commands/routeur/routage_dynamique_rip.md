@@ -14,6 +14,7 @@
 	(config-router)# network 172.16.0.0
 	(config-router)# passive-interface s0/0/0
 	(config-router)# default-information originate
+	(config-router)# auto-summary
 	(config-router)# end
 	```
 
@@ -22,6 +23,7 @@
 	* **network 10.0.0.0** : annoncer le/les réseaux que le routeur va devoir échanger avec les autres. Ces interfaces recoivent et envoient des paquets RIP
 	* **passive-interface** : par défaut, les MAJ sont envoyées sur toutes les interfaces. Pour économiser bande passante et sécuriser, on coupe les MAJ sur les interfaces qui n'ont pas besoin de routage dynamique.
 	* **default-information originate** : propager la route par défaut (défini avec ```ip route 0.0.0.0 0.0.0.0```) dans les MAJ RIP pour informer les autres routeurs.
+	* **auto-summary** : le protocole RIP récapitule les réseaux selon leurs frontières classful par défaut. Afin de configurer un routeur pour qu’il récapitule automatiquement les réseaux, il faut utiliser la commande auto-summary.
 
 * **Mettre toutes les interfaces en passive par défaut**
 	```

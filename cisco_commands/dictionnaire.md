@@ -15,6 +15,10 @@
 
 * EIGRP (Enhanced Interior Gateway Routing Protocol) = protocole routage dynamique propriétaire Cisco
 
+## I
+
+* IS-IS (Intermediate System-to-Intermediate System) = protocole de routage dynamique
+
 ## L
 
 * LLDP (Link Layer Discovery Protocol) = protocole de détection de voisin indépendant similaire au protocole CDP. LLDP fonctionne avec des périphériques réseau, tels que des routeurs, des commutateurs et des points d'accès LAN sans fil. Ce protocole annonce son identité et ses fonctionnalités aux autres périphériques et reçoit des informations d'un périphérique physiquement connecté de couche 2.
@@ -30,13 +34,16 @@
 ## P
 
 * PAT = Port Address Translation
-* PoE (Power over Ethernet) = faire passer de la tension pour alimenter un appareil en plus des données
+* PoE (Power over Ethernet) = faire passer de la tension pour alimenter un appareil en plus des données.
 
 ## R
 
 * RIP (Routing Information Protocol) = protocole de routage dynamique
-* Route d'hôte/Route locale = adresse IP et masque en /32 qui est directement connectée au routeur - code L lors d'un show ip route
+* RIPng = protocole RIP nouvelle génération - new generation
+* Route d'hôte/Route locale = adresse IP et masque en /32 qui est directement connectée au routeur - code L lors d'un show ip route.
 * Route statique flottante = route statique qui a une distance administrative supérieure à la distance administrative d'une autre route statique ou dynamique. Utile en secours d'une liaison principale.
+* Route récursive = seule l'adresse du tronçon suivant est spécifiée.
+* RU = Unité Modulaire, mesure spécifique liée à la hauteur du commutateur
 
 ## S
 

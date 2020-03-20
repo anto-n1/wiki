@@ -26,3 +26,10 @@ Les chemins de routes dynamiques sont calculés en fonction de différents param
 
 Le RIPv1 ne prend pas en compte les sous réseaux et classes. Le RIPv2 en est capable.  
 Le RIPv1 il n'envoie que des messages RIPv1, mais est capable d'interpréter les messages reçus en RIPVv, cependant, il ignore les champs RIPv2 dans l'entrée de route.
+
+### EIGRP
+
+Paramètres sont utilisés par le protocole EIGRP comme mesure de sélection du chemin optimal pour atteindre un réseau :
+
+* Délai
+* Bande passante

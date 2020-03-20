@@ -16,13 +16,13 @@ Ce répertoire contient les fiches mémos des cours de CCNA : majoritairement de
 
 ### Avancement
 
-**CCNA 1** :  
+**CCNA 1** (v6) :  
 100% - [##################################################]
 
-**CCNA 2** :  
+**CCNA 2** (v6) :  
 100% - [##################################################]
 
-**CCNA 3** :  
+**CCNA 3** (v6) :  
 0% - [--------------------------------------------------]
 
 <!--50 caractères soit 1 '#' = 2% -->
