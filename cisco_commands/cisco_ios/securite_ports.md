@@ -20,7 +20,7 @@
 * **Adresses MAC sécurisées dynamiques** : adresses MAC apprises de manière dynamique et stockées uniquement dans la table d'adresses. Les adresses MAC configurées ainsi sont supprimées au redémarrage du commutateur.
 * **Adresses MAC sécurisées rémanentes** : adresses MAC pouvant être apprises de manière dynamique ou configurées manuellement, puis stockées dans la table d'adresses et ajoutées à la configuration en cours.
 
-La commande ```switchport port-security``` permet d'activer la sécurité sur les ports, elle est indispensable avant d'exécuter les commandes qui les suivent.
+La commande ```switchport port-security``` permet d'activer la sécurité du port sur une interface, elle est indispensable avant d'exécuter les commandes qui les suivent.
 
 * **Limiter nombre d'adresses IP et MAC sur un port**
 	```
@@ -47,6 +47,7 @@ La commande ```switchport port-security``` permet d'activer la sécurité sur le
 	(config-if)# switchport port-security
 	(config-if)# switchport port-security mac-address sticky
 	```
+	L'adresse MAC sera stockée en RAM.
 
 ## Modes de violation
 

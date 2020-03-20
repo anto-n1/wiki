@@ -10,6 +10,7 @@
 ## C
 
 * CDP (Cisco Discovery Protocol) = protocole propriétaire de couche 2 de Cisco qui permet de rassembler des informations sur les périphériques Cisco qui partagent la même liaison de données. CDP fonctionne indépendamment des supports et protocoles et s'exécute sur tous les périphériques Cisco, tels que routeurs, commutateurs et serveurs d'accès
+* CEF (Cisco Express Forwarding) = 
 
 ## E
 

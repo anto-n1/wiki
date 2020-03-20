@@ -22,3 +22,5 @@
 	```
 	# show ip protocols
 	```
+
+Différence entre table de routage IPv4 et IPv6 : par conception, IPv6 est sans classe et toutes les routes sont des meilleures routes de niveau 1.
