@@ -14,4 +14,4 @@ Pour accéder au bootloader :
 
 5. L'invite switch: du bootloader s'affiche dans le logiciel d'émulation de terminal sur le PC.
 
-La ligne de commande du bootloader prend en charge des commandes qui permettent de formater le système de fichiers Flash, de réinstaller le système d'exploitation et de récupérer un mot de passe perdu ou oublié. Par exemple, la commande ```dir``` peut être utilisée pour afficher la liste des fichiers dans un dossier spécifique comme illustré dans la figure.
+La ligne de commande du bootloader prend en charge des commandes qui permettent de formater le système de fichiers Flash, de réinstaller le système d'exploitation et de récupérer un mot de passe perdu ou oublié. Par exemple, la commande ```dir``` peut être utilisée pour afficher la liste des fichiers dans un dossier spécifique.

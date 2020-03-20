@@ -6,8 +6,6 @@ Un commutateur **cut-through** achemine la trame avant qu'elle ne soit complète
 
 Il peut être en **fragment free** : une forme modifiée du cut-through, qui attend la fin de la réception de la fenêtre de collision (64 octets) avant de tra,sférer la trame. 
 
-## Commutateur
-
 Les trois couches du modèle de conception hiérarchique de commutateur :
 
 * Liaison de données

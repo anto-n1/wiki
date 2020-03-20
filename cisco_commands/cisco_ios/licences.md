@@ -11,7 +11,7 @@
 	# reload
 	```
 
- **Vérifier une licence**
+* **Vérifier une licence**
  	```
  	# show version
  	# show licence

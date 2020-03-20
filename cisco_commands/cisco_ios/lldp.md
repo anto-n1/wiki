@@ -13,7 +13,7 @@
 	(config-if)# lldp receive
 	```
 
- **Afficher infos LLDP**
+ * **Afficher infos LLDP**
  	```
  	# show lldp
  	# show lldp neighbors

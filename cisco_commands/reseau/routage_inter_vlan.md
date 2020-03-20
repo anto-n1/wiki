@@ -18,7 +18,7 @@ Selon cette approche, le routage inter-VLAN s’effectue par la connexion de dif
 
 Alors que le routage inter-VLAN existant nécessite plusieurs interfaces physiques à la fois sur le routeur et sur le commutateur, une méthode moderne plus courante permet de l’éviter. En effet, grâce à un logiciel du routeur, il est possible de configurer une interface de routeur en tant que liaison trunk, ce qui signifie qu’une seule interface physique est requise sur le routeur et sur le commutateur pour acheminer les paquets entre plusieurs VLAN.
 
-La méthode « router-on-a-stick » est un type de configuration de routeur dans laquelle une seule interface physique achemine le trafic entre plusieurs VLAN d’un réseau. Comme vous pouvez le voir dans la figure, le routeur est connecté au commutateur S1 à l’aide d’une seule connexion réseau physique (un trunk).
+La méthode « router-on-a-stick » est un type de configuration de routeur dans laquelle une seule interface physique achemine le trafic entre plusieurs VLAN d’un réseau.
 
 L’interface de routeur est configurée pour fonctionner comme une liaison trunk et elle est connectée à un port de commutateur configuré en mode trunk. Le routeur effectue le routage inter-VLAN en acceptant le trafic étiqueté VLAN sur l’interface trunk provenant du commutateur adjacent. Il procède ensuite au routage en interne entre les VLAN à l’aide de sous-interfaces. Le routeur transfère alors le trafic acheminé, étiqueté VLAN vers le VLAN de destination, depuis la même interface physique utilisée pour recevoir le trafic.
 

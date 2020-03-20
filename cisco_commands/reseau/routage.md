@@ -2,7 +2,7 @@
 
 ## Routes
 
-![Routes explications](.images/explication_route.png "Routes explications")  
+![Routes explications](../.images/explication_route.png "Routes explications")  
 
 ## Code et protocole associé
 
@@ -28,8 +28,8 @@ Si plusieurs routes disponibles vers une même destination avec un seul protocol
 La fonction du routeur qui permet de transférer du trafic qui ne dispose pas d'une route spécifique est la passerelle de dernier recours.
 
 L'équilibrage de la charge :
-	* transférer des paquets sur plusieurs chemins vers le même réseau de destination
-	* l’équilibrage de la charge à coût inégal est pris en charge par le protocole EIGRP
+* transférer des paquets sur plusieurs chemins vers le même réseau de destination
+* l’équilibrage de la charge à coût inégal est pris en charge par le protocole EIGRP
 
 Dans une route statique récursive, seule l’adresse IPv6 du tronçon suivant est spécifiée.
 
