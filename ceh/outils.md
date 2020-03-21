@@ -62,7 +62,7 @@ Signification des emojis :
 
 <div id='section-reseaux-outils-sociaux'/>
 
-##### Réseaux et outils sociaux
+####  :small_orange_diamond: Réseaux et outils sociaux
 
 * **[AnyWho](https://www.anywho.com)** : trouver une personne à partir de son nom/prénom/adresse
 * **[BeenVerified](https://www.beenverified.com)** : rechercher une personne à partir de son nom/prénom
@@ -84,14 +84,14 @@ Signification des emojis :
 
 <div id='section-noms-domaines'/>
 
-##### Noms de domaines
+#####  :small_orange_diamond: Noms de domaines
 
 * **[Netcraft](https://www.netcraft.com)** : outil d'analyse noms de domaines, d'OS, de provider, des certificats d'un site web
 * **[Sublist3r](https://github.com/aboul3la/Sublist3r)** : script python énumérant les sous-domaines d'un site à partir de plusieurs sources comme Google, Ask, Netcraft, DNSDumpster, ReverseDNS...
 
 <div id='section-localisation'/>
 
-##### Localisation
+####  :large_orange_diamond: Localisation
 
 * **[Bing Maps](https://www.bing.com/maps)** : service de cartographie de Bing
 * **[Google Earth](https://earth.google.com)** : obtenir des images 3D de batiments en haute résolution
@@ -102,7 +102,7 @@ Signification des emojis :
 
 <div id='section-finance'/>
 
-#### Finance
+####  :large_orange_diamond: Finance
 
 * **[Google Finance](https://google.com/finance)** : suivre le cours d'actions et de devises
 * **[MarketWatch](https://wwww.marketwatch.com)** : suivre le cours de la bourse
