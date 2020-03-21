@@ -12,11 +12,11 @@ Signification des emojis :
 :smile: -> bon  
 :poop: -> outil merdique  
 
-:unlock: -> open source/libre
+:unlock: -> open source/libre  
 :lock: -> propriétaire
 
-:free: -> totalement gratuit
-:money_with_wings: -> freemium (version gratuite limitée et payante complète et/ou période d'essai gratuite)
+:free: -> totalement gratuit  
+:money_with_wings: -> freemium (version gratuite limitée et payante complète et/ou période d'essai gratuite)  
 :moneybag: -> payant
 
 
