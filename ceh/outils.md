@@ -44,7 +44,7 @@ Signification des emojis :
 
 <div id='section-moteurs-recherche'/>
 
-#### Moteurs de recherche
+##### Moteurs de recherche
 
 * **[Aol](https://search.aol.co.uk)** : l'un des premiers moteurs de recherche
 * **[Ask](https://uk.ask.com)** : également l'un des premiers
@@ -62,7 +62,7 @@ Signification des emojis :
 
 <div id='section-reseaux-outils-sociaux'/>
 
-#### Réseaux et outils sociaux
+##### Réseaux et outils sociaux
 
 * **[AnyWho](https://www.anywho.com)** : trouver une personne à partir de son nom/prénom/adresse
 * **[BeenVerified](https://www.beenverified.com)** : rechercher une personne à partir de son nom/prénom
@@ -84,14 +84,14 @@ Signification des emojis :
 
 <div id='section-noms-domaines'/>
 
-#### Noms de domaines
+##### Noms de domaines
 
 * **[Netcraft](https://www.netcraft.com)** : outil d'analyse noms de domaines, d'OS, de provider, des certificats d'un site web
 * **[Sublist3r](https://github.com/aboul3la/Sublist3r)** : script python énumérant les sous-domaines d'un site à partir de plusieurs sources comme Google, Ask, Netcraft, DNSDumpster, ReverseDNS...
 
 <div id='section-localisation'/>
 
-#### Localisation
+##### Localisation
 
 * **[Bing Maps](https://www.bing.com/maps)** : service de cartographie de Bing
 * **[Google Earth](https://earth.google.com)** : obtenir des images 3D de batiments en haute résolution
