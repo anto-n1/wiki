@@ -14,7 +14,7 @@ Les étapes du hacking sont les suivantes :
 
 **Avancement** : 
 
-**CEHv10** chapitre 2, page 149/1510 :
+**CEHv10** chapitre 2, page 149/1510 :  
 10% - [###-----------------------------------------------]
 
 <!-- 50 caractères soit 1 '#' = 2% -->
