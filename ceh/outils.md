@@ -18,7 +18,7 @@ Les outils gratuits sont représentés par :free:, les payants par :moneybag:, e
 ## Table des matières
 
 * [Liste des outils de hacking](#section-titre)
-	* [Prise d'empreinte](#section-prise-empreinte)
+	* [Prise d'empreinte](#section-prise-empreinte)  
 		:small_orange_diamond: [Moteurs de recherche](#section-moteurs-recherche)  
 		:small_orange_diamond: [Réseaux et outils sociaux](#section-reseaux-outils-sociaux)  
 		:small_orange_diamond: [Noms de domaines](#section-noms-domaines)  
