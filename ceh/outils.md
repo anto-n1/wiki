@@ -44,7 +44,7 @@ Signification des emojis :
 
 <div id='section-moteurs-recherche'/>
 
-##### Moteurs de recherche
+##### :small_orange_diamond: Moteurs de recherche
 
 * **[Aol](https://search.aol.co.uk)** : l'un des premiers moteurs de recherche
 * **[Ask](https://uk.ask.com)** : également l'un des premiers
@@ -62,7 +62,7 @@ Signification des emojis :
 
 <div id='section-reseaux-outils-sociaux'/>
 
-####  :small_orange_diamond: Réseaux et outils sociaux
+#### :small_orange_diamond: Réseaux et outils sociaux
 
 * **[AnyWho](https://www.anywho.com)** : trouver une personne à partir de son nom/prénom/adresse
 * **[BeenVerified](https://www.beenverified.com)** : rechercher une personne à partir de son nom/prénom
@@ -84,14 +84,14 @@ Signification des emojis :
 
 <div id='section-noms-domaines'/>
 
-#####  :small_orange_diamond: Noms de domaines
+##### :small_orange_diamond: Noms de domaines
 
 * **[Netcraft](https://www.netcraft.com)** : outil d'analyse noms de domaines, d'OS, de provider, des certificats d'un site web
 * **[Sublist3r](https://github.com/aboul3la/Sublist3r)** : script python énumérant les sous-domaines d'un site à partir de plusieurs sources comme Google, Ask, Netcraft, DNSDumpster, ReverseDNS...
 
 <div id='section-localisation'/>
 
-####  :large_orange_diamond: Localisation
+#### :small_orange_diamond: Localisation
 
 * **[Bing Maps](https://www.bing.com/maps)** : service de cartographie de Bing
 * **[Google Earth](https://earth.google.com)** : obtenir des images 3D de batiments en haute résolution
@@ -102,7 +102,7 @@ Signification des emojis :
 
 <div id='section-finance'/>
 
-####  :large_orange_diamond: Finance
+#### :small_orange_diamond: Finance
 
 * **[Google Finance](https://google.com/finance)** : suivre le cours d'actions et de devises
 * **[MarketWatch](https://wwww.marketwatch.com)** : suivre le cours de la bourse
@@ -111,7 +111,7 @@ Signification des emojis :
 
 <div id='section-offre-emploi'/>
 
-#### Offres d'emplois
+#### :small_orange_diamond: Offres d'emplois
 
 * **[CareerBuilder](https://wwww.careerbuilder.com)** : agrégateur d'annonces d'emploi
 * **[Dice](https://wwww.dice.com)** : agrégateur d'annonces d'emploi
@@ -125,7 +125,7 @@ Signification des emojis :
 
 <div id='section-suivi-cible'/>
 
-#### Suivi de cible - notificatioins
+#### :small_orange_diamond: Suivi de cible - notificatioins
 
 * **[Giga Alert](https://www.gigaalert.com)** : traquer ses intêrets sur internet
 * **[Google Alerts](https://www.google.com/alerts)** : outil d'alertes de Google
@@ -134,7 +134,7 @@ Signification des emojis :
 
 <div id='section-os-vulnerabilites'/>
 
-#### OS - Vulnérabilités applications web - localisation
+#### :small_orange_diamond: OS - Vulnérabilités applications web - localisation
 
 * **[Burp Suit](https://portswigger.net)** : tests de sécurité sur des applications web : mapping, analyse de la surface d'attaque, recherche de vulnérabilités
 * **[Censys](https://censys.io)** : moteur de recherche par adresse IP qui donne des informations sur l'équipement : ports/services/localisation
@@ -143,7 +143,7 @@ Signification des emojis :
 
 <div id='section-web-crawler'/>
 
-#### Web crawler - spider - robot
+#### :small_orange_diamond: Web crawler - spider - robot
 
 * **[BeamUsUp](https://beamusup.com)** :lock: : avoir des informations SEO sur les sites
 * **[Scrapy](https://scrapy.org)** :unlock::free: : framework python pour scraper des pages web
@@ -154,7 +154,7 @@ Signification des emojis :
 
 <div id='section-mirroring-website'/>
 
-#### Mirroring website
+#### :small_orange_diamond: Mirroring website
 
 * **[HTTrack](https://www.httrack.com)** :unlock::free: : aspirateur de site web
 * **[NCollector Studio](http://www.calluna-software.com)** :lock::money_with_wings: : télécharger des fichiers de sites en fonction de leur type
@@ -165,16 +165,16 @@ Signification des emojis :
 
 <div id='section-metadonnees'/>
 
-#### Métadonnées
+#### :small_orange_diamond: Métadonnées
 
 * **[Metagoofil](https://code.google.com/archive/p/metagoofil)** :unlock::free: : script python extracteur de métadonnées à partir de recherche Google
-* **[ExtractMetadata](https://www.extractmetadata.com)** :lock::free: : site web extracteur de métadonnées à partir d'un fichier ou d'une UR
+* **[ExtractMetadata](https://www.extractmetadata.com)** :lock::free: : site web extracteur de métadonnées à partir d'un fichier ou d'une URL
 * **[FOCA](https://github.com/ElevenPaths/FOCA)** :unlock::free: : extracteur de métadonnées
 * **[BuzzStream ](http://tools.buzzstream.com/link-building)** :lock::free: : suite d'outils pour recherche d'emails, domaines, métadonnées...
 
 <div id='section-monitoring-webpages'/>
 
-#### Monitoring de pages et suivi
+#### :small_orange_diamond: Monitoring de pages et suivi
 
 * **[WebSite-Watcher](http://aignes.com)** :lock::money_with_wings: : détecter automatiquement et suivre l'évolution de page web à partir de mots-clés, monitorer un site et flux RSS, surligner des changements...
 * **[VisualPing](https://visualping.io)** :lock::free: : outil en ligne prenant des screenshots de site et envoie un mail en cas de changement
@@ -185,7 +185,7 @@ Signification des emojis :
 
 <div id='section-email-tracking'/>
 
-#### Email tracking
+#### :small_orange_diamond: Email tracking
 
 * **[eMailTrackerPro](http://www.emailtrackerpro.com)** :lock::money_with_wings: : tracer des mails et obtenir informations
 * **[Yesware](http://www.yesware.com)** :lock::moneybag: : connaître l'engagement des personnes à la lecture d'un mail : lien cliqués, pièce-jointes ouvertes...
