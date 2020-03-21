@@ -17,12 +17,11 @@ Les outils gratuits sont représentés par :free:, les payants par :moneybag:, e
 
 ## Table des matières
 
-<!--
 * [Liste des outils de hacking](#section-titre)
 	* [Prise d'empreinte](#section-prise-empreinte)
-		* [Moteurs de recherche](#section-moteurs-recherche)
-		* [Réseaux et outils sociaux](#section-reseaux-outils-sociaux)
-		* [Noms de domaines](#section-noms-domaines)
+		:small_orange_diamond: [Moteurs de recherche](#section-moteurs-recherche)  
+		:small_orange_diamond: [Réseaux et outils sociaux](#section-reseaux-outils-sociaux)  
+		:small_orange_diamond: [Noms de domaines](#section-noms-domaines)  
 		* [Localisation](#section-localisation)
 		* [Finance](#section-finance)
 		* [Offres d'emplois](#section-offre-emploi)
@@ -33,23 +32,6 @@ Les outils gratuits sont représentés par :free:, les payants par :moneybag:, e
 		* [Métadonnées](#section-metadonnees)
 		* [Monitoring de pages et suivi](#section-monitoring-webpages)
 		* [Email tracking](#section-email-tracking)
--->
-
-:small_orange_diamond: [Liste des outils de hacking](#section-titre)
-	:small_orange_diamond: [Prise d'empreinte](#section-prise-empreinte)
-		:small_orange_diamond: [Moteurs de recherche](#section-moteurs-recherche)
-		:small_orange_diamond: [Réseaux et outils sociaux](#section-reseaux-outils-sociaux)
-		:small_orange_diamond: [Noms de domaines](#section-noms-domaines)
-		:small_orange_diamond: [Localisation](#section-localisation)
-		:small_orange_diamond: [Finance](#section-finance)
-		:small_orange_diamond: [Offres d'emplois](#section-offre-emploi)
-		:small_orange_diamond: [Suivi de cible - notificatioins](#section-suivi-cible)
-		:small_orange_diamond: [OS - Vulnérabilités applications web - localisation](#section-os-vulnerabilites)
-		:small_orange_diamond: [Web crawler - spider - robot](#section-web-crawler)
-		:small_orange_diamond: [Mirroring website](#section-mirroring-website)
-		:small_orange_diamond: [Métadonnées](#section-metadonnees)
-		:small_orange_diamond: [Monitoring de pages et suivi](#section-monitoring-webpages)
-		:small_orange_diamond: [Email tracking](#section-email-tracking)
 
 <div id='section-prise-empreinte'/>
 
