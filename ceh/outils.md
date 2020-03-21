@@ -1,3 +1,5 @@
+<div id='section-titre'/>
+
 # Liste des outils de hacking
 
 Cette page regroupe l'ensemble des outils utiles à utiliser pour toutes les phases de hacking.  
@@ -13,7 +15,29 @@ Les meilleurs et pires outils que j'ai testé sont représentés par les emojis 
 Les outils open source sont indiqués par :unlock: et les propriétaires par :lock:.  
 Les outils gratuits sont représentés par :free:, les payants par :moneybag:, et les outils freemium (version gratuite limitée et payante complète ou avec période d'essai gratuite) par :money_with_wings:.
 
+## Table des matières
+
+- [Liste des outils de hacking](#section-titre)
+  - [Prise d'empreinte](#section-prise-empreinte)
+    - [Moteurs de recherche](#section-moteurs-recherche)
+    - [Réseaux et outils sociaux](#section-reseaux-outils-sociaux)
+    - [Noms de domaines](#section-noms-domaines)
+    - [Localisation](#section-localisation)
+    - [Finance](#section-finance)
+    - [Offres d'emplois](#section-offre-emploi)
+    - [Suivi de cible - notificatioins](#section-suivi-cible)
+    - [OS - Vulnérabilités applications web - localisation](#section-os-vulnerabilites)
+    - [Web crawler - spider - robot](#section-web-crawler)
+    - [Mirroring website](#section-mirroring-website)
+    - [Métadonnées](#section-metadonnees)
+    - [Monitoring de pages et suivi](#section-monitoring-webpages)
+    - [Email tracking](#section-email-tracking)
+
+<div id='section-prise-empreinte'/>
+
 ## Prise d'empreinte
+
+<div id='section-moteurs-recherche'/>
 
 #### Moteurs de recherche
 
@@ -30,6 +54,8 @@ Les outils gratuits sont représentés par :free:, les payants par :moneybag:, e
 * **[Qwant](https://qwant.com)**
 * **[Startpage](https://www.startpage.com)**
 * **[Yahoo](https://fr.yahoo.com)**
+
+<div id='section-reseaux-outils-sociaux'/>
 
 #### Réseaux et outils sociaux
 
@@ -53,10 +79,14 @@ Les outils gratuits sont représentés par :free:, les payants par :moneybag:, e
 * **[Zaba Search](http://www.zabasearch.com)**
 * **[411](http://www.411.com)**
 
+<div id='section-noms-domaines'/>
+
 #### Noms de domaines
 
 * **[Netcraft](https://www.netcraft.com)** : outil d'analyse noms de domaines, d'OS, de provider, des certificats d'un site web
 * **[Sublist3r](https://github.com/aboul3la/Sublist3r)** : script python énumérant les sous-domaines d'un site à partir de plusieurs sources comme Google, Ask, Netcraft, DNSDumpster, ReverseDNS...
+
+<div id='section-localisation'/>
 
 #### Localisation
 
@@ -67,12 +97,16 @@ Les outils gratuits sont représentés par :free:, les payants par :moneybag:, e
 * **[Wikimapia](http://www.wikimapia.org)** : service de cartographie de Wikimapia
 * **[Yahoo Maps](https://maps.yahoo.com)** : service de cartographie de Yahoo
 
+<div id='section-finance'/>
+
 #### Finance
 
 * **[Google Finance](https://google.com/finance)** : obtenir des informations financières
 * **[MarketWatch](https://wwww.marketwatch.com)**
 * **[TheStreet](https://www.thestreet.com)**
 * **[Yahoo! Finance](https://finance.yahoo.com)**
+
+<div id='section-offre-emploi'/>
 
 #### Offres d'emplois
 
@@ -86,6 +120,8 @@ Les outils gratuits sont représentés par :free:, les payants par :moneybag:, e
 * **[Simply Hired](https://wwww.simplyhired.com)**
 * **[USA Jobs](https://wwww.usajobs.gov)**
 
+<div id='section-suivi-cible'/>
+
 #### Suivi de cible - notificatioins
 
 * **[Giga Alert](https://www.gigaalert.com)** 
@@ -93,12 +129,16 @@ Les outils gratuits sont représentés par :free:, les payants par :moneybag:, e
 * **[TalkWalker Alerts](https://wwww.talkwalker.com)**
 * **[Twitter Alerts](https://twitter.com/alerts)**
 
+<div id='section-os-vulnerabilites'/>
+
 #### OS - Vulnérabilités applications web - localisation
 
 * **[Burp Suit](https://portswigger.net)** : tests de sécurité sur des applications web : mapping, analyse de la surface d'attaque, recherche de vulnérabilités
 * **[Censys](https://censys.io)** : moteur de recherche par adresse IP qui donne des informations sur l'équipement : ports/services/localisation
 * **[Shodan](https://www.shodan.com)** : chercher des équipement sur internet : routeurs, serveurs, IOT...  
 * **[Zaproxy](https://www.zaproxy.org)** : trouver des vulnérabilités sur des applications web
+
+<div id='section-web-crawler'/>
 
 #### Web crawler - spider - robot
 
@@ -109,6 +149,8 @@ Les outils gratuits sont représentés par :free:, les payants par :moneybag:, e
 * **[Visual SEO](https://visual-seo.com)** :lock: : afficher des informations sur le SEO des sites internet
 * **[Web data extractor](http://www.webextractor.com)** :lock: : crawler pour extraire des informations sur des sites internet
 
+<div id='section-mirroring-website'/>
+
 #### Mirroring website
 
 * **[HTTrack](https://www.httrack.com)** :unlock::free: : aspirateur de site web
@@ -118,12 +160,16 @@ Les outils gratuits sont représentés par :free:, les payants par :moneybag:, e
 * **[Teleport pro](http://www.tenmax.com/home.htm)** :lock::moneybag: : télécharger des fichiers de sites internet
 * **[wget](gnu.org)** :unlock::free: : besoin de présenter ?
 
+<div id='section-metadonnees'/>
+
 #### Métadonnées
 
 * **[Metagoofil](https://code.google.com/archive/p/metagoofil)** :unlock::free: : script python extracteur de métadonnées à partir de recherche Google
 * **[ExtractMetadata](https://www.extractmetadata.com)** :lock::free: : site web extracteur de métadonnées à partir d'un fichier ou d'une UR
 * **[FOCA](https://github.com/ElevenPaths/FOCA)** :unlock::free: : extracteur de métadonnées
 * **[BuzzStream ](http://tools.buzzstream.com/link-building)** :lock::free: : suite d'outils pour recherche d'emails, domaines, métadonnées...
+
+<div id='section-monitoring-webpages'/>
 
 #### Monitoring de pages et suivi
 
@@ -133,6 +179,8 @@ Les outils gratuits sont représentés par :free:, les payants par :moneybag:, e
 * **[Versionista](https://versionista.com)** :lock::money_with_wings: : outil en ligne permettant de monitorer 5 URL gratuitement
 * **[Check4Change](https://addons.mozilla.org/en-US/firefox/addon/check4change)** :lock::free: : extension Firefox pour monitorer des pages web en local
 * **[Update Scanner](https://addons.mozilla.org/fr/firefox/addon/update-scanner)** :unlock::free: : extension Firefox pour monitorer des pages web en local
+
+<div id='section-email-tracking'/>
 
 #### Email tracking
 
