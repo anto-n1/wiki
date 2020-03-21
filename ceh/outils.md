@@ -137,7 +137,7 @@ Les outils gratuits sont représentés par :free:, les payants par :moneybag:, e
 ### Email tracking
 
 * [eMailTrackerPro](http://www.emailtrackerpro.com) :lock::money_with_wings: : tracer des mails et obtenir informations
-* [Yesware](http://www.yesware.com) :lock::moneybag: : connaître l'engagement des personnes à la lecture d'un mail : lien cliqués, pièce-jointes ouvertes...
+* **[Yesware](http://www.yesware.com)** :lock::moneybag: : connaître l'engagement des personnes à la lecture d'un mail : lien cliqués, pièce-jointes ouvertes...
 * [ContactMonkey](https://contactmonkey.com) :lock::money_with_wings: : connaître les statistiques internes d'une entreprise par rapport à l'envoie de mails
 * [PointOfMail](https://www.pointofmail.com) :lock::money_with_wings: : savoir qui, quand à lu, cliqué sur un mail
 * [GetNotify](https://www.getnotify.com) :lock::free: : être notifié quand un mail est lu et avoir des informations
