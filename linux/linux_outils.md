@@ -6,6 +6,10 @@ Liste d'outils utils sous Linux
 
 * **molly-guard** : permet de confirmer un redémarrage/extinction pour éviter le redémarrage en se trompant de terminal
 
+## Ligne de commande
+
+* **exiftool** : afficher des informations de métadonnées sur les fichiers
+
 ## Markdown
 
 * **SummarizeMD** : script générant un sommaire dans les fichiers Markdown. [Lien github](https://github.com/velthune/summarizeMD)
