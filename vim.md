@@ -19,14 +19,14 @@ Le meilleur editeur de texte jamais créé.
 | Syntaxe | Signification |
 | --- | --- |
 | /texte | recherche le mot « texte » dans le fichier |
-| n | déplacement à l&#39;occurrence suivante |
-| N | déplacement à l&#39;occurrence précédente |
-| \* | cherche le mot placé sous le curseur (vers l&#39;avant) |
-| # | cherche le mot placé sous le curseur (vers l&#39;arrière) |
+| n | déplacement à l'occurrence suivante |
+| N | déplacement à l'occurrence précédente |
+| \* | cherche le mot placé sous le curseur (vers l'avant) |
+| # | cherche le mot placé sous le curseur (vers l'arrière) |
 
-Les occurrences sont surlignées. La recherche n&#39;est pas sensible à la casse sauf si une majuscule est tapée dans le champs de saisie.
-
-Préfixer les caractères spéciaux par \
+Les occurrences sont surlignées.  
+La recherche n'est pas sensible à la casse sauf si une majuscule est tapée dans le champs de saisie.  
+Préfixer les caractères spéciaux dans la recherche par "\\".
 
 ## Fenêtrage
 
@@ -74,10 +74,10 @@ Préfixer les caractères spéciaux par \
 | nj | se déplace de n lignes vers le bas |
 | gg | va au début du fichier |
 | 34 | se rendre à la ligne 34 |
-| dw | supprime les caractères jusqu&#39;au prochain mot |
-| cw | supprime les caractères jusqu&#39;au prochain mot et passer en mode insertion |
-| d$ | supprime jusqu&#39;à la fin de la ligne |
-| d^        | supprime jusqu&#39;au début de la ligne |
+| dw | supprime les caractères jusqu'au prochain mot |
+| cw | supprime les caractères jusqu'au prochain mot et passer en mode insertion |
+| d$ | supprime jusqu'à la fin de la ligne |
+| d^        | supprime jusqu'au début de la ligne |
 | x | supprime le caractère sous le curseur |
 | dd | supprime la ligne courante et copie dans le presse papier |
 | nd | supprime n ligne suivantes (ex : 3d supprime les 3 lignes suivantes) |
@@ -87,8 +87,8 @@ Préfixer les caractères spéciaux par \
 
 | Syntaxe | Signification |
 | --- | --- |
-| i | mode insertion avant l&#39;emplacement du curseur |
-| a | mode insertion après l&#39;emplacement du curseur |
+| i | mode insertion avant l'emplacement du curseur |
+| a | mode insertion après l'emplacement du curseur |
 | I | mode insertion au début de la ligne |
 | A | mode insertion à la fin de la ligne |
 | o | insère une nouvelle ligne en dessous de la ligne courante |
@@ -104,9 +104,9 @@ Préfixer les caractères spéciaux par \
 | P | colle avant le curseur |
 | 2yy | copie deux lignes dans le presse-papier |
 | d | couper la sélection |
-| yw | copie les caractères jusqu&#39;au prochain mot |
-| y$ | copie jusqu&#39;à la fin de la ligne |
-| y^        | copie jusqu&#39;au premier caractère non blanc de la ligne |
+| yw | copie les caractères jusqu'au prochain mot |
+| y$ | copie jusqu'à la fin de la ligne |
+| y^        | copie jusqu'au premier caractère non blanc de la ligne |
 
 ## Suppression
 
@@ -115,4 +115,4 @@ Préfixer les caractères spéciaux par \
 | x | efface le caractère sous le curseur |
 | X | efface le caractère avant le curseur |
 | dd | efface la ligne courante et la place dans le presse papier |
-| 3x | efface 3 caractères vers l&#39;avant du curseur |
+| 3x | efface 3 caractères vers l'avant du curseur |
