@@ -1,55 +1,42 @@
 <div id='section-titre'/>
 
-# Liste des outils de hacking
+# Outils de hacking
 
-Cette page regroupe l'ensemble des outils utiles à utiliser pour toutes les phases de hacking.  
+Cette page regroupe un ensemble d'outils à utiliser pour toutes les phases de hacking.  
 Les outils sont classés par catégories.
 
-Les meilleurs et pires outils que j'ai testé sont représentés par les emojis suivants :
+Signification des emojis :
 
 :heart: -> coup de coeur  
 :thumbsup: -> très bon  
 :smile: -> bon  
 :poop: -> outil merdique  
 
-Les outils open source sont indiqués par :unlock: et les propriétaires par :lock:.  
-Les outils gratuits sont représentés par :free:, les payants par :moneybag:, et les outils freemium (version gratuite limitée et payante complète ou avec période d'essai gratuite) par :money_with_wings:.
+:unlock: -> open source/libre  
+:lock: -> propriétaire
+
+:free: -> totalement gratuit  
+:money_with_wings: -> freemium (version gratuite limitée et payante complète et/ou période d'essai gratuite)  
+:moneybag: -> payant
+
 
 ## Table des matières
 
-<!--
 * [Liste des outils de hacking](#section-titre)
-	* [Prise d'empreinte](#section-prise-empreinte)
-		* [Moteurs de recherche](#section-moteurs-recherche)
-		* [Réseaux et outils sociaux](#section-reseaux-outils-sociaux)
-		* [Noms de domaines](#section-noms-domaines)
-		* [Localisation](#section-localisation)
-		* [Finance](#section-finance)
-		* [Offres d'emplois](#section-offre-emploi)
-		* [Suivi de cible - notificatioins](#section-suivi-cible)
-		* [OS - Vulnérabilités applications web - localisation](#section-os-vulnerabilites)
-		* [Web crawler - spider - robot](#section-web-crawler)
-		* [Mirroring website](#section-mirroring-website)
-		* [Métadonnées](#section-metadonnees)
-		* [Monitoring de pages et suivi](#section-monitoring-webpages)
-		* [Email tracking](#section-email-tracking)
--->
-
-:small_orange_diamond: [Liste des outils de hacking](#section-titre)
-	:small_orange_diamond: [Prise d'empreinte](#section-prise-empreinte)
-		:small_orange_diamond: [Moteurs de recherche](#section-moteurs-recherche)
-		:small_orange_diamond: [Réseaux et outils sociaux](#section-reseaux-outils-sociaux)
-		:small_orange_diamond: [Noms de domaines](#section-noms-domaines)
-		:small_orange_diamond: [Localisation](#section-localisation)
-		:small_orange_diamond: [Finance](#section-finance)
-		:small_orange_diamond: [Offres d'emplois](#section-offre-emploi)
-		:small_orange_diamond: [Suivi de cible - notificatioins](#section-suivi-cible)
-		:small_orange_diamond: [OS - Vulnérabilités applications web - localisation](#section-os-vulnerabilites)
-		:small_orange_diamond: [Web crawler - spider - robot](#section-web-crawler)
-		:small_orange_diamond: [Mirroring website](#section-mirroring-website)
-		:small_orange_diamond: [Métadonnées](#section-metadonnees)
-		:small_orange_diamond: [Monitoring de pages et suivi](#section-monitoring-webpages)
-		:small_orange_diamond: [Email tracking](#section-email-tracking)
+	* [Prise d'empreinte](#section-prise-empreinte)  
+		:small_orange_diamond: [Moteurs de recherche](#section-moteurs-recherche)  
+		:small_orange_diamond: [Réseaux et outils sociaux](#section-reseaux-outils-sociaux)  
+		:small_orange_diamond: [Noms de domaines](#section-noms-domaines)  
+		:small_orange_diamond: [Localisation](#section-localisation)  
+		:small_orange_diamond: [Finance](#section-finance)  
+		:small_orange_diamond: [Offres d'emplois](#section-offre-emploi)  
+		:small_orange_diamond: [Suivi de cible - notificatioins](#section-suivi-cible)  
+		:small_orange_diamond: [OS - Vulnérabilités applications web - localisation](#section-os-vulnerabilites)  
+		:small_orange_diamond: [Web crawler - spider - robot](#section-web-crawler)  
+		:small_orange_diamond: [Mirroring website](#section-mirroring-website)  
+		:small_orange_diamond: [Métadonnées](#section-metadonnees)  
+		:small_orange_diamond: [Monitoring de pages et suivi](#section-monitoring-webpages)  
+		:small_orange_diamond: [Email tracking](#section-email-tracking)  
 
 <div id='section-prise-empreinte'/>
 
@@ -57,56 +44,54 @@ Les outils gratuits sont représentés par :free:, les payants par :moneybag:, e
 
 <div id='section-moteurs-recherche'/>
 
-#### Moteurs de recherche
+##### :small_orange_diamond: Moteurs de recherche
 
-* **[Aol](https://search.aol.co.uk)**
-* **[Ask](https://uk.ask.com)**
-* **[Baidu](http://www.baidu.com)**
-* **[Bing](https://www.bing.com)**
-* **[DuckDuckGo](https://duckduckgo.com)**
+* **[Aol](https://search.aol.co.uk)** : l'un des premiers moteurs de recherche
+* **[Ask](https://uk.ask.com)** : également l'un des premiers
+* **[Baidu](http://www.baidu.com)** : moteur chinois
+* **[Bing](https://www.bing.com)** : appartient à Microsoft
+* **[DuckDuckGo](https://duckduckgo.com)** : respectueux de la vie privée
 * **[Exploit DB](https://www.exploit-db.com)** : outil web regroupant des CVE, pratiques GHDB...
-* **[Google](https://www.google.com)** : pas besoin de présenter
+* **[Google](https://www.google.com)** : bah c'est Google
 * **[google.com/advanced_search](https://www.google.com/advanced_search)** : outil graphique de recherches avancées de Google
 * **[googleguide.com](http://googleguide.com)** : regroupe les opérateurs de recherche avancée de Google
 * **[Internet Archive](https://archive.org)** : outil permettant d'afficher des pages web à travers le temps
-* **[Qwant](https://qwant.com)**
-* **[Startpage](https://www.startpage.com)**
-* **[Yahoo](https://fr.yahoo.com)**
+* **[Qwant](https://qwant.com)** : moteur de recherche français respecteux de la vie privée
+* **[Startpage](https://www.startpage.com)** : respecte la vie privée
+* **[Yahoo](https://fr.yahoo.com)** : encore assez utilisé dans le monde
 
 <div id='section-reseaux-outils-sociaux'/>
 
-#### Réseaux et outils sociaux
+##### :small_orange_diamond: Réseaux et outils sociaux
 
-* **[AnyWho](https://www.anywho.com)**
-* **[BeenVerified](https://www.beenverified.com)**
-* **[Facebook](https://www.facebook.com)**
-* **[Instagram](https://www.instagram.com)**
-* **[Intelius](https://www.intelius.com)**
+* **[AnyWho](https://www.anywho.com)** : trouver une personne à partir de son nom/prénom/adresse
+* **[BeenVerified](https://www.beenverified.com)** : rechercher une personne à partir de son nom/prénom
+* **[Facebook](https://www.facebook.com)** : Facebook
+* **[Instagram](https://www.instagram.com)** : Instagram
+* **[Intelius](https://www.intelius.com)** : obtenir infos sur des personnes à partir de nom/prénom/adresse
 * **[InSpy](https://github.com/leapsecurity/InSpy)** : trouver des gens via LinkedIn à partir de noms d'entreprises, numéros de téléphone, noms, adresses...
-* **[LinkedIn](https://www.linkedin.com)**
-* **[Pinterest](https://www.pinterest.com)**
+* **[LinkedIn](https://www.linkedin.com)** : LinkedIn
+* **[Pinterest](https://www.pinterest.com)** : Pinterest
 * **[Pipl](https://pipl.com)** : agrégateur d'informations sur des personnes
-* **[PrivateEye](http://www.privateeye.com)**
-* **[Public Background Checks](http://www.publicbackgroundchecks.com)**
-* **[Spokeo](https://www.spokeo.com)**
-* **[Twitter](https://twitter.com)**
-* **[YouTube](https://www.youtube.com)**
-* **[US Search](https://ussearch.com)**
-* **[Veromi](http://www.veromi.net)**
-* **[WebMii](http://webmii.com)**
-* **[Zaba Search](http://www.zabasearch.com)**
-* **[411](http://www.411.com)**
+* **[PrivateEye](http://www.privateeye.com)** : trouver des informations sur des personnes
+* **[Spokeo](https://www.spokeo.com)** : réunir des informations sur des personnes
+* **[Twitter](https://twitter.com)** : Twitter
+* **[YouTube](https://www.youtube.com)** : Youtube
+* **[US Search](https://ussearch.com)** : obtenir des infos sur des personnes aux USA
+* **[WebMii](http://webmii.com)** : moteur de recherche de personnes
+* **[Zaba Search](http://www.zabasearch.com)** : trouver des personnes aux USA
+* **[411](http://www.411.com)** : trouver les informations de contact de personnes
 
 <div id='section-noms-domaines'/>
 
-#### Noms de domaines
+##### :small_orange_diamond: Noms de domaines
 
 * **[Netcraft](https://www.netcraft.com)** : outil d'analyse noms de domaines, d'OS, de provider, des certificats d'un site web
 * **[Sublist3r](https://github.com/aboul3la/Sublist3r)** : script python énumérant les sous-domaines d'un site à partir de plusieurs sources comme Google, Ask, Netcraft, DNSDumpster, ReverseDNS...
 
 <div id='section-localisation'/>
 
-#### Localisation
+##### :small_orange_diamond: Localisation
 
 * **[Bing Maps](https://www.bing.com/maps)** : service de cartographie de Bing
 * **[Google Earth](https://earth.google.com)** : obtenir des images 3D de batiments en haute résolution
@@ -117,39 +102,39 @@ Les outils gratuits sont représentés par :free:, les payants par :moneybag:, e
 
 <div id='section-finance'/>
 
-#### Finance
+##### :small_orange_diamond: Finance
 
-* **[Google Finance](https://google.com/finance)** : obtenir des informations financières
-* **[MarketWatch](https://wwww.marketwatch.com)**
-* **[TheStreet](https://www.thestreet.com)**
-* **[Yahoo! Finance](https://finance.yahoo.com)**
+* **[Google Finance](https://google.com/finance)** : suivre le cours d'actions et de devises
+* **[MarketWatch](https://wwww.marketwatch.com)** : suivre le cours de la bourse
+* **[TheStreet](https://www.thestreet.com)** : suivre le cours de la bourse, les marchés, ses investissements
+* **[Yahoo! Finance](https://finance.yahoo.com)** : actualité des finances et suivi de bourse
 
 <div id='section-offre-emploi'/>
 
-#### Offres d'emplois
+##### :small_orange_diamond: Offres d'emplois
 
-* **[CareerBuilder](https://wwww.careerbuilder.com)**
-* **[Dice](https://wwww.dice.com)**
-* **[Glassdor](https://wwww.glassdor.com)**
-* **[Idealist](https://wwww.idealist.org)**
-* **[Indeed](https://wwww.indeed.com)**
-* **[LinkedIn](https://wwww.linkedin.com)**
-* **[Monster](https://wwww.monster.com)**
-* **[Simply Hired](https://wwww.simplyhired.com)**
-* **[USA Jobs](https://wwww.usajobs.gov)**
+* **[CareerBuilder](https://wwww.careerbuilder.com)** : agrégateur d'annonces d'emploi
+* **[Dice](https://wwww.dice.com)** : agrégateur d'annonces d'emploi
+* **[Glassdor](https://wwww.glassdor.com)** : agrégateur d'annonces d'emploi
+* **[Idealist](https://wwww.idealist.org)** : agrégateur d'annonces d'emploi
+* **[Indeed](https://wwww.indeed.com)** : agrégateur d'annonces d'emploi
+* **[LinkedIn](https://wwww.linkedin.com)** : LinkedIn
+* **[Monster](https://wwww.monster.com)** : agrégateur d'annonces d'emploi
+* **[Simply Hired](https://wwww.simplyhired.com)** : agrégateur d'annonces d'emploi
+* **[USA Jobs](https://wwww.usajobs.gov)** : site officiel du gouvernement américain concernant des offres d'emplois
 
 <div id='section-suivi-cible'/>
 
-#### Suivi de cible - notificatioins
+##### :small_orange_diamond: Suivi de cible - notificatioins
 
-* **[Giga Alert](https://www.gigaalert.com)** 
-* **[Google Alerts](https://www.google.com/alerts)**
-* **[TalkWalker Alerts](https://wwww.talkwalker.com)**
-* **[Twitter Alerts](https://twitter.com/alerts)**
+* **[Giga Alert](https://www.gigaalert.com)** : traquer ses intêrets sur internet
+* **[Google Alerts](https://www.google.com/alerts)** : outil d'alertes de Google
+* **[TalkWalker Alerts](https://wwww.talkwalker.com)** : outil de veille et social listenning pour les marques à la base
+* **[Twitter Alerts](https://twitter.com/alerts)** : outil de Twitter pour recevoir des alertes à partir de mots clés/sujets
 
 <div id='section-os-vulnerabilites'/>
 
-#### OS - Vulnérabilités applications web - localisation
+##### :small_orange_diamond: OS - Vulnérabilités applications web - localisation
 
 * **[Burp Suit](https://portswigger.net)** : tests de sécurité sur des applications web : mapping, analyse de la surface d'attaque, recherche de vulnérabilités
 * **[Censys](https://censys.io)** : moteur de recherche par adresse IP qui donne des informations sur l'équipement : ports/services/localisation
@@ -158,7 +143,7 @@ Les outils gratuits sont représentés par :free:, les payants par :moneybag:, e
 
 <div id='section-web-crawler'/>
 
-#### Web crawler - spider - robot
+##### :small_orange_diamond: Web crawler - spider - robot
 
 * **[BeamUsUp](https://beamusup.com)** :lock: : avoir des informations SEO sur les sites
 * **[Scrapy](https://scrapy.org)** :unlock::free: : framework python pour scraper des pages web
@@ -169,7 +154,7 @@ Les outils gratuits sont représentés par :free:, les payants par :moneybag:, e
 
 <div id='section-mirroring-website'/>
 
-#### Mirroring website
+##### :small_orange_diamond: Mirroring website
 
 * **[HTTrack](https://www.httrack.com)** :unlock::free: : aspirateur de site web
 * **[NCollector Studio](http://www.calluna-software.com)** :lock::money_with_wings: : télécharger des fichiers de sites en fonction de leur type
@@ -180,16 +165,16 @@ Les outils gratuits sont représentés par :free:, les payants par :moneybag:, e
 
 <div id='section-metadonnees'/>
 
-#### Métadonnées
+##### :small_orange_diamond: Métadonnées
 
 * **[Metagoofil](https://code.google.com/archive/p/metagoofil)** :unlock::free: : script python extracteur de métadonnées à partir de recherche Google
-* **[ExtractMetadata](https://www.extractmetadata.com)** :lock::free: : site web extracteur de métadonnées à partir d'un fichier ou d'une UR
+* **[ExtractMetadata](https://www.extractmetadata.com)** :lock::free: : site web extracteur de métadonnées à partir d'un fichier ou d'une URL
 * **[FOCA](https://github.com/ElevenPaths/FOCA)** :unlock::free: : extracteur de métadonnées
 * **[BuzzStream ](http://tools.buzzstream.com/link-building)** :lock::free: : suite d'outils pour recherche d'emails, domaines, métadonnées...
 
 <div id='section-monitoring-webpages'/>
 
-#### Monitoring de pages et suivi
+##### :small_orange_diamond: Monitoring de pages et suivi
 
 * **[WebSite-Watcher](http://aignes.com)** :lock::money_with_wings: : détecter automatiquement et suivre l'évolution de page web à partir de mots-clés, monitorer un site et flux RSS, surligner des changements...
 * **[VisualPing](https://visualping.io)** :lock::free: : outil en ligne prenant des screenshots de site et envoie un mail en cas de changement
@@ -200,7 +185,7 @@ Les outils gratuits sont représentés par :free:, les payants par :moneybag:, e
 
 <div id='section-email-tracking'/>
 
-#### Email tracking
+##### :small_orange_diamond: Email tracking
 
 * **[eMailTrackerPro](http://www.emailtrackerpro.com)** :lock::money_with_wings: : tracer des mails et obtenir informations
 * **[Yesware](http://www.yesware.com)** :lock::moneybag: : connaître l'engagement des personnes à la lecture d'un mail : lien cliqués, pièce-jointes ouvertes...
@@ -210,5 +195,5 @@ Les outils gratuits sont représentés par :free:, les payants par :moneybag:, e
 * **[G-Lock Analytics](https://glockanalytics.com)** :lock::money_with_wings: : savoir comment les gens réagissent à une campagne de mails
 
 <!--
-* []() :::: :
+* **[]()** :::: :
 -->
