@@ -1,31 +1,24 @@
-# MEMO VIM
+# VIM - Vi IMproved
+
+Le meilleur editeur de texte jamais créé.
 
 ## Sens des lettres
 
-d – delete, supprimer  
-c – supprimer et passer en mode insertion  
-w – mot suivant  
-$ – fin de ligne  
-0 – début de ligne  
-^ – premier caractère non blanc  
-k – ligne précédente  
-j – ligne suivante  
-v – mode visuel  
-
-
-
-## Marqueurs (ou registres en langage Vim, en mode normal)
-
-| ma | pose un marqueur (utiliser plusieurs lettres) |
-| --- | --- |
-| &#39;a | rejoint le marqueur a |
-
-
+**d** – delete, supprimer  
+**c** – supprimer et passer en mode insertion  
+**w** – mot suivant  
+**$** – fin de ligne  
+**0** – début de ligne  
+**^** – premier caractère non blanc  
+**k** – ligne précédente  
+**j** – ligne suivante  
+**v** – mode visuel  
 
 ## Recherche
 
-| /texte | recherche le mot « texte » dans le fichier |
+| Syntaxe | Signification |
 | --- | --- |
+| /texte | recherche le mot « texte » dans le fichier |
 | n | déplacement à l&#39;occurrence suivante |
 | N | déplacement à l&#39;occurrence précédente |
 | \* | cherche le mot placé sous le curseur (vers l&#39;avant) |
@@ -37,13 +30,15 @@ Préfixer les caractères spéciaux par \
 
 ## Fenêtrage
 
-| :tabnew fichier | ouvre le fichier fichier dans un nouvel onglet |
+| Syntaxe | Signification |
 | --- | --- |
+| :tabnew fichier | ouvre le fichier fichier dans un nouvel onglet |
 
 ## Sauver, charger, quitter
 
-| :w | sauve le fichier en cours d&#39;édition |
+| Syntaxe | Signification |
 | --- | --- |
+| :w | sauve le fichier en cours d&#39;édition |
 | :w fichier | écrit le texte dans le fichier fichier |
 | :sav fichier | sauve le fichier sous un nouveau nom |
 | :ed fichier | édite un nouveau fichier |
@@ -55,24 +50,21 @@ Préfixer les caractères spéciaux par \
 
 ## Annuler / Refaire
 
-| u | annule la dernière opération |
+| Syntaxe | Signification |
 | --- | --- |
+| u | annule la dernière opération |
 | ctrl+r | annule le annuler (refaire) |
-
-
 
 ## Déplacements
 
-J – gauche
+**J** – gauche  
+**K** – bas  
+**L** – haut  
+**M** - droite  
 
-K – bas
-
-L – haut
-
-M - droite
-
-| e | à la fin du mot courant |
+| Syntaxe | Signification |
 | --- | --- |
+| e | à la fin du mot courant |
 | b | au début du mot courant |
 | w | au début du mot suivant |
 | ^  | au premier caractère non blanc au-dessus de la ligne |
@@ -82,9 +74,7 @@ M - droite
 | nj | se déplace de n lignes vers le bas |
 | gg | va au début du fichier |
 | 34 | se rendre à la ligne 34 |
-
 | dw | supprime les caractères jusqu&#39;au prochain mot |
-| --- | --- |
 | cw | supprime les caractères jusqu&#39;au prochain mot et passer en mode insertion |
 | d$ | supprime jusqu&#39;à la fin de la ligne |
 | d^        | supprime jusqu&#39;au début de la ligne |
@@ -93,12 +83,11 @@ M - droite
 | nd | supprime n ligne suivantes (ex : 3d supprime les 3 lignes suivantes) |
 | nG | va à la ligne n (ex : 5G va à la ligne 5) |
 
-
-
 ## Insertion
 
-| i | mode insertion avant l&#39;emplacement du curseur |
+| Syntaxe | Signification |
 | --- | --- |
+| i | mode insertion avant l&#39;emplacement du curseur |
 | a | mode insertion après l&#39;emplacement du curseur |
 | I | mode insertion au début de la ligne |
 | A | mode insertion à la fin de la ligne |
@@ -106,26 +95,24 @@ M - droite
 | O | insère une nouvelle ligne au-dessus de la ligne courante |
 | r | remplace les caractères sous le curseur |
 
-
-
 ## Copiage/Collage (être en mode visuel pour copier)
 
-| y | copie la sélection |
+| Syntaxe | Signification |
 | --- | --- |
+| y | copie la sélection |
 | p | colle après le curseur |
 | P | colle avant le curseur |
 | 2yy | copie deux lignes dans le presse-papier |
 | d | couper la sélection |
-
 | yw | copie les caractères jusqu&#39;au prochain mot |
-| --- | --- |
 | y$ | copie jusqu&#39;à la fin de la ligne |
 | y^        | copie jusqu&#39;au premier caractère non blanc de la ligne |
 
 ## Suppression
 
-| x | efface le caractère sous le curseur |
+| Syntaxe | Signification |
 | --- | --- |
+| x | efface le caractère sous le curseur |
 | X | efface le caractère avant le curseur |
 | dd | efface la ligne courante et la place dans le presse papier |
 | 3x | efface 3 caractères vers l&#39;avant du curseur |
