@@ -47,6 +47,8 @@ Signification des emojis :
 
 ##### :small_orange_diamond: Moteurs de recherche
 
+Tous les outils de cette section sont gratuits et propriétaires.
+
 * **[Aol](https://search.aol.co.uk)** : l'un des premiers moteurs de recherche
 * **[Ask](https://uk.ask.com)** : également l'un des premiers
 * **[Baidu](http://www.baidu.com)** : moteur chinois
@@ -137,8 +139,8 @@ Signification des emojis :
 
 ##### :small_orange_diamond: OS - Vulnérabilités applications web - localisation
 
-* **[Burp Suit](https://portswigger.net)** :lock::money_with_wings: : tests de sécurité sur des applications web : mapping, analyse de la surface d'attaque, recherche de vulnérabilités
-* **[Censys](https://censys.io)** :lock::moneybag: : moteur de recherche par adresse IP qui donne des informations sur l'équipement : ports/services/localisation
+* **[Burp Suit](https://portswigger.net)** :lock::money_with_wings: : tests d'applications web : mapping, analyse de surface d'attaque, recherche de vulnérabilités
+* **[Censys](https://censys.io)** :lock::moneybag: : moteur de recherche par IP donnant des informations sur l'équipement : ports/services/localisation
 * **[Shodan](https://www.shodan.io)** :lock::money_with_wings: : chercher des équipement sur internet : routeurs, serveurs, IOT...  
 * **[Zaproxy](https://www.zaproxy.org)** :unlock::free: : trouver des vulnérabilités sur des applications web
 
