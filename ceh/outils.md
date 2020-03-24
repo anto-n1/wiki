@@ -7,18 +7,19 @@ Les outils sont classés par catégories.
 
 Signification des emojis :
 
+<!--
+	QUAND J'AURAI COMMENCE A TESTER
 :heart: -> coup de coeur  
 :thumbsup: -> très bon  
 :smile: -> bon  
 :poop: -> outil merdique  
-
+-->
 :unlock: -> open source/libre  
 :lock: -> propriétaire
 
 :free: -> totalement gratuit  
 :money_with_wings: -> freemium (version gratuite limitée et payante complète et/ou période d'essai gratuite)  
 :moneybag: -> payant
-
 
 ## Table des matières
 
@@ -86,8 +87,8 @@ Signification des emojis :
 
 ##### :small_orange_diamond: Noms de domaines
 
-* **[Netcraft](https://www.netcraft.com)** : outil d'analyse noms de domaines, d'OS, de provider, des certificats d'un site web
-* **[Sublist3r](https://github.com/aboul3la/Sublist3r)** : script python énumérant les sous-domaines d'un site à partir de plusieurs sources comme Google, Ask, Netcraft, DNSDumpster, ReverseDNS...
+* **[Netcraft](https://www.netcraft.com)** :unlock::money_with_wings:: outil d'analyse noms de domaines, d'OS, de provider, des certificats d'un site web
+* **[Sublist3r](https://github.com/aboul3la/Sublist3r)** :unlock::free: : script python énumérant les sous-domaines d'un site à partir de plusieurs sources comme Google, Ask, Netcraft, DNSDumpster, ReverseDNS...
 
 <div id='section-localisation'/>
 
@@ -136,10 +137,10 @@ Signification des emojis :
 
 ##### :small_orange_diamond: OS - Vulnérabilités applications web - localisation
 
-* **[Burp Suit](https://portswigger.net)** : tests de sécurité sur des applications web : mapping, analyse de la surface d'attaque, recherche de vulnérabilités
-* **[Censys](https://censys.io)** : moteur de recherche par adresse IP qui donne des informations sur l'équipement : ports/services/localisation
-* **[Shodan](https://www.shodan.com)** : chercher des équipement sur internet : routeurs, serveurs, IOT...  
-* **[Zaproxy](https://www.zaproxy.org)** : trouver des vulnérabilités sur des applications web
+* **[Burp Suit](https://portswigger.net)** :lock::money_with_wings: : tests de sécurité sur des applications web : mapping, analyse de la surface d'attaque, recherche de vulnérabilités
+* **[Censys](https://censys.io)** :lock::moneybag: : moteur de recherche par adresse IP qui donne des informations sur l'équipement : ports/services/localisation
+* **[Shodan](https://www.shodan.io)** :lock::money_with_wings: : chercher des équipement sur internet : routeurs, serveurs, IOT...  
+* **[Zaproxy](https://www.zaproxy.org)** :unlock::free: : trouver des vulnérabilités sur des applications web
 
 <div id='section-web-crawler'/>
 
