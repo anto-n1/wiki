@@ -38,6 +38,11 @@ Signification des emojis :
 		:small_orange_diamond: [Métadonnées](#section-metadonnees)  
 		:small_orange_diamond: [Monitoring de pages et suivi](#section-monitoring-webpages)  
 		:small_orange_diamond: [Email tracking](#section-email-tracking)  
+		:small_orange_diamond: [Intelligence compétitive](#section-intelligence-competitive)  
+
+<!--
+:small_orange_diamond: [](#section-)  
+-->
 
 <div id='section-prise-empreinte'/>
 
@@ -196,6 +201,16 @@ Tous les outils de cette section sont gratuits et propriétaires.
 * **[PointOfMail](https://www.pointofmail.com)** :lock::money_with_wings: : savoir qui, quand à lu, cliqué sur un mail
 * **[GetNotify](https://www.getnotify.com)** :lock::free: : être notifié quand un mail est lu et avoir des informations
 * **[G-Lock Analytics](https://glockanalytics.com)** :lock::money_with_wings: : savoir comment les gens réagissent à une campagne de mails
+
+<div id='section-intelligence-competitive'/>
+
+##### :small_orange_diamond: Intelligence compétitive
+
+* **[EDGAR Database](https://www.sec.gov/edgar.shtml)** :lock::free: : pour Electronic Data Gathering, Analysis, and Retrieval : indexe les documents que les entreprises doivent soumettre des documents à la commission américaine des valeurs immobilières
+* **[LexisNexis](https://www.lexisnexis.com )** :lock::moneybag: : analyse de données, détection de fraude, investigation à propos d'entreprises
+* **[The Wall Street Transcript](https://www.twst.com)** :lock::free: : interviews d'investisseurs
+* **[Alexa](alexa.com)** :lock::money_with_wings: : outil d'Amazon pour analyser le SEO, le PPC, analyser des audiences...
+* **[Euromonitor](euromonitor.com)** :lock::money_with_wings: : fournit des recherches stratégiques pour les marchés de consommation, publie des rapports sur les industries, les consommateurs et la démographie 
 
 <!--
 * **[]()** :::: :
