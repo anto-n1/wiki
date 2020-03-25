@@ -17,6 +17,6 @@ Les différents RIR (Regional Internet Registries) sont :
 
 * **LACNIC** = Latin American and Caribbean Network Information Center -> administre les ressources et IP en Amérique Latine et dans les Caraïbes
 * **RIPE NCC** = Réseaux IP Européens Network Coordination Center -> administre les IP sur le territoire européen
- * **AFRINIC** = African Network Information Center -> administre les adresses IP en Afrique
- * **APNIC** = Asia Pacific Network Information Center -> administre les adresses IP en Asie
- * **ARIN** = American Registry for Internet Numbers -> administre les adresses IP en Amérique
+* **AFRINIC** = African Network Information Center -> administre les adresses IP en Afrique
+* **APNIC** = Asia Pacific Network Information Center -> administre les adresses IP en Asie
+* **ARIN** = American Registry for Internet Numbers -> administre les adresses IP en Amérique

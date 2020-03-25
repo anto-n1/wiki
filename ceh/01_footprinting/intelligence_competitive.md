@@ -13,6 +13,4 @@ Sources d'informations :
 * **[LexisNexis](https://www.lexisnexis.com )** :lock::moneybag: : analyse de données, détection de fraude, investigation à propos d'entreprises
 * **[The Wall Street Transcript](https://www.twst.com)** :lock::free: : interviews d'investisseurs
 * **[Alexa](alexa.com)** :lock::money_with_wings: : outil d'Amazon pour analyser le SEO, le PPC, analyser des audiences...
-* **[Euromonitor](euromonitor.com)** :lock::money_with_wings: : fournit des recherches stratégiques pour les marchés de consommation, publie des rapports sur les industries, les consommateurs et la démographie 
-
-D'autres outils
+* **[Euromonitor](euromonitor.com)** :lock::money_with_wings: : fournit des recherches stratégiques pour les marchés de consommation, publie des rapports sur les industries, les consommateurs et la démographie
