@@ -282,7 +282,7 @@ Possible avec l'environnement ```titlepage``` :
 * Environnement ```center``` pour centrer le texte
 * Changer les tailles avec ```\large```
 * Espacement avec ```\vspace``` et ```\hspace``` pour aérer le texte
-* ```\includegraphique``` permet d'inclure une image
+* ```\includegraphics``` permet d'inclure une image
 
 **Attention**, l'environnement ```titlepage``` doit se trouver juste après la commande ```\begin{document}```
 
