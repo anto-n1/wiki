@@ -38,7 +38,8 @@ Signification des emojis :
 		:small_orange_diamond: [Métadonnées](#section-metadonnees)  
 		:small_orange_diamond: [Monitoring de pages et suivi](#section-monitoring-webpages)  
 		:small_orange_diamond: [Email tracking](#section-email-tracking)  
-		:small_orange_diamond: [Intelligence compétitive](#section-intelligence-competitive)  
+		:small_orange_diamond: [Intelligence compétitive](#section-intelligence-competitive) 
+		:small_orange_diamond: [Intelligence compétitive](#section-whois) 
 
 <!--
 :small_orange_diamond: [](#section-)  
@@ -211,6 +212,15 @@ Tous les outils de cette section sont gratuits et propriétaires.
 * **[The Wall Street Transcript](https://www.twst.com)** :lock::free: : interviews d'investisseurs
 * **[Alexa](alexa.com)** :lock::money_with_wings: : outil d'Amazon pour analyser le SEO, le PPC, analyser des audiences...
 * **[Euromonitor](euromonitor.com)** :lock::money_with_wings: : fournit des recherches stratégiques pour les marchés de consommation, publie des rapports sur les industries, les consommateurs et la démographie 
+
+<div id='section-whois'/>
+
+##### :small_orange_diamond: Whois
+
+* **[Whois](https://linux.die.net/man/1/whois)** :unlock::free: : le whois, le vrai, en ligne de commande
+* **[Whois DomainTools](http://whois.domaintools.com)** : :locl::free: : outil en ligne permettant de faire des whois
+* **[ICANN lookup](https://lookup.icann.org)** :lock::free: : outil en ligne de l'ICANN
+
 
 <!--
 * **[]()** :::: :

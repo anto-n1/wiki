@@ -20,3 +20,5 @@ Les différents RIR (Regional Internet Registries) sont :
 * **AFRINIC** = African Network Information Center -> administre les adresses IP en Afrique
 * **APNIC** = Asia Pacific Network Information Center -> administre les adresses IP en Asie
 * **ARIN** = American Registry for Internet Numbers -> administre les adresses IP en Amérique
+
+Des outils en ligne sont disponibles pour faciliter la compréhension des whois comme [Whois DomainTools](http://whois.domaintools.com).
