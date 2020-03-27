@@ -8,7 +8,7 @@ Les outils sont classés par catégories.
 Signification des emojis :
 
 <!--
-	QUAND J'AURAI COMMENCE A TESTER
+QUAND J'AURAI COMMENCE A TESTER
 :heart: -> coup de coeur  
 :thumbsup: -> très bon  
 :smile: -> bon  
@@ -27,7 +27,7 @@ Signification des emojis :
 	* [Prise d'empreinte](#section-prise-empreinte)  
 		:small_orange_diamond: [Moteurs de recherche](#section-moteurs-recherche)  
 		:small_orange_diamond: [Réseaux et outils sociaux](#section-reseaux-outils-sociaux)  
-		:small_orange_diamond: [Noms de domaines](#section-noms-domaines)  
+		:small_orange_diamond: [Noms de domaines](#section-noms-domaines-dns)  
 		:small_orange_diamond: [Localisation](#section-localisation)  
 		:small_orange_diamond: [Finance](#section-finance)  
 		:small_orange_diamond: [Offres d'emplois](#section-offre-emploi)  
@@ -38,8 +38,8 @@ Signification des emojis :
 		:small_orange_diamond: [Métadonnées](#section-metadonnees)  
 		:small_orange_diamond: [Monitoring de pages et suivi](#section-monitoring-webpages)  
 		:small_orange_diamond: [Email tracking](#section-email-tracking)  
-		:small_orange_diamond: [Intelligence compétitive](#section-intelligence-competitive) 
-		:small_orange_diamond: [Intelligence compétitive](#section-whois) 
+		:small_orange_diamond: [Intelligence compétitive](#section-intelligence-competitive)  
+		:small_orange_diamond: [Whois](#section-whois)  
 
 <!--
 :small_orange_diamond: [](#section-)  
@@ -91,9 +91,9 @@ Tous les outils de cette section sont gratuits et propriétaires.
 * **[Zaba Search](http://www.zabasearch.com)** : trouver des personnes aux USA
 * **[411](http://www.411.com)** : trouver les informations de contact de personnes
 
-<div id='section-noms-domaines'/>
+<div id='section-noms-domaines-dns'/>
 
-##### :small_orange_diamond: Noms de domaines
+##### :small_orange_diamond: Noms de domaines et DNS
 
 * **[Netcraft](https://www.netcraft.com)** :unlock::money_with_wings:: outil d'analyse noms de domaines, d'OS, de provider, des certificats d'un site web
 * **[Sublist3r](https://github.com/aboul3la/Sublist3r)** :unlock::free: : script python énumérant les sous-domaines d'un site à partir de plusieurs sources comme Google, Ask, Netcraft, DNSDumpster, ReverseDNS...
@@ -218,7 +218,7 @@ Tous les outils de cette section sont gratuits et propriétaires.
 ##### :small_orange_diamond: Whois
 
 * **[Whois](https://linux.die.net/man/1/whois)** :unlock::free: : le whois, le vrai, en ligne de commande
-* **[Whois DomainTools](http://whois.domaintools.com)** : :locl::free: : outil en ligne permettant de faire des whois
+* **[Whois DomainTools](http://whois.domaintools.com)** : :lock::free: : outil en ligne permettant de faire des whois
 * **[ICANN lookup](https://lookup.icann.org)** :lock::free: : outil en ligne de l'ICANN
 
 

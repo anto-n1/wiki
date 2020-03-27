@@ -17,6 +17,7 @@ Cette page regroupe un ensemble de mots et abréviations utilisées dans le mond
 
 * **Daisy chaining** = réutilisation d'une information sur une nouvelle ressource (ex : attaque par rebond, mdp identiques en comptes)
 * **DLP** = Data Loss Prevention = contrôle des fuites des données sensibles
+* **DNSSEC** = DNS Security Extensions
 * **Doxing** = recherche d'informations et publication pour nuire
 
 ## G
