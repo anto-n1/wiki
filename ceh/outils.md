@@ -41,7 +41,7 @@ QUAND J'AURAI COMMENCE A TESTER
 		:small_orange_diamond: [Email tracking](#section-email-tracking)  
 		:small_orange_diamond: [Intelligence compétitive](#section-intelligence-competitive)  
 		:small_orange_diamond: [Whois - Traceroute](#section-whois-traceroute)  
-		:small_orange_diamond: [Agrégateurs et framework](#section-agregateur-frameworks)  
+		:small_orange_diamond: [Agrégateurs et framework](#section-agregateurs-frameworks)  
 
 <!--
 :small_orange_diamond: [](#section-)  
@@ -96,6 +96,8 @@ Tous les outils de cette section sont gratuits et propriétaires.
 
 ##### :small_orange_diamond: Noms de domaines et DNS
 
+* **[CloudFail](https://github.com/m0rtem/CloudFail)** :unlock::free: : script python pour avoir des infos DNS derrière un CloudFlare)
+* **[DigWebInterface](https://www.digwebinterface.com)** :lock::free: : site web permettant de faire des dig
 * **[Netcraft](https://www.netcraft.com)** :unlock::money_with_wings:: outil d'analyse noms de domaines, d'OS, de provider, des certificats d'un site web
 * **[Sublist3r](https://github.com/aboul3la/Sublist3r)** :unlock::free: : script python énumérant les sous-domaines d'un site à partir de plusieurs sources comme Google, Ask, Netcraft, DNSDumpster, ReverseDNS...
 * **[Kloth](http://www.kloth.net)** :lock::free: : site web permettant d'extraire des informations DNS 
@@ -225,6 +227,7 @@ Tous les outils de cette section sont gratuits et propriétaires.
 
 * **[ICANN lookup](https://lookup.icann.org)** :lock::free: : outil en ligne de l'ICANN
 * **[Path Analyzer](http://www.pathanalyzer.com)** :lock::money_with_wings: : client lourd réalisant des graphiques de traceroute
+* **[Pwhois](pwhois.org)** :unlock::free: : client avancé et serveur whois
 * **[VisualRoute](http://www.visualroute.com)** :lock::money_with_wings: : client lourd réalisant des graphiques de traceroute
 * **[Whois](https://linux.die.net/man/1/whois)** :unlock::free: : le whois, le vrai, en ligne de commande
 * **[Whois DomainTools](http://whois.domaintools.com)** : :lock::free: : outil en ligne permettant de faire des whois
@@ -236,10 +239,12 @@ Tous les outils de cette section sont gratuits et propriétaires.
 Les agrégateurs et frameworks sont des outils servant à regrouper plusieurs outils différents en un.
 
 * **[Maltego](https://www.maltego.com)** :unlock::free: : OSINT et forensic
+* **[OSRFramework](https://github.com/i3visio/osrframework)** :unlock::free: : ensemble de scripts python d'OSINT
+* **[Reconnoitre](https://github.com/codingo/Reconnoitre)** :unlock::free: : outil de reconnaissance qui trie les résultats par découverte et exploit
 * **[Recon-ng](https://github.com/lanmaster53/recon-ng)** :unlock::free: : reconnaissance basée sur le web qui regroupe le maximum d'outils de reconnaissance
 * **[Recon-Dog](https://github.com/s0md3v/ReconDog)** :unlock::free: : whois, DNS lookup, scan de ports, honeypot détecteur, et bien d'autres
-* **[OSRFramework](https://github.com/i3visio/osrframework)** :unlock::free: : ensemble de scripts python d'OSINT
-* **[]()** :::: :
+* **[Sn1per](https://github.com/1N3/Sn1per)** :unlock::free: : framework de pentest sous forme d'interface web (peut tourner avec docker)
+* **[theHarvester](https://github.com/laramies/theHarvester)** :unlock::free: : outil d'OSINT pour récupérer IP, mails, URL, domaines...
 
 <!--
 * **[]()** :::: :
