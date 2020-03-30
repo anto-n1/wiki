@@ -1,5 +1,3 @@
-<div id='section-titre'/>
-
 # Outils de hacking
 
 Cette page regroupe un ensemble d'outils à utiliser pour toutes les phases de hacking.  
@@ -24,7 +22,6 @@ QUAND J'AURAI COMMENCE A TESTER
 
 ## Table des matières
 
-[Liste des outils de hacking](#section-titre)  
 * [Prise d'empreinte](#section-prise-empreinte)  
 	 :small_orange_diamond: [Moteurs de recherche](#section-moteurs-recherche)  
 	 :small_orange_diamond: [Réseaux et outils sociaux](#section-reseaux-outils-sociaux)  
