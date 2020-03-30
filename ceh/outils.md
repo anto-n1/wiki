@@ -14,6 +14,7 @@ QUAND J'AURAI COMMENCE A TESTER
 :smile: -> bon  
 :poop: -> outil merdique  
 -->
+
 :unlock: -> open source/libre  
 :lock: -> propriétaire
 
@@ -39,12 +40,12 @@ QUAND J'AURAI COMMENCE A TESTER
 		:small_orange_diamond: [Monitoring de pages et suivi](#section-monitoring-webpages)  
 		:small_orange_diamond: [Email tracking](#section-email-tracking)  
 		:small_orange_diamond: [Intelligence compétitive](#section-intelligence-competitive)  
-		:small_orange_diamond: [Whois](#section-whois)  
+		:small_orange_diamond: [Whois - Traceroute](#section-whois-traceroute)  
+		:small_orange_diamond: [Agrégateurs et framework](#section-agregateur-frameworks)  
 
 <!--
 :small_orange_diamond: [](#section-)  
 -->
-
 <div id='section-prise-empreinte'/>
 
 ## Prise d'empreinte
@@ -97,6 +98,11 @@ Tous les outils de cette section sont gratuits et propriétaires.
 
 * **[Netcraft](https://www.netcraft.com)** :unlock::money_with_wings:: outil d'analyse noms de domaines, d'OS, de provider, des certificats d'un site web
 * **[Sublist3r](https://github.com/aboul3la/Sublist3r)** :unlock::free: : script python énumérant les sous-domaines d'un site à partir de plusieurs sources comme Google, Ask, Netcraft, DNSDumpster, ReverseDNS...
+* **[Kloth](http://www.kloth.net)** :lock::free: : site web permettant d'extraire des informations DNS 
+* **[CentralOps](https://centralops.net/co)** :lock::free: : site web permettant d'extraire des informations DNS
+* **[DNSWatch](https://www.dnswatch.info)** :lock::free: : site web permettant d'extraire des informations DNS
+* **[Fierce](https://github.com/mschwager/fierce)** :unlock::free: : script faisant de la reconnaissance via DNS
+* **[MXToolbox](https://mxtoolbox.com)** :locl::free: : site web permettant d'extraire des informations DNS
 
 <div id='section-localisation'/>
 
@@ -176,51 +182,64 @@ Tous les outils de cette section sont gratuits et propriétaires.
 
 ##### :small_orange_diamond: Métadonnées
 
-* **[Metagoofil](https://code.google.com/archive/p/metagoofil)** :unlock::free: : script python extracteur de métadonnées à partir de recherche Google
+* **[BuzzStream ](http://tools.buzzstream.com/link-building)** :lock::free: : suite d'outils pour recherche d'emails, domaines, métadonnées...
 * **[ExtractMetadata](https://www.extractmetadata.com)** :lock::free: : site web extracteur de métadonnées à partir d'un fichier ou d'une URL
 * **[FOCA](https://github.com/ElevenPaths/FOCA)** :unlock::free: : extracteur de métadonnées
-* **[BuzzStream ](http://tools.buzzstream.com/link-building)** :lock::free: : suite d'outils pour recherche d'emails, domaines, métadonnées...
+* **[Metagoofil](https://code.google.com/archive/p/metagoofil)** :unlock::free: : script python extracteur de métadonnées à partir de recherche Google
 
 <div id='section-monitoring-webpages'/>
 
 ##### :small_orange_diamond: Monitoring de pages et suivi
 
-* **[WebSite-Watcher](http://aignes.com)** :lock::money_with_wings: : détecter automatiquement et suivre l'évolution de page web à partir de mots-clés, monitorer un site et flux RSS, surligner des changements...
-* **[VisualPing](https://visualping.io)** :lock::free: : outil en ligne prenant des screenshots de site et envoie un mail en cas de changement
-* **[FollowThatPage](https://www.followthatpage.com)** :lock::free: : outil en ligne checkant régulièrement les pages web et envoie mail en cas de changement
-* **[Versionista](https://versionista.com)** :lock::money_with_wings: : outil en ligne permettant de monitorer 5 URL gratuitement
 * **[Check4Change](https://addons.mozilla.org/en-US/firefox/addon/check4change)** :lock::free: : extension Firefox pour monitorer des pages web en local
+* **[FollowThatPage](https://www.followthatpage.com)** :lock::free: : outil en ligne checkant régulièrement les pages web et envoie mail en cas de changement
 * **[Update Scanner](https://addons.mozilla.org/fr/firefox/addon/update-scanner)** :unlock::free: : extension Firefox pour monitorer des pages web en local
+* **[Versionista](https://versionista.com)** :lock::money_with_wings: : outil en ligne permettant de monitorer 5 URL gratuitement
+* **[VisualPing](https://visualping.io)** :lock::free: : outil en ligne prenant des screenshots de site et envoie un mail en cas de changement
+* **[WebSite-Watcher](http://aignes.com)** :lock::money_with_wings: : détecter automatiquement et suivre l'évolution de page web à partir de mots-clés, monitorer un site et flux RSS, surligner des changements...
 
 <div id='section-email-tracking'/>
 
 ##### :small_orange_diamond: Email tracking
 
-* **[eMailTrackerPro](http://www.emailtrackerpro.com)** :lock::money_with_wings: : tracer des mails et obtenir informations
-* **[Yesware](http://www.yesware.com)** :lock::moneybag: : connaître l'engagement des personnes à la lecture d'un mail : lien cliqués, pièce-jointes ouvertes...
 * **[ContactMonkey](https://contactmonkey.com)** :lock::money_with_wings: : connaître les statistiques internes d'une entreprise par rapport à l'envoie de mails
-* **[PointOfMail](https://www.pointofmail.com)** :lock::money_with_wings: : savoir qui, quand à lu, cliqué sur un mail
-* **[GetNotify](https://www.getnotify.com)** :lock::free: : être notifié quand un mail est lu et avoir des informations
+* **[eMailTrackerPro](http://www.emailtrackerpro.com)** :lock::money_with_wings: : tracer des mails et obtenir informations
 * **[G-Lock Analytics](https://glockanalytics.com)** :lock::money_with_wings: : savoir comment les gens réagissent à une campagne de mails
+* **[GetNotify](https://www.getnotify.com)** :lock::free: : être notifié quand un mail est lu et avoir des informations
+* **[PointOfMail](https://www.pointofmail.com)** :lock::money_with_wings: : savoir qui, quand à lu, cliqué sur un mail
+* **[Yesware](http://www.yesware.com)** :lock::moneybag: : connaître l'engagement des personnes à la lecture d'un mail : lien cliqués, pièce-jointes ouvertes...
 
 <div id='section-intelligence-competitive'/>
 
 ##### :small_orange_diamond: Intelligence compétitive
 
+* **[Alexa](alexa.com)** :lock::money_with_wings: : outil d'Amazon pour analyser le SEO, le PPC, analyser des audiences...
 * **[EDGAR Database](https://www.sec.gov/edgar.shtml)** :lock::free: : pour Electronic Data Gathering, Analysis, and Retrieval : indexe les documents que les entreprises doivent soumettre des documents à la commission américaine des valeurs immobilières
+* **[Euromonitor](euromonitor.com)** :lock::money_with_wings: : fournit des recherches stratégiques pour les marchés de consommation, publie des rapports sur les industries, les consommateurs et la démographie
 * **[LexisNexis](https://www.lexisnexis.com )** :lock::moneybag: : analyse de données, détection de fraude, investigation à propos d'entreprises
 * **[The Wall Street Transcript](https://www.twst.com)** :lock::free: : interviews d'investisseurs
-* **[Alexa](alexa.com)** :lock::money_with_wings: : outil d'Amazon pour analyser le SEO, le PPC, analyser des audiences...
-* **[Euromonitor](euromonitor.com)** :lock::money_with_wings: : fournit des recherches stratégiques pour les marchés de consommation, publie des rapports sur les industries, les consommateurs et la démographie 
 
-<div id='section-whois'/>
+<div id='section-whois-traceroute'/>
 
-##### :small_orange_diamond: Whois
+##### :small_orange_diamond: Whois - Traceroute
 
+* **[ICANN lookup](https://lookup.icann.org)** :lock::free: : outil en ligne de l'ICANN
+* **[Path Analyzer](http://www.pathanalyzer.com)** :lock::money_with_wings: : client lourd réalisant des graphiques de traceroute
+* **[VisualRoute](http://www.visualroute.com)** :lock::money_with_wings: : client lourd réalisant des graphiques de traceroute
 * **[Whois](https://linux.die.net/man/1/whois)** :unlock::free: : le whois, le vrai, en ligne de commande
 * **[Whois DomainTools](http://whois.domaintools.com)** : :lock::free: : outil en ligne permettant de faire des whois
-* **[ICANN lookup](https://lookup.icann.org)** :lock::free: : outil en ligne de l'ICANN
 
+<div id='section-agregateurs-frameworks'/>
+
+##### :small_orange_diamond: Agrégateurs et frameworks
+
+Les agrégateurs et frameworks sont des outils servant à regrouper plusieurs outils différents en un.
+
+* **[Maltego](https://www.maltego.com)** :unlock::free: : OSINT et forensic
+* **[Recon-ng](https://github.com/lanmaster53/recon-ng)** :unlock::free: : reconnaissance basée sur le web qui regroupe le maximum d'outils de reconnaissance
+* **[Recon-Dog](https://github.com/s0md3v/ReconDog)** :unlock::free: : whois, DNS lookup, scan de ports, honeypot détecteur, et bien d'autres
+* **[OSRFramework](https://github.com/i3visio/osrframework)** :unlock::free: : ensemble de scripts python d'OSINT
+* **[]()** :::: :
 
 <!--
 * **[]()** :::: :

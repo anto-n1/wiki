@@ -11,6 +11,7 @@ Cette page regroupe un ensemble de mots et abréviations utilisées dans le mond
 ## C
 
 * **CI** = Competitive Intelligence -> processus qui implique la collecte, l'analyse et la diffusion d'informations sur les produits, les clients, les concurrents et les technologies utilisant internet
+* **CLA interface** = Command Line Argument inteface
 * **CVE** = Common Vulnerabilities and Exposures -> liste des informations publiques à propos des vulnérabilités de sécurité connues
 
 ## D
@@ -19,6 +20,15 @@ Cette page regroupe un ensemble de mots et abréviations utilisées dans le mond
 * **DLP** = Data Loss Prevention = contrôle des fuites des données sensibles
 * **DNSSEC** = DNS Security Extensions
 * **Doxing** = recherche d'informations et publication pour nuire
+* **Dumpster Diving** = trouver des informations récoltées dans les poubelles d'une entreprise ou d'une personne
+
+## E
+
+* **Eavesdropping** = intercepter ou écouter une conversation, un chat, un appel...
+
+## F
+
+* **Forensic** = analyse d'un système informatique après incident
 
 ## G
 
@@ -45,12 +55,14 @@ Cette page regroupe un ensemble de mots et abréviations utilisées dans le mond
 
 * **SERPs** = Search Engine Results Pages
 * **Shrink-wrap Code Attack** = exploiter les configurations par défaut (ex : import de librairie sans auncune modif, l'attaquant peut utiliser une CVE et attaquer)
+* **Shoulder surfing** =  regarder par-dessus l'épaule, technique d'ingénierie sociale utilisée pour dérober de l'information à une personne en particulier
 * **SIEM** = Security Incident and Event Manager
 * **Suicide Hacker** = hacker qui n'hésite pas à se mettre en danger pour une cause
 
 ## T
 
 * **Tampering** = falsification
+* **TTL** = Time To Live -> donnée placée au niveau de l'en-tête du paquet IP qui indique le nombre maximal de routeurs de transit
 
 ## U
 
