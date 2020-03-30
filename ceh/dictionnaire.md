@@ -74,6 +74,7 @@ Cette page regroupe un ensemble de mots et abréviations utilisées dans le mond
 
 ## O
 
+* **OSCP** = Offensive Security Certified Professional
 * **OSINT** = Open Source Intelligence -> renseignement obtenu par sources d'informations publiques
 
 ## W 

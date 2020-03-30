@@ -1,6 +1,5 @@
 # Whois - traceroute
 
-
 ## Whois 
 
 Whois (contraction de l'anglais who is?, signifiant « qui est ? ») est un service de recherche fourni par les registres Internet, par exemple les Registres Internet régionaux (RIR) ou bien les registres de noms de domaine permettant d'obtenir des informations sur une adresse IP ou un nom de domaine. Ces informations ont des usages très variés, que ce soit la coordination entre ingénieurs réseaux pour résoudre un problème technique, ou bien la recherche du titulaire d'un nom de domaine par une société qui souhaiterait l'obtenir.

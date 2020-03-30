@@ -104,7 +104,7 @@ Tous les outils de cette section sont gratuits et propriétaires.
 * **[CentralOps](https://centralops.net/co)** :lock::free: : site web permettant d'extraire des informations DNS
 * **[DNSWatch](https://www.dnswatch.info)** :lock::free: : site web permettant d'extraire des informations DNS
 * **[Fierce](https://github.com/mschwager/fierce)** :unlock::free: : script faisant de la reconnaissance via DNS
-* **[MXToolbox](https://mxtoolbox.com)** :locl::free: : site web permettant d'extraire des informations DNS
+* **[MXToolbox](https://mxtoolbox.com)** :lock::free: : site web permettant d'extraire des informations DNS
 
 <div id='section-localisation'/>
 
@@ -230,7 +230,7 @@ Tous les outils de cette section sont gratuits et propriétaires.
 * **[Pwhois](pwhois.org)** :unlock::free: : client avancé et serveur whois
 * **[VisualRoute](http://www.visualroute.com)** :lock::money_with_wings: : client lourd réalisant des graphiques de traceroute
 * **[Whois](https://linux.die.net/man/1/whois)** :unlock::free: : le whois, le vrai, en ligne de commande
-* **[Whois DomainTools](http://whois.domaintools.com)** : :lock::free: : outil en ligne permettant de faire des whois
+* **[Whois DomainTools](http://whois.domaintools.com)** :lock::free: : outil en ligne permettant de faire des whois
 
 <div id='section-agregateurs-frameworks'/>
 
