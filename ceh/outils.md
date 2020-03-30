@@ -22,7 +22,7 @@ QUAND J'AURAI COMMENCE A TESTER
 
 ## Table des matières
 
-* [Prise d'empreinte](#section-prise-empreinte)  
+* [PRISE D'EMPREINTE](#section-prise-empreinte)  
 	 :small_orange_diamond: [Moteurs de recherche](#section-moteurs-recherche)  
 	 :small_orange_diamond: [Réseaux et outils sociaux](#section-reseaux-outils-sociaux)  
 	 :small_orange_diamond: [Noms de domaines](#section-noms-domaines-dns)  
@@ -39,7 +39,7 @@ QUAND J'AURAI COMMENCE A TESTER
 	 :small_orange_diamond: [Intelligence compétitive](#section-intelligence-competitive)  
 	 :small_orange_diamond: [Whois - Traceroute](#section-whois-traceroute)  
 	 :small_orange_diamond: [Agrégateurs et framework](#section-agregateurs-frameworks)  
-* [Scan de réseau](#section-scan-reseau)  
+* [SCAN DE RESEAU](#section-scan-reseau)  
 
 <!--
 :small_orange_diamond: [](#section-)  
