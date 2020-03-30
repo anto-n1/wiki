@@ -7,19 +7,35 @@
 * **AD** = Distance Administrative
 * **auto-MDIX** (Medium Dependent Interface) = assurer le raccordement directement avec le support réseau.
 
+## B
+
+* **Bande passante** = capacité d'un support à transporter des données. Quantité d'informations pouvant circuler d'un emplacement A à B pendant une période donnée. Se mesure en bits/s. Différent du débit
+
 ## C
 
 * **CDP** (Cisco Discovery Protocol) = protocole propriétaire de couche 2 de Cisco qui permet de rassembler des informations sur les périphériques Cisco qui partagent la même liaison de données. CDP fonctionne indépendamment des supports et protocoles et s'exécute sur tous les périphériques Cisco, tels que routeurs, commutateurs et serveurs d'accès
 * **CEF** (Cisco Express Forwarding)
 * **CFI** (Canonical Format Identifier) = identificateur qui active le transfert des trames Token Ring sur des liaisons Ethernet
 
+## D
+
+* **Débit** = mesure du transfert de bits sur une période donnée. Ne correspond pas forcément à la bande passante car des facteurs peuvent jouer comme la quantité de trafic, le type de trafic et la latence
+
 ## E
 
 * **EIGRP** (Enhanced Interior Gateway Routing Protocol) = protocole routage dynamique propriétaire Cisco
+* **Encapsulation** = ajout d'informations de protocoles à chaque niveau du modèle OSI ou TCP/IP
 
 ## I
 
+* **IAB** (Internet Architecture Board) = gère et développe des normes internet
+* **IANA** (Internet Assigned Numbers Authority) = supervise et gère l'attribution IP, les noms de domaines et identification de protocoles
+* **ICANN** (Internet Corporation for Assigned Names Numbers) = attribue adresses IP, noms domaines et autres infos TCP/IP
+* **IEEE** (Institute of Electrical and Electronic Engineers) = gère toutes les normes 802.X
+* **IETF** (Internet Engineering Task Force) = développe, met à jour des technos TCP/IP et RFC
+* **IRTF** (Internet Research Task Force) = recherche à long terme : anti-spam, crypto, P2P...
 * **IS-IS** (Intermediate System-to-Intermediate System) = protocole de routage dynamique
+* **ISOC** (Internet Society) = promouvoit l'évolution et l'utilisation libre d'internet
 
 ## L
 
