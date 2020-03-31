@@ -13,3 +13,32 @@ Il existe 3 types de scans :
 * **Scan de port** : lister les ports ouverts et les services. On envoie des paquets et on essaie de déterminer ce qui tourne derrière
 * **Scan de réseau** : lister les IP et identifier les hôtes d'un réseau
 * **Scan de vulnérabilités** : lister les vulnérabilités connues présentes sur un système
+
+#### Scan de réseau
+
+**Scan ICMP echo**  
+Ce scan ping simplement les machines sur un réseau, si elles répondent les hôtes sont alive.
+
+**Scan TCP connect / Full Open Scan**  
+Utilise le protocole connecté et le 3 way handshake pour identifier les réponses renvoyées par la cible, ce qui permet de deviner des servics tournant sur des ports.
+
+L'image suivante montre un exemple de résultat renvoyé par la cible en cas de port ouvert ou non :  
+![CEH TCP Connect](../.images/ceh_scan_tcp_connect.png "CEH TCP Connect")  
+
+**Stealth Scan (Half-Open Scan)** ou **SYN Scan**   
+Technique utilisée pour bypasser les firewalls, les méchanismes d'authentification et avoir l'air plus naturel sur un réseau.
+
+L'image suivante montre un exemple de résultat renvoyé par la cible en cas de port ouvert ou non :  
+![CEH SYN Scan](../.images/ceh_scan_syn_scan.png "CEH SYN Scan")  
+
+**Inverse TCP flag scanning**  
+Envoyer un paquet avec un flag TCP (FIN, RG, PSH) ou sans flag.
+
+L'image suivante montre un exemple de résultat renvoyé par la cible en cas de port ouvert ou non :  
+![CEH invert TCP flag Scan](../.images/ceh_scan_invert_tcp_flag.png "CEH invert TCP flag Scan")  
+
+**Xmas Scan**  
+Le scan Xmas envoie des flags FIN, URG et PSH et ne fonctionne quasiment que sur des Linux.
+
+L'image suivante montre un exemple de résultat renvoyé par la cible en cas de port ouvert ou non :  
+![CEH Xmas scan](../.images/ceh_scan_xmas_scan.png "CEH Xmas Scan")  

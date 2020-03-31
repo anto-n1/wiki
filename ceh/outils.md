@@ -267,6 +267,7 @@ Les agrégateurs et frameworks sont des outils servant à regrouper plusieurs ou
 
 * **[Angryip](https://angryip.org)** :unlock::free: : scanneur réseau user-friendly
 * **[Dracnmap](https://github.com/Screetsec/Dracnmap)** :unlock::free: : CLI avec menu pour utiliser nmap plus d'autres fonctions
+* **[fping](http://fping.org)** :unlock::free: : faire du ping sweep
 * **[Hping](http://hping.org)** :unlock::free: : analyse et forgeage de paquets TCP, UDP, ICMP et RAW-IP
 * **[Masscan](https://github.com/robertdavidgraham/masscan)** :unlock::free: : scanner des ports en masse sur internet
 * **[Nmap](https://nmap.org)** :unlock::free: : bon bah c'est Nmap

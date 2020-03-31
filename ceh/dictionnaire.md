@@ -49,6 +49,7 @@ Cette page regroupe un ensemble de mots et abréviations utilisées dans le mond
 ## P
 
 * **Packet crafting** (Forgeage de paquet)
+* **Ping sweep** = méthode de détermination des hôtes répondant sur un réseau
 
 ## R
 
