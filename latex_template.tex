@@ -38,6 +38,22 @@
 \fancyfoot{}
 \fancyfoot[C]{\thepage}
 
+% PRECAUTIONS POUR LA COMPILATION AVEC BIBLATEX
+% POUR AFFICHER CORRECTEMENT LA BIBLIORAPHIE
+%
+% Si j'ai monfichier.tex et sources.bib :
+%
+% $ pdflatex monfichier.tex
+% $ pdflatex monfichier.tex (le faire une deuxième fois pour la table des matières)
+% $ biber monfichier (on prend le fichier tex mais sans l'extension)
+% $ pdflatex monfichier.tex
+
+% Utiliser biblatex pour la bibliographie
+\usepackage[backend=biber]{biblatex}
+% Annoncer le nom du fichier de sources
+\addbibresource{Ficher_lecture_Sociologie_monde_travail_sources.bib}
+
+
 \usepackage{hyperref}
 \hypersetup{
     hyperfigures = true, % Ajouter les liens (table des matières vers les parties lors du clic)
@@ -82,6 +98,10 @@ Ceci est la description de mon châpitre.
 Ceci est un exemple de texte\thanks{ajout note de bas de page}
 
 Changement de paragraphe.
+
+% Afficher la bibliographie avec comme titre Bibliographie et la 
+% mettre dans la table des matières
+\printbibliography[heading=bibintoc,title={Bibliographie}]
 
 \end{document}
 
