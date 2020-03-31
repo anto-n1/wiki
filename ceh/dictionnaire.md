@@ -46,6 +46,10 @@ Cette page regroupe un ensemble de mots et abréviations utilisées dans le mond
 
 * **Mirroring website** = fait de créer une réplique exacte d'un site internet
 
+## P
+
+* **Packet crafting** (Forgeage de paquet)
+
 ## R
 
 * **RIPE NCC** (Réseaux IP Européens Network Coordination Center) = administre les IP sur le territoire européen
@@ -57,6 +61,7 @@ Cette page regroupe un ensemble de mots et abréviations utilisées dans le mond
 * **Shrink-wrap Code Attack** = exploiter les configurations par défaut (ex : import de librairie sans auncune modif, l'attaquant peut utiliser une CVE et attaquer)
 * **Shoulder surfing** = regarder par-dessus l'épaule, technique d'ingénierie sociale utilisée pour dérober de l'information à une personne en particulier
 * **SIEM** (Security Incident and Event Manager)
+* **SN** (Sequence Number) = numéro de séquence TCP
 * **Suicide Hacker** = hacker qui n'hésite pas à se mettre en danger pour une cause
 
 ## T

@@ -23,24 +23,25 @@ QUAND J'AURAI COMMENCE A TESTER
 ## Table des matières
 
 * [Prise d'empreinte](#section-prise-empreinte)  
-	 :small_orange_diamond: [Moteurs de recherche](#section-moteurs-recherche)  
-	 :small_orange_diamond: [Réseaux et outils sociaux](#section-reseaux-outils-sociaux)  
-	 :small_orange_diamond: [Noms de domaines](#section-noms-domaines-dns)  
-	 :small_orange_diamond: [Localisation](#section-localisation)  
-	 :small_orange_diamond: [Finance](#section-finance)  
-	 :small_orange_diamond: [Offres d'emplois](#section-offre-emploi)  
-	 :small_orange_diamond: [Suivi de cible - notificatioins](#section-suivi-cible)  
-	 :small_orange_diamond: [OS - Vulnérabilités applications web - localisation](#section-os-vulnerabilites)  
-	 :small_orange_diamond: [Web crawler - spider - robot](#section-web-crawler)  
-	 :small_orange_diamond: [Mirroring website](#section-mirroring-website)  
-	 :small_orange_diamond: [Métadonnées](#section-metadonnees)  
-	 :small_orange_diamond: [Monitoring de pages et suivi](#section-monitoring-webpages)  
-	 :small_orange_diamond: [Email tracking](#section-email-tracking)  
-	 :small_orange_diamond: [Intelligence compétitive](#section-intelligence-competitive)  
-	 :small_orange_diamond: [Whois - Traceroute](#section-whois-traceroute)  
-	 :small_orange_diamond: [Agrégateurs et framework](#section-agregateurs-frameworks)  
+	:small_orange_diamond: [Moteurs de recherche](#section-moteurs-recherche)  
+	:small_orange_diamond: [Réseaux et outils sociaux](#section-reseaux-outils-sociaux)  
+	:small_orange_diamond: [Noms de domaines](#section-noms-domaines-dns)  
+	:small_orange_diamond: [Localisation](#section-localisation)  
+	:small_orange_diamond: [Finance](#section-finance)  
+	:small_orange_diamond: [Offres d'emplois](#section-offre-emploi)  
+	:small_orange_diamond: [Suivi de cible - notificatioins](#section-suivi-cible)  
+	:small_orange_diamond: [OS - Vulnérabilités applications web - localisation](#section-os-vulnerabilites)  
+	:small_orange_diamond: [Web crawler - spider - robot](#section-web-crawler)  
+	:small_orange_diamond: [Mirroring website](#section-mirroring-website)  
+	:small_orange_diamond: [Métadonnées](#section-metadonnees)  
+	:small_orange_diamond: [Monitoring de pages et suivi](#section-monitoring-webpages)  
+	:small_orange_diamond: [Email tracking](#section-email-tracking)  
+	:small_orange_diamond: [Intelligence compétitive](#section-intelligence-competitive)  
+	:small_orange_diamond: [Whois - Traceroute](#section-whois-traceroute)  
+	:small_orange_diamond: [Agrégateurs et framework](#section-agregateurs-frameworks)  
 * [Scan de réseau](#section-scan-reseau)  
-
+	:small_orange_diamond: [Forgeage de paquets](#section-forgeage-paquets)
+	:small_orange_diamond: [Scan d'hôtes](#section-scan-hotes)
 <!--
 :small_orange_diamond: [](#section-)  
 -->
@@ -248,6 +249,28 @@ Les agrégateurs et frameworks sont des outils servant à regrouper plusieurs ou
 <div id='section-scan-reseau'/>
 
 ## Scan de réseau
+
+<div id='section-forgeage-paquets'/>
+
+##### :small_orange_diamond: Forgeage de paquets
+
+* **[Bit-Twist](http://bittwist.sourceforge.net)** :unlock::free: : générateur de paquet ethernet
+* **[Cadela Technologies](http://candelatech.com)** :unlock::free: : outils et matériels de génération de trafic Wi-Fi
+* **[Omnipacket](https://omnipacket.com)** :lock::free: : forgeage et analyse de paquets multi-plateformes
+* **[Ostinato](https://ostinato.org)** :lock::moneybag: : forgeage de paquets multi-plateformes avec API python
+* **[Packet Builder](https://www.colasoft.com/packet_builder)** :lock::free: : outil Windows permettant de forger des paquets
+* **[packETH](http://packeth.sourceforge.net/packeth/Home.html)** :unlock::free: : générateur de paquets ethernet avec GUI et CLI
+
+<div id='section-scan-hotes'/>
+
+##### :small_orange_diamond: Scan d'hôtes
+
+* **[Angryip](https://angryip.org)** :unlock::free: : scanneur réseau user-friendly
+* **[Dracnmap](https://github.com/Screetsec/Dracnmap)** :unlock::free: : CLI avec menu pour utiliser nmap plus d'autres fonctions
+* **[Hping](http://hping.org)** :unlock::free: : analyse et forgeage de paquets TCP, UDP, ICMP et RAW-IP
+* **[Masscan](https://github.com/robertdavidgraham/masscan)** :unlock::free: : scanner des ports en masse sur internet
+* **[Nmap](https://nmap.org)** :unlock::free: : bon bah c'est Nmap
+* **[Zenmap](https://nmap.org/zenmap)** :unlock::free: : GUI pour Nmap
 
 <!--
 * **[]()** :::: :
