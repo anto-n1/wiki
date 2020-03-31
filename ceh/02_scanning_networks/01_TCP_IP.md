@@ -16,7 +16,7 @@ Les headers TCP contiennent des flags. Ils font 1 bit, ils sont soit Ã  1 soit Ã
 Les scans se font la plupart du temps avec SYN, ACK et RST.
 
 Image d'une connexion **Three-way handshake** :  
-![Three way handshake](../.images/ceh_3_way_handshake.png "Three way handshake")  
+![Three way handshake](../.images/ceh_3_way_handshake.png =250x "Three way handshake")  
 
 Image d'une **Connection termination** :  
 ![Connection termination](../.images/ceh_connection_termination.png "Connection termination")  
