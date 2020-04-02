@@ -36,7 +36,9 @@ Cette page regroupe un ensemble de mots et abréviations utilisées dans le mond
 
 ## I
 
+* **IDS** (Intrusion detection System) = système de détection d'intrusions - mécanisme destiné à repérer des activités anormales sur un réseau ou un hôte
 * **Insider attack** = attaque de l'intérieur
+* **IPID** (IP fragment identification) = numéro de fragment d'un paquet
 
 ## L
 
@@ -63,6 +65,7 @@ Cette page regroupe un ensemble de mots et abréviations utilisées dans le mond
 * **Shoulder surfing** = regarder par-dessus l'épaule, technique d'ingénierie sociale utilisée pour dérober de l'information à une personne en particulier
 * **SIEM** (Security Incident and Event Manager)
 * **SN** (Sequence Number) = numéro de séquence TCP
+* **Source routing** = modification du chemin que va empreinter un paquet
 * **Suicide Hacker** = hacker qui n'hésite pas à se mettre en danger pour une cause
 
 ## T

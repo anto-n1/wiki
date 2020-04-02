@@ -14,31 +14,25 @@ Il existe 3 types de scans :
 * **Scan de réseau** : lister les IP et identifier les hôtes d'un réseau
 * **Scan de vulnérabilités** : lister les vulnérabilités connues présentes sur un système
 
-#### Scan de réseau
+## Méthodologie
 
-**Scan ICMP echo**  
-Ce scan ping simplement les machines sur un réseau, si elles répondent les hôtes sont alive.
+**Méthode de scan :**  
+  
+1. Découvrir des hôtes vivants
+2. Découvrir les ports ouverts
+3. Scanner derrère les IDS
+4. Scanner les vulnérabilités
+5. Dresser un schéma du réseau
+6. Préparer un/des proxys
+7. Intrusion
 
-**Scan TCP connect / Full Open Scan**  
-Utilise le protocole connecté et le 3 way handshake pour identifier les réponses renvoyées par la cible, ce qui permet de deviner des servics tournant sur des ports.
+## Contre-mesures
 
-L'image suivante montre un exemple de résultat renvoyé par la cible en cas de port ouvert ou non :  
-![CEH TCP Connect](../.images/ceh_scan_tcp_connect.png "CEH TCP Connect")  
+Pour se prémunir des scans de port :  
 
-**Stealth Scan (Half-Open Scan)** ou **SYN Scan**   
-Technique utilisée pour bypasser les firewalls, les méchanismes d'authentification et avoir l'air plus naturel sur un réseau.
-
-L'image suivante montre un exemple de résultat renvoyé par la cible en cas de port ouvert ou non :  
-![CEH SYN Scan](../.images/ceh_scan_syn_scan.png "CEH SYN Scan")  
-
-**Inverse TCP flag scanning**  
-Envoyer un paquet avec un flag TCP (FIN, RG, PSH) ou sans flag.
-
-L'image suivante montre un exemple de résultat renvoyé par la cible en cas de port ouvert ou non :  
-![CEH invert TCP flag Scan](../.images/ceh_scan_invert_tcp_flag.png "CEH invert TCP flag Scan")  
-
-**Xmas Scan**  
-Le scan Xmas envoie des flags FIN, URG et PSH et ne fonctionne quasiment que sur des Linux.
-
-L'image suivante montre un exemple de résultat renvoyé par la cible en cas de port ouvert ou non :  
-![CEH Xmas scan](../.images/ceh_scan_xmas_scan.png "CEH Xmas Scan")  
+* Configurer un firewall ou IDS
+* Scanner son propre réseau pour vérifier ses infrastructures
+* Vérifier qu'on ne peut bypasser le routage et le filtrage
+* Garder à jour ses équipements
+* Filtrer les messages ICMP sur les firewalls et routeurs
+* Appliquer des règles anti-scan et anti-spoofing
