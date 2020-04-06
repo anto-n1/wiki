@@ -12,4 +12,4 @@ Liste d'outils utils sous Linux
 
 ## Markdown
 
-* **SummarizeMD** : script générant un sommaire dans les fichiers Markdown. [Lien github](https://github.com/velthune/summarizeMD)
+* **SummarizeMD** : script générant les sommaires dans les fichiers Markdown. [Lien github](https://github.com/velthune/summarizeMD)
