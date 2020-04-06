@@ -20,6 +20,8 @@ QUAND J'AURAI COMMENCE A TESTER
 :money_with_wings: -> freemium (version gratuite limitée et payante complète et/ou période d'essai gratuite)  
 :moneybag: -> payant
 
+La liste des outils disponibles sur Kali Linux est disponible à [cette adresse](https://tools.kali.org/tools-listing).  
+
 ## Table des matières
 
 * [Prise d'empreinte](#section-prise-empreinte)  
