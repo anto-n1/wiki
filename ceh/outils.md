@@ -42,6 +42,8 @@ QUAND J'AURAI COMMENCE A TESTER
 * [Scan de réseau](#section-scan-reseau)  
 	:small_orange_diamond: [Forgeage de paquets](#section-forgeage-paquets)  
 	:small_orange_diamond: [Scan d'hôtes](#section-scan-hotes)
+	:small_orange_diamond: [Scan d'hôtes](#section-scan-vulnerabilites)
+	:small_orange_diamond: [Scan d'hôtes](#section-cartographie-reseau)
 <!--
 :small_orange_diamond: [](#section-)  
 -->
@@ -272,6 +274,23 @@ Les agrégateurs et frameworks sont des outils servant à regrouper plusieurs ou
 * **[Masscan](https://github.com/robertdavidgraham/masscan)** :unlock::free: : scanner des ports en masse sur internet
 * **[Nmap](https://nmap.org)** :unlock::free: : bon bah c'est Nmap
 * **[Zenmap](https://nmap.org/zenmap)** :unlock::free: : GUI pour Nmap
+
+<div id='section-scan-vulnerabilites'/>
+
+##### :small_orange_diamond: Scan de vulnérabilités
+
+* **[Nessus](https://fr.tenable.com)** :lock::money_with_wings: : scanneur de vulnérablités avec version gratuite limitée
+* **[SAINT](http://www.carson-saint.com)** :lock::money_with_wings: : scanneur de vulnérabilités
+* **[GFI Languard](https://www.gfi.com)** :lock::money_with_wings: : scanneur de sécurité de réseau
+* **[OpenVAS](https://openvas.org)** :unlock::free: : scanneur de vulnérabilités à partir d'appliance virtuelle
+
+<div id='section-cartographie-reseau'/>
+
+##### :small_orange_diamond: Cartographie réseau
+
+* **[SolarWinds Network Topology Mapper](https://www.solarwinds.com/fr/network-topology-mapper)** :lock::moneybag: : scanneur de réseau permettant de dresser des topologies
+* **[FriendlyPinger](http://kilievich.com/fpinger)** :unlock::free: : permet de dessiner des schémas réseau
+* **[Nedi](http://www.nedi.ch)** :unlock::free: : découvrir des réseaux et les dessiner
 
 <!--
 * **[]()** :::: :

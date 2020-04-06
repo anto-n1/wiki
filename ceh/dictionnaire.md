@@ -8,6 +8,10 @@ Cette page regroupe un ensemble de mots et abréviations utilisées dans le mond
  * **APNIC** (Asia Pacific Network Information Center) = administre les adresses IP en Asie
  * **ARIN** (American Registry for Internet Numbers) = administre les adresses IP en Amérique
 
+## B
+
+* **Banner grabbing** = technique permettant d'obtenir des informations sur les OS, les services, les numéros de versions...
+
 ## C
 
 * **CI** = Competitive Intelligence = processus qui implique la collecte, l'analyse et la diffusion d'informations sur les produits, les clients, les concurrents et les technologies utilisant internet
@@ -86,6 +90,7 @@ Cette page regroupe un ensemble de mots et abréviations utilisées dans le mond
 * **OSCP** (Offensive Security Certified Professional)
 * **OSINT** (Open Source Intelligence) = renseignement obtenu par sources d'informations publiques
 
-## W 
+## W
 
+* **War Dialing** = technique permettant de raccorder un ordinateur à un autre ordinateur, à un appareil électronique, au réseau Internet ou à un autre réseau numérique
 * **Wiretapping** = écoute électronique

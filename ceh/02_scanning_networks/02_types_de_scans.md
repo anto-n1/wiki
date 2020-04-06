@@ -30,3 +30,9 @@ On peut aussi envoyer un ACK probe avec un numéro de séquence random, si il n'
 **UDP**  
 le système ne répond pas si le port est ouvert.  
 On reçoit un **ICMP Port unreachable** si le port est fermé.  
+
+## Banner grabbing
+
+Le banner grabbing peut être utilisé pour récupérer des noms de service, numéro de versions, systèmes d'exploitation.  
+
+Il faut s'en prémunir en utilisant les mode **mod_headers** sous apache par exemple.
