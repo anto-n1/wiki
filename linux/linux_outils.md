@@ -50,4 +50,4 @@ Les outils sont classés par catégories.
 
 ##### :small_orange_diamond: Markdown
 
-* **SummarizeMD** : script générant les sommaires dans les fichiers Markdown. [Lien github](https://github.com/velthune/summarizeMD)
+* **[SummarizeMD](https://github.com/velthune/summarizeMD)** : script générant les sommaires dans les fichiers Markdown
