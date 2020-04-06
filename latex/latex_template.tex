@@ -1,0 +1,110 @@
+% ------------------------------- %
+% ------- DEBUT PREAMBULE ------- %
+% ------------------------------- %
+
+\documentclass[a4paper,french,11pt]{report}
+
+\usepackage[french]{babel}
+\usepackage[utf8]{inputenc}
+
+\usepackage{lmodern} % Utiliser police de base
+%\renewcommand*\familydefault{\sfdefault} % Utiliser Arial
+
+\usepackage{titling} % Permet de personnaliser la page de titre
+
+\usepackage{graphicx} % Permet d'ajouter des images
+\graphicspath{{images/}} % Choisir le chemin ou aller chercher les images
+
+\usepackage{microtype}
+\usepackage[T1]{fontenc}
+\usepackage{xcolor} % Permet d'ajouter de la couleur au texte
+
+\usepackage{geometry} % Permet de gérer les marges
+\geometry{hmargin=2cm,vmargin=2.5cm}
+
+% Gérer les titres des chapitres
+\usepackage{titlesec}
+\titleformat{\chapter}[display]{\Huge\bfseries}{}{0pt}{\thechapter.\ }
+\titleformat{name=\chapter,numberless}[display]{\Huge\bfseries}{}{0pt}{}
+
+% Réduire espace avant chapitre
+\titlespacing*{\chapter}{0pt}{-20pt}{40pt}
+
+% Ajouter un footer : uniquement sur les pages ne comprenant pas de titre de chapitre
+\usepackage{fancyhdr}
+\fancyhead{}
+\fancyhead[LE]{\textit{\nouppercase{\leftmark}}}
+\fancyhead[RO]{\textit{\nouppercase{\rightmark}}}
+\fancyfoot{}
+\fancyfoot[C]{\thepage}
+
+% PRECAUTIONS POUR LA COMPILATION AVEC BIBLATEX
+% POUR AFFICHER CORRECTEMENT LA BIBLIORAPHIE
+%
+% Si j'ai monfichier.tex et sources.bib :
+%
+% $ pdflatex monfichier.tex
+% $ pdflatex monfichier.tex (le faire une deuxième fois pour la table des matières)
+% $ biber monfichier (on prend le fichier tex mais sans l'extension)
+% $ pdflatex monfichier.tex
+
+% Utiliser biblatex pour la bibliographie
+\usepackage[backend=biber]{biblatex}
+% Annoncer le nom du fichier de sources
+\addbibresource{Ficher_lecture_Sociologie_monde_travail_sources.bib}
+
+
+\usepackage{hyperref}
+\hypersetup{
+    hyperfigures = true, % Ajouter les liens (table des matières vers les parties lors du clic)
+    colorlinks = true, % Colorer les liens
+    linkcolor=black % Couleur des liens
+    }
+
+
+
+\title{Ceci est le titre de mon rapport}
+\author{Antonin}
+\date{02/02/2020}
+%\date{} pour ne pas afficher la date
+
+% ------------------------------- %
+% -------- FIN PREAMBULE -------- %
+% ------------------------------- %
+
+
+% ------------------------------ %
+% ------- DEBUT DOCUMENT ------- %
+% ------------------------------ %
+
+\begin{document}
+\maketitle % Afficher le titre
+
+\addcontentsline{toc}{chapter}{Avant-propos}
+\tableofcontents % Afficher table des matières (2 compilations nécessaires)
+
+\chapter*{Avant-propos}
+
+\part{Partie 1}
+Ceci est la description de ma partie.
+
+\chapter{Chapitre 1}
+Ceci est la description de mon châpitre.
+
+\section{Section 1}
+\subsection{Sous-section 1}
+\subsubsection{Sous-sous-section 1}
+
+Ceci est un exemple de texte\thanks{ajout note de bas de page}
+
+Changement de paragraphe.
+
+% Afficher la bibliographie avec comme titre Bibliographie et la 
+% mettre dans la table des matières
+\printbibliography[heading=bibintoc,title={Bibliographie}]
+
+\end{document}
+
+% ------------------------------ %
+% -------- FIN DOCUMENT -------- %
+% ------------------------------ %
