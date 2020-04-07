@@ -46,8 +46,8 @@ La liste des outils disponibles sur Kali Linux est disponible à [cette adresse]
 	:small_orange_diamond: [Scan d'hôtes](#section-scan-hotes)
 	:small_orange_diamond: [Scan d'hôtes](#section-scan-vulnerabilites)
 	:small_orange_diamond: [Scan d'hôtes](#section-cartographie-reseau)
-* [Scan de réseau](#section-enumeration)  
-	:small_orange_diamond: [Scan d'hôtes](#section-enumeration-netbios)  
+* [Enumération](#section-enumeration)  
+	:small_orange_diamond: [NetBIOS](#section-enumeration-netbios)  
 <!--
 :small_orange_diamond: [](#section-)  
 -->
