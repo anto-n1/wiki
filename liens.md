@@ -5,6 +5,7 @@ Cette page regroupe des liens utiles que je consulte plus ou moins régulièreme
 ## Table des matières
 
 :small_orange_diamond: [Vie privée](#section-vie-privee)  
+:small_orange_diamond: [Vie privée](#section-linux)  
 
 <div id='section-vie-privee'/>
 
