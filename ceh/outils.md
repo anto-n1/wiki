@@ -171,7 +171,7 @@ Tous les outils de cette section sont gratuits et propriétaires.
 * **[BeamUsUp](https://beamusup.com)** :lock: : avoir des informations SEO sur les sites
 * **[Scrapy](https://scrapy.org)** :unlock::free: : framework python pour scraper des pages web
 * **[ScreamingFrog](https://www.screamingfrog.co.uk)** :lock::money_with_wings: : outils de SEO
-* **[SpiderFoot](https://www.spiderfoot.net)** :unlock: : extraire des informations en tout genre
+* **[SpiderFoot](https://www.spiderfoot.net)** :unlock::free: : extraire des informations en tout genre
 * **[Visual SEO](https://visual-seo.com)** :lock: : afficher des informations sur le SEO des sites internet
 * **[Web data extractor](http://www.webextractor.com)** :lock: : crawler pour extraire des informations sur des sites internet
 
