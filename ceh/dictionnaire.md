@@ -52,6 +52,10 @@ Cette page regroupe un ensemble de mots et abréviations utilisées dans le mond
 
 * **Mirroring website** = fait de créer une réplique exacte d'un site internet
 
+## N
+
+* **NetBIOS** = service Microsoft associant un nom d’ordinateur à une adresse IP 
+
 ## P
 
 * **Packet crafting** (Forgeage de paquet)

@@ -46,6 +46,8 @@ La liste des outils disponibles sur Kali Linux est disponible à [cette adresse]
 	:small_orange_diamond: [Scan d'hôtes](#section-scan-hotes)
 	:small_orange_diamond: [Scan d'hôtes](#section-scan-vulnerabilites)
 	:small_orange_diamond: [Scan d'hôtes](#section-cartographie-reseau)
+* [Scan de réseau](#section-enumeration)  
+	:small_orange_diamond: [Scan d'hôtes](#section-enumeration-netbios)  
 <!--
 :small_orange_diamond: [](#section-)  
 -->
@@ -293,6 +295,14 @@ Les agrégateurs et frameworks sont des outils servant à regrouper plusieurs ou
 * **[SolarWinds Network Topology Mapper](https://www.solarwinds.com/fr/network-topology-mapper)** :lock::moneybag: : scanneur de réseau permettant de dresser des topologies
 * **[FriendlyPinger](http://kilievich.com/fpinger)** :unlock::free: : permet de dessiner des schémas réseau
 * **[Nedi](http://www.nedi.ch)** :unlock::free: : découvrir des réseaux et les dessiner
+
+<div id='section-enumeration'/>
+
+## Enumération
+
+<div id='section-enumeration-netbios'/>
+
+##### :small_orange_diamond: NetBIOS
 
 <!--
 * **[]()** :::: :
