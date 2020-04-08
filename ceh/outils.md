@@ -102,7 +102,7 @@ Tous les outils de cette section sont gratuits et propriétaires.
 
 ##### :small_orange_diamond: Noms de domaines et DNS
 
-* **[CloudFail](https://github.com/m0rtem/CloudFail)** :unlock::free: : script python pour avoir des infos DNS derrière un CloudFlare)
+* **[CloudFail](https://github.com/m0rtem/CloudFail)** :unlock::free: : script python pour avoir des infos DNS derrière un CloudFlare
 * **[DigWebInterface](https://www.digwebinterface.com)** :lock::free: : site web permettant de faire des dig
 * **[Netcraft](https://www.netcraft.com)** :unlock::money_with_wings:: outil d'analyse noms de domaines, d'OS, de provider, des certificats d'un site web
 * **[Sublist3r](https://github.com/aboul3la/Sublist3r)** :unlock::free: : script python énumérant les sous-domaines d'un site à partir de plusieurs sources comme Google, Ask, Netcraft, DNSDumpster, ReverseDNS...
