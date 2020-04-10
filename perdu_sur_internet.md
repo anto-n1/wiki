@@ -10,4 +10,4 @@
 * **[The useless web](https://theuselessweb.com)** : être dirigé vers un site internet inutile
 * **[r/oddlysatisfying](https://www.reddit.com/r/oddlysatisfying)** : Reddit de vidéos satisfaisantes
 * **[trypap](https://trypap.com)** : mon mot de passe est comment ?
-* **[Always Judge a Book by its Cover](https://alwaysjudgeabookbyitscover.com) :  Some books win awards, some win our heart, and others... only serve to confuse.
+* **[Always Judge a Book by its Cover](https://alwaysjudgeabookbyitscover.com)** :  Some books win awards, some win our heart, and others... only serve to confuse.
