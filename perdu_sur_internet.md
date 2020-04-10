@@ -8,4 +8,4 @@ Du temps à tuer ? Voici des liens pour se perdre sur internet.
 * **[estcequecestbientotleweekend](https://estcequecestbientotleweekend.fr/)** : est-ce que c'est bientôt le week-end ?
 * **[Perdu sur l'internet ?](http://www.perdu.com)** : pas de panique, on va vous aider
 * **[The useless web](https://theuselessweb.com)** : être dirigé vers un site internet inutile
-* **[r/oddlysatisfying]https://www.reddit.com/r/oddlysatisfying)** : Reddit de vidéos satisfaisantes
+* **[r/oddlysatisfying](https://www.reddit.com/r/oddlysatisfying)** : Reddit de vidéos satisfaisantes
