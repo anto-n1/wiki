@@ -9,7 +9,7 @@ Tous ont un rapport avec l'informatique.
 :small_orange_diamond: [Linux](#section-linux)  
 :small_orange_diamond: [Sécurité](#section-securite)  
 :small_orange_diamond: [Hacking](#section-hacking)  
-:small_orange_diamond: [Hacking](#section-apple-macos)  
+:small_orange_diamond: [Apple macOS](#section-apple-macos)  
 :small_orange_diamond: [Blogs](#section-blogs)  
 :small_orange_diamond: [Autres](#section-autres)  
 
