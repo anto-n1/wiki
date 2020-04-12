@@ -42,6 +42,7 @@ Tous ont un rapport avec l'informatique.
 
 ##### Hacking
 
+* **[Hack The Box](https://www.hackthebox.eu)** : plateforme proposant des VM à casser
 * **[How to start hacking?](https://www.reddit.com/r/hacking/comments/a3oicn/how_to_start_hacking_the_ultimate_two_path_guide)** : post Reddit pour commencer le hacking
 * **[Avatao](https://avatao.com)** : plateforme d'entraînement au hacking
 * **[Root-me](https://www.root-me.org)** : plateforme d'entraînement au hacking

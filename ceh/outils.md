@@ -274,6 +274,7 @@ Les agrégateurs et frameworks sont des outils servant à regrouper plusieurs ou
 * **[Angryip](https://angryip.org)** :unlock::free: : scanneur réseau user-friendly
 * **[Dracnmap](https://github.com/Screetsec/Dracnmap)** :unlock::free: : CLI avec menu pour utiliser nmap plus d'autres fonctions
 * **[fping](http://fping.org)** :unlock::free: : faire du ping sweep
+* **[Gobuster](https://github.com/OJ/gobuster)** :unlock::free: : scan d'URL, fichiers, DNS, Vhosts...
 * **[Hping](http://hping.org)** :unlock::free: : analyse et forgeage de paquets TCP, UDP, ICMP et RAW-IP
 * **[Masscan](https://github.com/robertdavidgraham/masscan)** :unlock::free: : scanner des ports en masse sur internet
 * **[Nmap](https://nmap.org)** :unlock::free: : bon bah c'est Nmap
@@ -287,6 +288,7 @@ Les agrégateurs et frameworks sont des outils servant à regrouper plusieurs ou
 * **[SAINT](http://www.carson-saint.com)** :lock::money_with_wings: : scanneur de vulnérabilités
 * **[GFI Languard](https://www.gfi.com)** :lock::money_with_wings: : scanneur de sécurité de réseau
 * **[OpenVAS](https://openvas.org)** :unlock::free: : scanneur de vulnérabilités à partir d'appliance virtuelle
+* **[WPScan](https://github.com/wpscanteam/wpscan)** :unlock::free: : scanneur de vulnérabilités Wordpress
 
 <div id='section-cartographie-reseau'/>
 
