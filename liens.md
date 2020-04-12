@@ -29,6 +29,7 @@ Tous ont un rapport avec l'informatique.
 
 * **[Unixporn](https://www.reddit.com/r/unixporn)** : forum Reddit sur la personnalisation d'UNIX
 * **[the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)** : Readme Github contenant une collection d'outils Linux
+* **[Distrotest](https://distrotest.net)** : tester des distributions Linux rapidement avec des VM distantes
 
 <div id='section-securite'/>
 
