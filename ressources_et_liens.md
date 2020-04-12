@@ -9,6 +9,7 @@ Tous ont un rapport avec l'informatique.
 :small_orange_diamond: [Linux](#section-linux)  
 :small_orange_diamond: [Sécurité](#section-securite)  
 :small_orange_diamond: [Hacking](#section-hacking)  
+:small_orange_diamond: [Hacking](#section-apple-macos)  
 :small_orange_diamond: [Blogs](#section-blogs)  
 :small_orange_diamond: [Autres](#section-autres)  
 
@@ -48,6 +49,12 @@ Tous ont un rapport avec l'informatique.
 * **[Root-me](https://www.root-me.org)** : plateforme d'entraînement au hacking
 * **[Termes utilisés dans le monde du hack](https://www.crazyws.fr/culture/termes-utilises-dans-le-monde-du-hack-et-de-la-securite-Q55PK.html)** : liste de mots du monde du hack
 * **[Sectools](https://sectools.org)** : regroupe des outils dédiés au hacking
+
+<div id='section-apple-macos'/>
+
+##### Apple macOS
+
+* **[Crescendo](https://segphault.io/posts/2020/03/crescendo)** : moniteur d'activité très complet pour macOS
 
 <div id='section-blogs'/>
 
