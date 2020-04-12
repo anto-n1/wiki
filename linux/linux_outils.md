@@ -5,17 +5,18 @@ Les outils sont classés par catégories.
 
 ## Table des matières
 
-* [Serveurs](#section-serveurs)  
+* [Serveur](#section-serveur)  
 	:small_orange_diamond: [Mail](#section-serveurs-mails)  
 	:small_orange_diamond: [Utilitaires](#section-serveurs-utilitaires) 
+* [Desktop](#section-desktop)  
 * [Prise d'empreinte](#section-a-definir)  
 	:small_orange_diamond: [Sauvegarde](#section-sauvegarde)  
 	:small_orange_diamond: [Métadonnées](#section-metadonnees)  
 	:small_orange_diamond: [Markdown](#section-markdown)  
 
-<div id='section-prise-empreinte'/>
+<div id='section-serveur'/>
 
-## Serveurs
+## Serveur
 
 <div id='section-serveurs-mails'/>
 
@@ -29,6 +30,12 @@ Les outils sont classés par catégories.
 ##### :small_orange_diamond: Utilitaires
 
 * **[molly-guard](https://helpmanual.io/man8/molly-guard)** : demande confirmation avant un redémarrage/extinction pour éviter le redémarrage en se trompant de terminal
+
+<div id='section-desktop'/>
+
+## Desktop
+
+* **[Flathub](https://flathub.org)** : magasin d'applications
 
 <div id='section-a-definir'/>
 
