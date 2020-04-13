@@ -302,9 +302,7 @@ Les agrégateurs et frameworks sont des outils servant à regrouper plusieurs ou
 
 ## Enumération
 
-<div id='section-enumeration-netbios'/>
-
-##### :small_orange_diamond: NetBIOS
+* **[Dirsearch](https://github.com/maurosoria/dirsearch)** :unlock::free: : brutforcer des URL et fichiers dans des répertoires serveur HTTP
 
 <!--
 * **[]()** :::: :
