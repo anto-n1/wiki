@@ -17,6 +17,7 @@ Tous ont un rapport avec l'informatique.
 
 ##### Vie privée
 
+* **[DarkSearch](https://darksearch.io)** : moteur de recherche de TOR, répertorie des sites onion
 * **[No Gapps alternatives](https://shadow53.com/android/no-gapps/alternatives)** : applications alternatives aux services Google
 * **[PrivacyTools](https://www.privacytools.io)** : regroupe des logiciels privacy by design
 * **[ThinkPrivacy](https://www.thinkprivacy.ch)** : blog sur la vie privée
@@ -43,6 +44,7 @@ Tous ont un rapport avec l'informatique.
 
 ##### Hacking
 
+* **[CTF Cheat sheet & Mémo](https://lestutosdeprocessus.fr/ctf-cheat-sheet)** : mémos pour les CTF
 * **[Hack The Box](https://www.hackthebox.eu)** : plateforme proposant des VM à casser
 * **[How to start hacking?](https://www.reddit.com/r/hacking/comments/a3oicn/how_to_start_hacking_the_ultimate_two_path_guide)** : post Reddit pour commencer le hacking
 * **[Avatao](https://avatao.com)** : plateforme d'entraînement au hacking
