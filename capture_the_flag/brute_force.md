@@ -1,0 +1,24 @@
+# Brute force
+
+**Liste de mots de passe dans Kali** : 
+Wordlists situées dans **/usr/share/wordlist/**.
+
+Liste de répertoires web à tester pour trouver des fichiers et répertoires avec Dirbuster ou Gobuster : **/usr/share/wordlist/dirb/** ou **/usr/share/wordlist/dirbuster/**.  
+
+**Utilisation basique de Gobuster** :  
+```./gobuster dir -u http://10.10.10.29/ -w /usr/share/wordlists/dirb/common.txt```.
+
+**Utilisation basique de john** :  
+```
+john cisco.txt --wordlist=/usr/share/wordlist/rockyou.txt
+```
+
+**Touver passphrase à partir de clé privée** :  
+1. : Créer un hash de la clé avec john
+```
+/usr/share/john/ssh2john.py cle-rsa > cle-rsa.hash
+```
+2. : Brute forcer
+```
+john --wordlist=/usr/share/wordlists/rockyou.txt cle-rsa.hash
+```
