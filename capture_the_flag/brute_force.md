@@ -16,11 +16,12 @@ john cisco.txt --wordlist=/usr/share/wordlist/rockyou.txt
 ```
 
 **Touver passphrase à partir de clé privée** :  
-1. : Créer un hash de la clé avec john
+
+**1 -** Créer un hash de la clé avec john
 ```
 /usr/share/john/ssh2john.py cle-rsa > cle-rsa.hash
 ```
-2. : Brute forcer
+**2 -** Brute forcer
 ```
 john --wordlist=/usr/share/wordlists/rockyou.txt cle-rsa.hash
 ```
