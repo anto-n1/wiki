@@ -6,7 +6,9 @@ Wordlists situées dans **/usr/share/wordlist/**.
 Liste de répertoires web à tester pour trouver des fichiers et répertoires avec Dirbuster ou Gobuster : **/usr/share/wordlist/dirb/** ou **/usr/share/wordlist/dirbuster/**.  
 
 **Utilisation basique de Gobuster** :  
-```./gobuster dir -u http://10.10.10.29/ -w /usr/share/wordlists/dirb/common.txt```.
+```
+./gobuster dir -u http://10.10.10.29/ -w /usr/share/wordlists/dirb/common.txt
+```
 
 **Utilisation basique de john** :  
 ```
