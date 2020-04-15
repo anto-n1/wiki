@@ -33,21 +33,20 @@ La liste des outils disponibles sur Kali Linux est disponible à [cette adresse]
 	:small_orange_diamond: [Offres d'emplois](#section-offre-emploi)  
 	:small_orange_diamond: [Suivi de cible - notificatioins](#section-suivi-cible)  
 	:small_orange_diamond: [OS - Vulnérabilités applications web - localisation](#section-os-vulnerabilites)  
-	:small_orange_diamond: [Web crawler - spider - robot](#section-web-crawler)  
-	:small_orange_diamond: [Mirroring website](#section-mirroring-website)  
+	:small_orange_diamond: [Web crawler - extracteur infos SEO](#section-web-crawler-extract-seo)  
+	:small_orange_diamond: [Mirroring website - copie de sites](#section-mirroring-website)  
 	:small_orange_diamond: [Métadonnées](#section-metadonnees)  
 	:small_orange_diamond: [Monitoring de pages et suivi](#section-monitoring-webpages)  
 	:small_orange_diamond: [Email tracking](#section-email-tracking)  
 	:small_orange_diamond: [Intelligence compétitive](#section-intelligence-competitive)  
 	:small_orange_diamond: [Whois - Traceroute](#section-whois-traceroute)  
-	:small_orange_diamond: [Agrégateurs et framework](#section-agregateurs-frameworks)  
-* [Scan de réseau](#section-scan-reseau)  
+	:small_orange_diamond: [Agrégateurs et framework prise d'empreinte](#section-agregateurs-frameworks)  
+* [Scan de réseau](#section-scan-enumeration)  
 	:small_orange_diamond: [Forgeage de paquets](#section-forgeage-paquets)  
-	:small_orange_diamond: [Scan d'hôtes](#section-scan-hotes)
-	:small_orange_diamond: [Scan d'hôtes](#section-scan-vulnerabilites)
-	:small_orange_diamond: [Scan d'hôtes](#section-cartographie-reseau)
-* [Enumération](#section-enumeration)  
-	:small_orange_diamond: [NetBIOS](#section-enumeration-netbios)  
+	:small_orange_diamond: [Scan de réseau et ports](#section-scan-reseau-port)  
+	:small_orange_diamond: [Scan de vulnérabilités](#section-scan-vulnerabilites)  
+	:small_orange_diamond: [Cartographie réseau](#section-cartographie-reseau)  
+	:small_orange_diamond: [Enumération répertoires web](#section-enumeration-repertoire-web)  
 <!--
 :small_orange_diamond: [](#section-)  
 -->
@@ -164,9 +163,9 @@ Tous les outils de cette section sont gratuits et propriétaires.
 * **[Shodan](https://www.shodan.io)** :lock::money_with_wings: : chercher des équipement sur internet : routeurs, serveurs, IOT...  
 * **[Zaproxy](https://www.zaproxy.org)** :unlock::free: : trouver des vulnérabilités sur des applications web
 
-<div id='section-web-crawler'/>
+<div id='section-web-crawler-extract-seo'/>
 
-##### :small_orange_diamond: Web crawler - spider - robot
+##### :small_orange_diamond: Web crawler - extracteur infos SEO
 
 * **[BeamUsUp](https://beamusup.com)** :lock: : avoir des informations SEO sur les sites
 * **[Scrapy](https://scrapy.org)** :unlock::free: : framework python pour scraper des pages web
@@ -177,7 +176,7 @@ Tous les outils de cette section sont gratuits et propriétaires.
 
 <div id='section-mirroring-website'/>
 
-##### :small_orange_diamond: Mirroring website
+##### :small_orange_diamond: Mirroring website - copie de sites
 
 * **[HTTrack](https://www.httrack.com)** :unlock::free: : aspirateur de site web
 * **[NCollector Studio](http://www.calluna-software.com)** :lock::money_with_wings: : télécharger des fichiers de sites en fonction de leur type
@@ -252,9 +251,9 @@ Les agrégateurs et frameworks sont des outils servant à regrouper plusieurs ou
 * **[Sn1per](https://github.com/1N3/Sn1per)** :unlock::free: : framework de pentest sous forme d'interface web (peut tourner avec docker)
 * **[theHarvester](https://github.com/laramies/theHarvester)** :unlock::free: : outil d'OSINT pour récupérer IP, mails, URL, domaines...
 
-<div id='section-scan-reseau'/>
+<div id='section-scan-enumeration'/>
 
-## Scan de réseau
+## Scan et énumération
 
 <div id='section-forgeage-paquets'/>
 
@@ -267,14 +266,13 @@ Les agrégateurs et frameworks sont des outils servant à regrouper plusieurs ou
 * **[Packet Builder](https://www.colasoft.com/packet_builder)** :lock::free: : outil Windows permettant de forger des paquets
 * **[packETH](http://packeth.sourceforge.net/packeth/Home.html)** :unlock::free: : générateur de paquets ethernet avec GUI et CLI
 
-<div id='section-scan-hotes'/>
+<div id='section-scan-reseau-port'/>
 
-##### :small_orange_diamond: Scan d'hôtes
+##### :small_orange_diamond: Scan de réseau et ports
 
 * **[Angryip](https://angryip.org)** :unlock::free: : scanneur réseau user-friendly
 * **[Dracnmap](https://github.com/Screetsec/Dracnmap)** :unlock::free: : CLI avec menu pour utiliser nmap plus d'autres fonctions
 * **[fping](http://fping.org)** :unlock::free: : faire du ping sweep
-* **[Gobuster](https://github.com/OJ/gobuster)** :unlock::free: : scan d'URL, fichiers, DNS, Vhosts...
 * **[Hping](http://hping.org)** :unlock::free: : analyse et forgeage de paquets TCP, UDP, ICMP et RAW-IP
 * **[Masscan](https://github.com/robertdavidgraham/masscan)** :unlock::free: : scanner des ports en masse sur internet
 * **[Nmap](https://nmap.org)** :unlock::free: : bon bah c'est Nmap
@@ -298,10 +296,11 @@ Les agrégateurs et frameworks sont des outils servant à regrouper plusieurs ou
 * **[FriendlyPinger](http://kilievich.com/fpinger)** :unlock::free: : permet de dessiner des schémas réseau
 * **[Nedi](http://www.nedi.ch)** :unlock::free: : découvrir des réseaux et les dessiner
 
-<div id='section-enumeration'/>
+<div id='section-enumeration-repertoire-web'/>
 
-## Enumération
+##### :small_orange_diamond: Enumération répertoires web
 
+* **[Gobuster](https://github.com/OJ/gobuster)** :unlock::free: : scan d'URL, fichiers, DNS, Vhosts...
 * **[Dirsearch](https://github.com/maurosoria/dirsearch)** :unlock::free: : brutforcer des URL et fichiers dans des répertoires serveur HTTP
 
 <!--
