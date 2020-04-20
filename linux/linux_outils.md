@@ -36,6 +36,7 @@ Les outils sont classés par catégories.
 ## Desktop
 
 * **[Flathub](https://flathub.org)** : magasin d'applications
+* **[Tilix](https://github.com/gnunn1/tilix)** : terminal Gnome de base amélioré
 
 <div id='section-a-definir'/>
 
