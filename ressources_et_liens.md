@@ -29,6 +29,7 @@ Tous ont un rapport avec l'informatique.
 
 ##### Linux
 
+* **[Distrowatch](https://distrowatch.com)** : répertorie les distributions Linux
 * **[iHateRegex](https://ihateregex.io)** : outil en ligne permettant de faire des regex
 * **[Unixporn](https://www.reddit.com/r/unixporn)** : forum Reddit sur la personnalisation d'UNIX
 * **[the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)** : Readme Github contenant une collection d'outils Linux
