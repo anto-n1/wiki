@@ -10,6 +10,7 @@ Tous ont un rapport avec l'informatique.
 :small_orange_diamond: [Sécurité](#section-securite)  
 :small_orange_diamond: [Hacking](#section-hacking)  
 :small_orange_diamond: [Apple macOS](#section-apple-macos)  
+:small_orange_diamond: [Windows](#section-windows)  
 :small_orange_diamond: [Blogs](#section-blogs)  
 :small_orange_diamond: [Autres](#section-autres)  
 
@@ -30,6 +31,7 @@ Tous ont un rapport avec l'informatique.
 ##### Linux
 
 * **[Distrowatch](https://distrowatch.com)** : répertorie les distributions Linux
+* **[Flathub](https://flathub.org/home)** : agrégateur d'apps Linux
 * **[iHateRegex](https://ihateregex.io)** : outil en ligne permettant de faire des regex
 * **[Unixporn](https://www.reddit.com/r/unixporn)** : forum Reddit sur la personnalisation d'UNIX
 * **[the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)** : Readme Github contenant une collection d'outils Linux
@@ -60,6 +62,13 @@ Tous ont un rapport avec l'informatique.
 ##### Apple macOS
 
 * **[Crescendo](https://segphault.io/posts/2020/03/crescendo)** : moniteur d'activité très complet pour macOS
+
+<div id='section-windows'/>
+
+##### Windows
+
+* **[Chocolatey](https://chocolatey.org)** : gestionnaire de paquets Windows
+* **[MediCat USB](https://gbatemp.net/threads/medicat-dvd-a-multiboot-linux-dvd.361577)** : créer USB amorçable sous Windows avec plein d'outils (récupération mdp, réparation disque...)
 
 <div id='section-blogs'/>
 
