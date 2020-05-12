@@ -9,9 +9,11 @@ Tous ont un rapport avec l'informatique.
 :small_orange_diamond: [Linux](#section-linux)  
 :small_orange_diamond: [Sécurité](#section-securite)  
 :small_orange_diamond: [Hacking](#section-hacking)  
+:small_orange_diamond: [Développement](#section-developpement)  
 :small_orange_diamond: [Apple macOS](#section-apple-macos)  
 :small_orange_diamond: [Windows](#section-windows)  
 :small_orange_diamond: [Blogs](#section-blogs)  
+:small_orange_diamond: [Humour](#section-humour)  
 :small_orange_diamond: [Autres](#section-autres)  
 
 <div id='section-vie-privee'/>
@@ -41,6 +43,7 @@ Tous ont un rapport avec l'informatique.
 
 ##### Sécurité
 
+* **[AgDuard Home](https://github.com/AdguardTeam/AdGuardHome/blob/master/README.md)** : serveur DNS bloqueur pub et traqueurs
 * **[Safeciphers.org](https://safeciphers.org)** : page regroupant les conf à appliquer pour sécuriser des applications de serveurs Linux
 * **[have i been pwned?](https://haveibeenpwned.com)** : vérifier si une adresse mail a leaké
 
@@ -56,6 +59,13 @@ Tous ont un rapport avec l'informatique.
 * **[Root-me](https://www.root-me.org)** : plateforme d'entraînement au hacking
 * **[Termes utilisés dans le monde du hack](https://www.crazyws.fr/culture/termes-utilises-dans-le-monde-du-hack-et-de-la-securite-Q55PK.html)** : liste de mots du monde du hack
 * **[Sectools](https://sectools.org)** : regroupe des outils dédiés au hacking
+* **[Wuzz](https://github.com/asciimoo/wuzz/blob/master/README.md)** : interface CLI pour l'inspection HTTP
+
+<div id='section-developpement'/>
+
+##### Développement
+
+* **[Programmation défensive Bash](https://blog.seboss666.info/2020/04/programmation-defensive-en-bash)** : limiter la surface d'attaque scripts Bash
 
 <div id='section-apple-macos'/>
 
@@ -76,6 +86,12 @@ Tous ont un rapport avec l'informatique.
 
 * **[Korben](https://korben.info)** : chef de l'internet
 * **[Le journal du hacker](https://www.journalduhacker.net)** : blog regroupant des articles de différentes sources
+
+<div id='section-humour'/>
+
+##### Humour
+
+* **[How to exit Vim](https://github.com/hakluke/how-to-exit-vim/blob/master/README.md)** : plein de manières de quitter Vim le meilleur éditeur de texte
 
 <div id='section-autres'/>
 
