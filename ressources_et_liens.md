@@ -9,40 +9,43 @@ Tous ont un rapport avec l'informatique.
 :small_orange_diamond: [Linux](#section-linux)  
 :small_orange_diamond: [Sécurité](#section-securite)  
 :small_orange_diamond: [Hacking](#section-hacking)  
+:small_orange_diamond: [Développement](#section-developpement)  
 :small_orange_diamond: [Apple macOS](#section-apple-macos)  
 :small_orange_diamond: [Windows](#section-windows)  
 :small_orange_diamond: [Blogs](#section-blogs)  
+:small_orange_diamond: [Humour](#section-humour)  
 :small_orange_diamond: [Autres](#section-autres)  
 
 <div id='section-vie-privee'/>
 
 ##### Vie privée
 
+* **[Am I Unique](https://amiunique.org)** : réalise des fingerprint navigateur pour savoir si j'ai un profil unique
 * **[DarkSearch](https://darksearch.io)** : moteur de recherche de TOR, répertorie des sites onion
+* **[Hidden Wiki](https://thehiddenwiki.org)** : site répertoriant des URL onion
 * **[No Gapps alternatives](https://shadow53.com/android/no-gapps/alternatives)** : applications alternatives aux services Google
 * **[PrivacyTools](https://www.privacytools.io)** : regroupe des logiciels privacy by design
 * **[ThinkPrivacy](https://www.thinkprivacy.ch)** : blog sur la vie privée
-* **[Am I Unique](https://amiunique.org)** : réalise des fingerprint navigateur pour savoir si j'ai un profil unique
 * **[VPN Comparison](https://thatoneprivacysite.net)** : site comparant des VPN
-* **[Hidden Wiki](https://thehiddenwiki.org)** : site répertoriant des URL onion
 
 <div id='section-linux'/>
 
 ##### Linux
 
+* **[Distrotest](https://distrotest.net)** : tester des distributions Linux rapidement avec des VM distantes
 * **[Distrowatch](https://distrowatch.com)** : répertorie les distributions Linux
 * **[Flathub](https://flathub.org/home)** : agrégateur d'apps Linux
 * **[iHateRegex](https://ihateregex.io)** : outil en ligne permettant de faire des regex
 * **[Unixporn](https://www.reddit.com/r/unixporn)** : forum Reddit sur la personnalisation d'UNIX
-* **[the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)** : Readme Github contenant une collection d'outils Linux
-* **[Distrotest](https://distrotest.net)** : tester des distributions Linux rapidement avec des VM distantes
+* **[The book of secret knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)** : Readme Github contenant une collection d'outils Linux
 
 <div id='section-securite'/>
 
 ##### Sécurité
 
-* **[Safeciphers.org](https://safeciphers.org)** : page regroupant les conf à appliquer pour sécuriser des applications de serveurs Linux
+* **[AdGuard Home](https://github.com/AdguardTeam/AdGuardHome/blob/master/README.md)** : serveur DNS bloqueur pub et traqueurs
 * **[have i been pwned?](https://haveibeenpwned.com)** : vérifier si une adresse mail a leaké
+* **[Safeciphers.org](https://safeciphers.org)** : page regroupant les conf à appliquer pour sécuriser des applications de serveurs Linux
 
 <div id='section-hacking'/>
 
@@ -54,8 +57,15 @@ Tous ont un rapport avec l'informatique.
 * **[How to start hacking?](https://www.reddit.com/r/hacking/comments/a3oicn/how_to_start_hacking_the_ultimate_two_path_guide)** : post Reddit pour commencer le hacking
 * **[PayloadsAllTheThings-Noobs-Fr](https://github.com/TeePee/PayloadsAllTheThings-Noobs-Fr)** : repo github listant payloads/bypass pour sécurité applications web et pentest/CTF
 * **[Root-me](https://www.root-me.org)** : plateforme d'entraînement au hacking
-* **[Termes utilisés dans le monde du hack](https://www.crazyws.fr/culture/termes-utilises-dans-le-monde-du-hack-et-de-la-securite-Q55PK.html)** : liste de mots du monde du hack
 * **[Sectools](https://sectools.org)** : regroupe des outils dédiés au hacking
+* **[Termes utilisés dans le monde du hack](https://www.crazyws.fr/culture/termes-utilises-dans-le-monde-du-hack-et-de-la-securite-Q55PK.html)** : liste de mots du monde du hack
+* **[Wuzz](https://github.com/asciimoo/wuzz/blob/master/README.md)** : interface CLI pour l'inspection HTTP
+
+<div id='section-developpement'/>
+
+##### Développement
+
+* **[Programmation défensive Bash](https://blog.seboss666.info/2020/04/programmation-defensive-en-bash)** : limiter la surface d'attaque scripts Bash
 
 <div id='section-apple-macos'/>
 
@@ -79,6 +89,12 @@ Tous ont un rapport avec l'informatique.
 * **[Korben](https://korben.info)** : chef de l'internet
 * **[Le carnet technique de Michaël](https://michael.parienti.net)** : blog technique : astuces, tutos et monitoring
 * **[Le journal du hacker](https://www.journalduhacker.net)** : blog regroupant des articles de différentes sources
+
+<div id='section-humour'/>
+
+##### Humour
+
+* **[How to exit Vim](https://github.com/hakluke/how-to-exit-vim/blob/master/README.md)** : plein de manières de quitter Vim le meilleur éditeur de texte
 
 <div id='section-autres'/>
 
