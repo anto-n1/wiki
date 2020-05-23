@@ -62,6 +62,7 @@ Tous ont un rapport avec l'informatique.
 ##### Apple macOS
 
 * **[Crescendo](https://segphault.io/posts/2020/03/crescendo)** : moniteur d'activité très complet pour macOS
+* **[MetaZ](https://metaz.io)** : gestionnaire de métadonnées de fichiers
 
 <div id='section-windows'/>
 
@@ -74,7 +75,9 @@ Tous ont un rapport avec l'informatique.
 
 ##### Blogs
 
+* **[blog.kharec.info](https://blog.kharec.info)** : blog de Sandro CAZZANIGA : SysOps
 * **[Korben](https://korben.info)** : chef de l'internet
+* **[Le carnet technique de Michaël](https://michael.parienti.net)** : blog technique : astuces, tutos et monitoring
 * **[Le journal du hacker](https://www.journalduhacker.net)** : blog regroupant des articles de différentes sources
 
 <div id='section-autres'/>
