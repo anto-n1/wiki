@@ -87,8 +87,10 @@ Tous ont un rapport avec l'informatique.
 
 * **[blog.kharec.info](https://blog.kharec.info)** : blog de Sandro CAZZANIGA : SysOps
 * **[Korben](https://korben.info)** : chef de l'internet
+* **[La grotte du barbu](https://www.grottedubarbu.fr)** : blog informatique en tout genre
 * **[Le carnet technique de Michaël](https://michael.parienti.net)** : blog technique : astuces, tutos et monitoring
 * **[Le journal du hacker](https://www.journalduhacker.net)** : blog regroupant des articles de différentes sources
+* **[Net-Security](https://net-security.fr)** : blog développement, systèmes et sécurité informatique
 
 <div id='section-humour'/>
 
