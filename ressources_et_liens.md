@@ -44,6 +44,7 @@ Tous ont un rapport avec l'informatique.
 ##### Sécurité
 
 * **[AdGuard Home](https://github.com/AdguardTeam/AdGuardHome/blob/master/README.md)** : serveur DNS bloqueur pub et traqueurs
+* **[CryptoHack](https://cryptohack.org)** : plateforme apprentissage cryptographie
 * **[have i been pwned?](https://haveibeenpwned.com)** : vérifier si une adresse mail a leaké
 * **[Safeciphers.org](https://safeciphers.org)** : page regroupant les conf à appliquer pour sécuriser des applications de serveurs Linux
 
