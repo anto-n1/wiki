@@ -20,6 +20,7 @@ Tous ont un rapport avec l'informatique.
 
 ##### Vie privée
 
+* **[AdGuard Home](https://github.com/AdguardTeam/AdGuardHome/blob/master/README.md)** : serveur DNS bloqueur pub et traqueurs
 * **[Am I Unique](https://amiunique.org)** : réalise des fingerprint navigateur pour savoir si j'ai un profil unique
 * **[DarkSearch](https://darksearch.io)** : moteur de recherche de TOR, répertorie des sites onion
 * **[Hidden Wiki](https://thehiddenwiki.org)** : site répertoriant des URL onion
@@ -43,7 +44,6 @@ Tous ont un rapport avec l'informatique.
 
 ##### Sécurité
 
-* **[AdGuard Home](https://github.com/AdguardTeam/AdGuardHome/blob/master/README.md)** : serveur DNS bloqueur pub et traqueurs
 * **[CryptoHack](https://cryptohack.org)** : plateforme apprentissage cryptographie
 * **[have i been pwned?](https://haveibeenpwned.com)** : vérifier si une adresse mail a leaké
 * **[Safeciphers.org](https://safeciphers.org)** : page regroupant les conf à appliquer pour sécuriser des applications de serveurs Linux
@@ -79,7 +79,7 @@ Tous ont un rapport avec l'informatique.
 
 ##### Windows
 
-* **[Chocolatey](https://chocolatey.org)** : gestionnaire de paquets Windows
+* **[Chocolatey](https://chocolatey.org)** : gestionnaire de paquets Windows - Winget aujourd'hui proposé par Microsoft
 * **[MediCat USB](https://gbatemp.net/threads/medicat-dvd-a-multiboot-linux-dvd.361577)** : créer USB amorçable sous Windows avec plein d'outils (récupération mdp, réparation disque...)
 
 <div id='section-blogs'/>
@@ -107,4 +107,5 @@ Tous ont un rapport avec l'informatique.
 * **[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)** : mémo Markdown
 * **[Emoji Tracker](http://www.emojitracker.com/)** : affiche le nombre d'emojis total sur Twitter
 * **[Overleaf](https://www.overleaf.com)** : éditeur Markdown en ligne
+* **[Vim persistent undo](https://jovicailic.org/2017/04/vim-persistent-undo)** : avoir un undo persistant sur vim
 * **[Wiki.js](https://wiki.js.org)** : serveur wiki pouvant tourner sur Linux, Docker, Windows, macOS
