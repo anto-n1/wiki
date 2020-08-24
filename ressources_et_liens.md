@@ -26,6 +26,7 @@ Tous ont un rapport avec l'informatique.
 * **[Hidden Wiki](https://thehiddenwiki.org)** : site répertoriant des URL onion
 * **[No Gapps alternatives](https://shadow53.com/android/no-gapps/alternatives)** : applications alternatives aux services Google
 * **[PrivacyTools](https://www.privacytools.io)** : regroupe des logiciels privacy by design
+* **[ShutUpTrackers](https://shutuptrackers.com)** : logiciels de protection contre la surveillance de masse
 * **[ThinkPrivacy](https://www.thinkprivacy.ch)** : blog sur la vie privée
 * **[VPN Comparison](https://thatoneprivacysite.net)** : site comparant des VPN
 
