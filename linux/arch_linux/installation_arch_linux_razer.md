@@ -275,14 +275,13 @@ pacman -S nvidia nvidia-utils nvidia-settings nvidia-dkms
 Installation des drivers pour le touchpad :
 
 ```bash
-pacman -S libinput # voir   ussi xf86-libinput
+pacman -S libinput
 ```
 
 Utilisation de lightdm plutot que le xfwm en tant que window manager :
 
 ```bash
 pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings xorg
-localectl set-x11-keymap fr # Eviter que le clavier soit qwerty au démarrage de la session
 systemctl enable --now lightdm
 ```
 
