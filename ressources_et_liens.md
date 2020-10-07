@@ -5,6 +5,7 @@ Tous ont un rapport avec l'informatique.
 
 ## Table des matières
 
+:small_orange_diamond: [Tips - astuces](#section-tips-astuces)  
 :small_orange_diamond: [Vie privée](#section-vie-privee)  
 :small_orange_diamond: [Linux](#section-linux)  
 :small_orange_diamond: [Sécurité](#section-securite)  
@@ -15,6 +16,12 @@ Tous ont un rapport avec l'informatique.
 :small_orange_diamond: [Blogs](#section-blogs)  
 :small_orange_diamond: [Humour](#section-humour)  
 :small_orange_diamond: [Autres](#section-autres)  
+
+<div id='section-tips-astuces'/>
+
+##### Tips - astuces
+
+* **[Barrier](https://github.com/debauchee/barrier)** : permet d'utiliser une seule souris et clavier pour plusieurs PC sous Windows/Linux/macOS
 
 <div id='section-vie-privee'/>
 
