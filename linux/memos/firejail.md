@@ -33,11 +33,13 @@ firejail --private=/tmp/ firefox
 Pour plus de confort, modifier fichiers desktop pour
 sandboxer les application ouvertes via interface graphique.
 
-Interdiction d'accès au réseau pour Visual studio code :
+Interdiction d'accès au réseau pour Visual studio code / Sublime Text:
 
 ```bash
 vim /usr/share/applications/code.desktop
 Exec=firejail --net=none /usr/share/code/code --no-sandbox --unity-launch %F
+vim /usr/share/applications/sublime_text.desktop
+Exec=firejail --net=none /opt/sublime_text/sublime_text %F
 ```
 
 Utilisation du profile par défaut pour Chromium :
