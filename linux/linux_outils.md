@@ -9,7 +9,8 @@ Les outils sont classés par catégories.
 	:small_orange_diamond: [Mail](#section-serveurs-mails)  
 	:small_orange_diamond: [Utilitaires](#section-serveurs-utilitaires) 
 * [Desktop](#section-desktop)  
-* [Prise d'empreinte](#section-a-definir)  
+	:small_orange_diamond: [Securite](#section-securite)  
+* [A définir](#section-a-definir)  
 	:small_orange_diamond: [Sauvegarde](#section-sauvegarde)  
 	:small_orange_diamond: [Métadonnées](#section-metadonnees)  
 	:small_orange_diamond: [Markdown](#section-markdown)  
@@ -37,6 +38,12 @@ Les outils sont classés par catégories.
 
 * **[Flathub](https://flathub.org)** : magasin d'applications
 * **[Tilix](https://github.com/gnunn1/tilix)** : terminal Gnome de base amélioré
+
+<div id='section-securite'/>
+
+##### :small_orange_diamond: Sécurité
+
+* **[Firejail](https://firejail.wordpress.com)** : lancer des applications Linux dans des sandbox
 
 <div id='section-a-definir'/>
 

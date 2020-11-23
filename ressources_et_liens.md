@@ -14,6 +14,7 @@ Tous ont un rapport avec l'informatique.
 :small_orange_diamond: [Apple macOS](#section-apple-macos)  
 :small_orange_diamond: [Windows](#section-windows)  
 :small_orange_diamond: [Blogs](#section-blogs)  
+:small_orange_diamond: [Extensions navigateurs](#section-extensions-navigateur)  
 :small_orange_diamond: [Humour](#section-humour)  
 :small_orange_diamond: [Autres](#section-autres)  
 
@@ -83,6 +84,7 @@ Tous ont un rapport avec l'informatique.
 
 * **[Crescendo](https://segphault.io/posts/2020/03/crescendo)** : moniteur d'activité très complet pour macOS
 * **[Docker-OSX](https://github.com/sickcodes/Docker-OSX/blob/master/README.md)** : faire tourner macOS dans un conteneur Docker
+* **[doseitarm.com](https://doesitarm.com)** : connaître les applications optimisées pour les puces Apple Silicon
 * **[macOS defaults](https://macos-defaults.com/fr)** : astuces chachées sur macOS
 * **[MetaZ](https://metaz.io)** : gestionnaire de métadonnées de fichiers
 
@@ -103,6 +105,12 @@ Tous ont un rapport avec l'informatique.
 * **[Le carnet technique de Michaël](https://michael.parienti.net)** : blog technique : astuces, tutos et monitoring
 * **[Le journal du hacker](https://www.journalduhacker.net)** : blog regroupant des articles de différentes sources
 * **[Net-Security](https://net-security.fr)** : blog développement, systèmes et sécurité informatique
+
+<div id='section-extensions-navigateur'/>
+
+##### Extensions navigateur
+
+* **[Tridactyl](https://github.com/tridactyl/tridactyl)** : utiliser les raccourcis vim dans son navigateur
 
 <div id='section-humour'/>
 
