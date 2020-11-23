@@ -14,6 +14,7 @@ Tous ont un rapport avec l'informatique.
 :small_orange_diamond: [Apple macOS](#section-apple-macos)  
 :small_orange_diamond: [Windows](#section-windows)  
 :small_orange_diamond: [Blogs](#section-blogs)  
+:small_orange_diamond: [Extensions navigateurs](#section-extensions-navigateur)  
 :small_orange_diamond: [Humour](#section-humour)  
 :small_orange_diamond: [Autres](#section-autres)  
 
@@ -104,6 +105,12 @@ Tous ont un rapport avec l'informatique.
 * **[Le carnet technique de Michaël](https://michael.parienti.net)** : blog technique : astuces, tutos et monitoring
 * **[Le journal du hacker](https://www.journalduhacker.net)** : blog regroupant des articles de différentes sources
 * **[Net-Security](https://net-security.fr)** : blog développement, systèmes et sécurité informatique
+
+<div id='section-extensions-navigateur'/>
+
+##### Extensions navigateur
+
+* **[Tridactyl](https://github.com/tridactyl/tridactyl)** : utiliser les raccourcis vim dans son navigateur
 
 <div id='section-humour'/>
 
