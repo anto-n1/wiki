@@ -70,6 +70,7 @@ Tous ont un rapport avec l'informatique.
 * **[Root-me](https://www.root-me.org)** : plateforme d'entraînement au hacking
 * **[Sectools](https://sectools.org)** : regroupe des outils dédiés au hacking
 * **[Termes utilisés dans le monde du hack](https://www.crazyws.fr/culture/termes-utilises-dans-le-monde-du-hack-et-de-la-securite-Q55PK.html)** : liste de mots du monde du hack
+* **[Vulnhub](https://www.vulnhub.com)** : base de données de VM vulnérables
 * **[Wuzz](https://github.com/asciimoo/wuzz/blob/master/README.md)** : interface CLI pour l'inspection HTTP
 
 <div id='section-developpement'/>
