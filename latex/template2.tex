@@ -1,14 +1,7 @@
 % --------------------------------------------------------------------
-% RAPPORT XXX
-%
-% Ce document est...
-%
-% DOUILLARD Antonin
-% ESAIP IRA 4
+% RAPPORT
 %
 % Début d'écriture du document : décembre 2020
-%
-% - include des différentes parties pour éviter taille immense de fichier
 % --------------------------------------------------------------------
 
 % --------------------------------------------------------------------
@@ -16,16 +9,20 @@
 %
 % - Longueur max d'une ligne : 90 caractères
 % - Mettre des commentaires
+% - Include des différentes parties pour éviter taille immense de fichier
 % --------------------------------------------------------------------
 
 % --------------------------------------------------------------------
 % Compilation du document
 %
-% pdflatex document.tex
-% pdflatex document.tex
+% xelatex document
+% xelatex document
 % biber document
-% pdflatex document.tex
-% pdflatex document.tex
+% pdflatex document
+% pdflatex document
+%
+% Avex TeXworks sous Windows :
+% Utiliser la compilation avec Xelatex+MakeIndex+BibTeX
 % --------------------------------------------------------------------
 
 % --------------------------------------------------------------------
@@ -40,9 +37,6 @@
 
 % Manières de la langue française pour LaTeX
 \usepackage[french]{babel}
-
-% Choix de la police d'écriture
-\usepackage{lmodern}
 
 % Justification du texte
 \usepackage{microtype}
@@ -60,16 +54,58 @@
 % Modification des tailles de la marge
 \usepackage[left=2cm,right=2cm,top=2.7cm,bottom=2.7cm]{geometry}
 
-% Ajouter la possibilité d'utiliser la couleur pour le texte
-\usepackage{xcolor}
-
 % Utiliser des légende pour les images et les tableaux
 \usepackage{caption}
 
-% Utiliser biblatex (biber) pour la bibliographie
-\usepackage[backend=biber]{biblatex}
+% Ajouter des pages et/ou fichiers PDF externes
+\usepackage{pdfpages}
+
+% Gestion des liens dans le document
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks = true, % Colorer les liens
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black, % Couleur des liens
+    urlcolor=black
+hyperfigures = true, % Ajouter les liens table des matières vers les parties lors du clic
+}
+
+% Bibliographie
+\usepackage[
+  %backend=biber,         % choix de l'outil de traitement
+backend=bibtex,
+    babel=hyphen,          % environnement linguistique dédié aux entrées en langues alternatives (utilise l'attribut « hyphenation »)
+    backref=true,          % liens dans la bibliographie pour remonter dans le texte
+    backrefstyle=none,     % afficher toutes les utilisations de la référence
+    bibstyle=alphabetic,   % style pour les clés des références dans la bibliographie : [initialesAnnée]
+    citestyle=alphabetic,  % style pour les clés des références dans le texte : [initialesAnnée]
+    sorting=none,          % bibliographie triée par ordre d'utilisation des références
+]{biblatex}                  % support des bibliographies
+
 % Nom du fichier contenant les sources
-\addbibresource{sources.bib}
+%\addbibresource{sources.bib}
+\bibliography{sources.bib}
+
+% --------------------------------------------------------------------
+% Police d'écriture
+% --------------------------------------------------------------------
+
+% Dans le cas de l'utilisation de pdflatex
+%\usepackage{lmodern}
+
+% Utilisation de xelatex pour utiliser calibri
+\usepackage{fontspec}
+\setmainfont{Calibri}
+
+% --------------------------------------------------------------------
+% Définition des couleurs
+% --------------------------------------------------------------------
+
+% Ajouter la possibilité d'utiliser de la couleur pour le texte
+\usepackage{xcolor}
+
+\definecolor{gray75}{gray}{0.75}
 
 % --------------------------------------------------------------------
 % Personalisation des titres
@@ -88,29 +124,40 @@
 {\Huge\bfseries} % Type et style du titre
 
 % Réduction de l'espace au dessus et en dessous des chapitres
-%\titlespacing{command}{left spacing}{before spacing}{after spacing}[right]
 \titlespacing{\chapter}{0pt}{-30pt}{40pt}
 
 % --------------------------------------------------------------------
-% Header et footer pages de texte
+% Personalisation des sous-titres
+% --------------------------------------------------------------------
+
+\titleformat{\section}
+[hang] % Type du chapitre (valeur par défaut)
+{\Large\bfseries} % Taille et style du numéro du chapitre
+{\thesection % Afficher le numéro du sous-titre
+\hspace{0.15cm} % Espace horizontal entre numéro et séparateur
+\textcolor{gray75}{-} % Séparateur entre numéro et titre : pipe
+\hspace{0.15cm}}{0cm} % Espace horizontal entre séparateur et chapitre
+{\Large\bfseries} % Type et style du titre
+
+\titlespacing{\section}{1em}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+
+% Utilisation des lettres majuscules pour classer les sous-titres
+\renewcommand*{\thesection}{\Alph{section}}
+
+% --------------------------------------------------------------------
+% Header et footer première page
 % --------------------------------------------------------------------
 
 \usepackage{fancyhdr}
-\pagestyle{fancy}
+\fancypagestyle{first}{
 
 % Effacer les headers et footer par défaut
 \fancyhf{}
 
-\fancyhead[L]{Projet de fin d'études}
-\fancyhead[R]{\leftmark}
-
-\fancyfoot[R]{\thepage}
-\fancyfoot[L]{DOUILLARD Antonin}
-\fancyfoot[C]{\fbox{TEXTE ENCADRE}}
-
-% Lignes horizontales
-\renewcommand{\headrulewidth}{1pt}
-\renewcommand{\footrulewidth}{1pt}
+% Suppression des lignes horizontales
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+}
 
 % --------------------------------------------------------------------
 % Header et footer pages de titre et de chapitres
@@ -120,12 +167,57 @@
 
 % Effacer les headers et footer par défaut
 \fancyhf{}
-\fancyfoot[C]{\fbox{TEXTE ENCADRE}}
 
 % Suppression des lignes horizontales
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 }
+
+% --------------------------------------------------------------------
+% Header et footer pages de texte
+% --------------------------------------------------------------------
+
+\pagestyle{fancy}
+
+% Effacer les headers et footer par défaut
+\fancyhf{}
+
+\fancyhead[L]{Projet de fin d'études}
+% Permet d'écrire uniquement les noms des chapitres sans le mot "chapter" avec \leftmark
+\renewcommand{\chaptermark}[1]{\markboth{#1}{#1}}
+% \thecapter avec des accolades pour respecter l'espace avant le tiret
+\fancyhead[R]{\thechapter{} - \leftmark}
+
+\fancyfoot[L]{DOUILLARD Antonin}
+\fancyfoot[R]{\thepage}
+
+% Lignes horizontales
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+
+% --------------------------------------------------------------------
+% Header et footer supprimés pour les pages non souhaitées
+% --------------------------------------------------------------------
+
+\fancypagestyle{none}{
+
+% Effacer les headers et footer par défaut
+\fancyhf{}
+
+% Suppression des lignes horizontales
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+}
+
+% --------------------------------------------------------------------
+% Gestion des espacements des titres et sous titres
+% --------------------------------------------------------------------
+
+% --------------------------------------------------------------------
+% Gestion des espacements des paragraphes
+% --------------------------------------------------------------------
+
+%\renewcommand{\baselinestretch}{2}\normalsize
 
 % --------------------------------------------------------------------
 % Début du rapport
@@ -140,16 +232,18 @@
 \begin{titlepage}
 
 % Footer du type chapitre et titres sur la première page
-\thispagestyle{plain}
+\thispagestyle{first}
 
 \begin{center}
 \Huge{\textbf{Projet de fin d'études}}
 \vspace{0.5cm}
-\LARGE{SUJET}
+\LARGE{TITRE}
            
+\vspace{1.5cm}
+Apprenti : \textbf{DOUILLARD Antonin}
            
-\includegraphics[width=0.4\textwidth]{logo_1.png}
-\includegraphics[width=0.4\textwidth]{logo_2.png}
+\includegraphics[width=0.4\textwidth]{logo_esaip.png}
+\includegraphics[width=0.4\textwidth]{logo_itii.png}
            
 \end{center}
 
@@ -163,33 +257,33 @@
 \tableofcontents
 
 % Table des figures
-\listoffigures
-
-% --------------------------------------------------------------------
-% Page présentant les acteurs de ma formation
-% --------------------------------------------------------------------
-
-\chapter{Les acteurs de ma formation}
-
-% Liste alignée
-\begin{labeling}{alligator}
-
-\item [\textbf{Tuteur industriel}] likes bananas
-\item [\textbf{Tuteur industriel}] very dangerous animal, sharp teeth, long
-
-\end{labeling}
+%\listoffigures
 
 % --------------------------------------------------------------------
 % Corps du rapport
 % --------------------------------------------------------------------
 
+% REALISER DES INCLUDES
 \chapter{Partie}
 
 Corps du texte.
 
+\section{Section}
+
+Corps du texte.
+
+Alors ça se passe comment ?
+
 \newpage
 
-Page numéro 2 ,permettant de voir le footer.
+Page numéro 2, permettant de voir le footer.
+
+% --------------------------------------------------------------------
+% Lexique
+% --------------------------------------------------------------------
+
+\chapter*{Lexique}
+\addcontentsline{toc}{chapter}{Lexique}
 
 % --------------------------------------------------------------------
 % Sources
