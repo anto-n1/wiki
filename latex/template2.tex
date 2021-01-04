@@ -17,7 +17,7 @@
 %
 % xelatex document
 % xelatex document
-% biber document
+% bibtex document
 % pdflatex document
 % pdflatex document
 %
@@ -60,6 +60,9 @@
 % Ajouter des pages et/ou fichiers PDF externes
 \usepackage{pdfpages}
 
+% Permet d'utiliser \lastpage pour afficher le numéro de la dernière page
+\usepackage{lastpage}
+
 % Gestion des liens dans le document
 \usepackage{hyperref}
 \hypersetup{
@@ -67,19 +70,19 @@
     citecolor=black,
     filecolor=black,
     linkcolor=black, % Couleur des liens
-    urlcolor=black
-hyperfigures = true, % Ajouter les liens table des matières vers les parties lors du clic
+    urlcolor=black,
+    hyperfigures = true % Ajouter les liens table des matières vers les parties lors du clic
 }
 
 % Bibliographie
 \usepackage[
-  %backend=biber,         % choix de l'outil de traitement
-backend=bibtex,
+    %backend=biber,         % choix de l'outil de traitement
+    backend=bibtex,
     babel=hyphen,          % environnement linguistique dédié aux entrées en langues alternatives (utilise l'attribut « hyphenation »)
     backref=true,          % liens dans la bibliographie pour remonter dans le texte
     backrefstyle=none,     % afficher toutes les utilisations de la référence
-    bibstyle=alphabetic,   % style pour les clés des références dans la bibliographie : [initialesAnnée]
-    citestyle=alphabetic,  % style pour les clés des références dans le texte : [initialesAnnée]
+    bibstyle=numeric,   % style pour les clés des références dans la bibliographie : [initialesAnnée]
+    citestyle=numeric,  % style pour les clés des références dans le texte : [initialesAnnée]
     sorting=none,          % bibliographie triée par ordre d'utilisation des références
 ]{biblatex}                  % support des bibliographies
 
@@ -92,11 +95,13 @@ backend=bibtex,
 % --------------------------------------------------------------------
 
 % Dans le cas de l'utilisation de pdflatex
+% Dans ce cas, compiler avec pdflatex et non xelatex
 %\usepackage{lmodern}
 
 % Utilisation de xelatex pour utiliser calibri
 \usepackage{fontspec}
-\setmainfont{Calibri}
+\setmainfont{Carlito} % Linux
+%\setmainfont{Calibri} % Windows
 
 % --------------------------------------------------------------------
 % Définition des couleurs
@@ -124,7 +129,7 @@ backend=bibtex,
 {\Huge\bfseries} % Type et style du titre
 
 % Réduction de l'espace au dessus et en dessous des chapitres
-\titlespacing{\chapter}{0pt}{-30pt}{40pt}
+\titlespacing{\chapter}{0pt}{-30pt}{30pt}
 
 % --------------------------------------------------------------------
 % Personalisation des sous-titres
@@ -139,10 +144,25 @@ backend=bibtex,
 \hspace{0.15cm}}{0cm} % Espace horizontal entre séparateur et chapitre
 {\Large\bfseries} % Type et style du titre
 
-\titlespacing{\section}{1em}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+\titlespacing{\section}{0em}{15pt}{15pt}
 
 % Utilisation des lettres majuscules pour classer les sous-titres
 \renewcommand*{\thesection}{\Alph{section}}
+
+% --------------------------------------------------------------------
+% Personalisation des sous-sous-titres
+% --------------------------------------------------------------------
+
+\titleformat{\subsection}
+[hang] % Type du chapitre (valeur par défaut)
+{\large\bfseries} % Taille et style du numéro du chapitre
+{\thesubsection % Afficher le numéro du sous-titre
+\hspace{0.20cm} % Espace horizontal entre numéro et séparateur
+\textcolor{gray75}{-} % Séparateur entre numéro et titre : pipe
+\hspace{0.15cm}}{0cm} % Espace horizontal entre séparateur et chapitre
+{\large\bfseries} % Type et style du titre
+
+\titlespacing{\subsection}{2.5em}{10pt}{10pt}
 
 % --------------------------------------------------------------------
 % Header et footer première page
@@ -189,7 +209,7 @@ backend=bibtex,
 \fancyhead[R]{\thechapter{} - \leftmark}
 
 \fancyfoot[L]{DOUILLARD Antonin}
-\fancyfoot[R]{\thepage}
+\fancyfoot[R]{\thepage/\pageref{LastPage}} % Affichage du type 1/5
 
 % Lignes horizontales
 \renewcommand{\headrulewidth}{1pt}
@@ -263,6 +283,11 @@ Apprenti : \textbf{DOUILLARD Antonin}
 % Corps du rapport
 % --------------------------------------------------------------------
 
+% Introduction sans numérotation
+\chapter*{Introduction} % Ne pas mettre de numéro de chapitre
+\addcontentsline{toc}{chapter}{Introduction} % Afficher dans le sommaire
+\chaptermark{Introduction}{} % Afficher le nom du chapitre dans le header
+
 % REALISER DES INCLUDES
 \chapter{Partie}
 
@@ -271,8 +296,6 @@ Corps du texte.
 \section{Section}
 
 Corps du texte.
-
-Alors ça se passe comment ?
 
 \newpage
 
@@ -284,6 +307,25 @@ Page numéro 2, permettant de voir le footer.
 
 \chapter*{Lexique}
 \addcontentsline{toc}{chapter}{Lexique}
+\chaptermark{Lexique}{} % Afficher le nom du chapitre dans le header
+
+% --------------------------------------------------------------------
+% Ressources externes - exemples pour les citations
+% --------------------------------------------------------------------
+
+\chapter*{Ressources externes}
+\addcontentsline{toc}{chapter}{Ressources externes}
+\markboth{Ressources externes}{} % Afficher le nom du chapitre dans le header
+
+\cite[cf.][Ce que je veux afficher]{nomDeLaSource}
+ 
+% --------------------------------------------------------------------
+% Sources
+% --------------------------------------------------------------------
+
+% Afficher la bibliographie avec comme titre Bibliographie et la mettre dans la table des
+% matières
+\printbibliography[heading=bibintoc, title={Bibliographie}]
 
 % --------------------------------------------------------------------
 % Sources
