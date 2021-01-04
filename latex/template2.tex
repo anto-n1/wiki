@@ -63,6 +63,25 @@
 % Permet d'utiliser \lastpage pour afficher le numéro de la dernière page
 \usepackage{lastpage}
 
+% Ajouter un espace blanc (ligne blanche) entre les paragraphes
+% Pas besoin d'utiliser '\\' pour ajouter une ligne blanche
+\setlength{\parskip}{1em}
+
+% Taille de l'alinéa début de paragraphe
+% Même espacement que les sous-sous-titres
+\setlength{\parindent}{2.5em}
+
+% Gestion de l'interligne sur la table des matières
+\usepackage{tocloft}
+\setlength{\cftparskip}{1pt}
+\setlength{\cftbeforechapskip}{5pt}
+
+% Gestion des espaces entre les lignes (interligne)
+%\renewcommand{\baselinestretch}{2}\normalsize
+
+% Pour les double quotes \enquote{mon texte}
+\usepackage{csquotes}
+
 % Gestion des liens dans le document
 \usepackage{hyperref}
 \hypersetup{
@@ -230,14 +249,13 @@
 }
 
 % --------------------------------------------------------------------
-% Gestion des espacements des titres et sous titres
+% Création d'environnements
 % --------------------------------------------------------------------
 
-% --------------------------------------------------------------------
-% Gestion des espacements des paragraphes
-% --------------------------------------------------------------------
-
-%\renewcommand{\baselinestretch}{2}\normalsize
+% Désactiver l'interligne de paragraphe défini avec \setlength{\parindent}
+\newenvironment{nospaceline}{
+	\setlength{\parskip}{1pt}
+}
 
 % --------------------------------------------------------------------
 % Début du rapport
@@ -273,11 +291,16 @@ Apprenti : \textbf{DOUILLARD Antonin}
 % Table des matières, table des figures
 % --------------------------------------------------------------------
 
+% Permet de désactiver temporairement l'interligne
+\begin{nospaceline}
+
 % Table des matières
 \tableofcontents
-
+  
 % Table des figures
 %\listoffigures
+  
+\end{nospaceline}
 
 % --------------------------------------------------------------------
 % Corps du rapport
@@ -288,7 +311,10 @@ Apprenti : \textbf{DOUILLARD Antonin}
 \addcontentsline{toc}{chapter}{Introduction} % Afficher dans le sommaire
 \chaptermark{Introduction}{} % Afficher le nom du chapitre dans le header
 
-% REALISER DES INCLUDES
+% Include des différentes parties
+\input{01_introduction.tex}
+\input{02_partie_une.tex}
+
 \chapter{Partie}
 
 Corps du texte.
