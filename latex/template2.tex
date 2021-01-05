@@ -7,7 +7,7 @@
 % --------------------------------------------------------------------
 % Nomenclature et règles d'écriture du document
 %
-% - Longueur max d'une ligne : 90 caractères
+% - Longueur max d'une ligne : 80 caractères
 % - Mettre des commentaires
 % - Include des différentes parties pour éviter taille immense de fichier
 % --------------------------------------------------------------------
@@ -32,7 +32,7 @@
 % Type du document
 \documentclass[a4paper,french,11pt]{report}
 
-% Encodage (permet de taper les accents sans balises directement dans le texte notamment)
+% Encodage (permet de taper les accents sans balises dans le texte notamment)
 \usepackage[utf8]{inputenc}
 
 % Manières de la langue française pour LaTeX
@@ -85,19 +85,19 @@
 % Gestion des liens dans le document
 \usepackage{hyperref}
 \hypersetup{
-    colorlinks = true, % Colorer les liens
+    colorlinks=true, % Colorer les liens
     citecolor=black,
     filecolor=black,
     linkcolor=black, % Couleur des liens
     urlcolor=black,
-    hyperfigures = true % Ajouter liens table des matières vers les parties lors du clic
+    hyperfigures=true % Ajouter liens du sommaire vers les parties lors du clic
 }
 
 % Bibliographie
 \usepackage[
     %backend=biber, % Choix de l'outil de traitement
     backend=bibtex,
-    babel=hyphen, % Environnement linguistique dédié aux entrées en langues alternatives
+    babel=hyphen, % Env linguistique dédié aux entrées en langues alternatives
     backref=true, % Liens dans la bibliographie pour remonter dans le texte
     backrefstyle=none, % Afficher toutes les utilisations de la référence
     bibstyle=numeric, % Style pour les clés des références dans la bibliographie
@@ -222,7 +222,7 @@
 \fancyhf{}
 
 \fancyhead[L]{Projet de fin d'études}
-% Permet d'écrire uniquement les noms des chapitres sans le mot "chapter" avec \leftmark
+% Ecrire uniquement les noms des chapitres sans le mot "chapter" avec \leftmark
 \renewcommand{\chaptermark}[1]{\markboth{#1}{#1}}
 % \thecapter avec des accolades pour respecter l'espace avant le tiret
 \fancyhead[R]{\thechapter{} - \leftmark}
@@ -276,13 +276,13 @@
 \Huge{\textbf{Projet de fin d'études}}
 \vspace{0.5cm}
 \LARGE{TITRE}
-           
+
 \vspace{1.5cm}
 Apprenti : \textbf{DOUILLARD Antonin}
-           
+
 \includegraphics[width=0.4\textwidth]{logo_esaip.png}
 \includegraphics[width=0.4\textwidth]{logo_itii.png}
-           
+
 \end{center}
 
 \end{titlepage}
@@ -296,10 +296,10 @@ Apprenti : \textbf{DOUILLARD Antonin}
 
 % Table des matières
 \tableofcontents
-  
+
 % Table des figures
 %\listoffigures
-  
+
 \end{nospaceline}
 
 % --------------------------------------------------------------------
@@ -344,21 +344,21 @@ Page numéro 2, permettant de voir le footer.
 \markboth{Ressources externes}{} % Afficher le nom du chapitre dans le header
 
 \cite[cf.][Ce que je veux afficher]{nomDeLaSource}
- 
+
 % --------------------------------------------------------------------
 % Sources
 % --------------------------------------------------------------------
 
-% Afficher la bibliographie avec comme titre Bibliographie et la mettre dans la table des
-% matières
+% Afficher la bibliographie avec comme titre Bibliographie et la mettre dans la
+% table des matières
 \printbibliography[heading=bibintoc, title={Bibliographie}]
 
 % --------------------------------------------------------------------
 % Sources
 % --------------------------------------------------------------------
 
-% Afficher la bibliographie avec comme titre Bibliographie et la mettre dans la table des
-% matières
+% Afficher la bibliographie avec comme titre Bibliographie et la mettre dans la
+% table des matières
 \printbibliography[heading=bibintoc,title={Bibliographie}]
 
 % --------------------------------------------------------------------
