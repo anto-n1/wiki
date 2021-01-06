@@ -7,7 +7,7 @@
 % --------------------------------------------------------------------
 % Nomenclature et règles d'écriture du document
 %
-% - Longueur max d'une ligne : 90 caractères
+% - Longueur max d'une ligne : 80 caractères
 % - Mettre des commentaires
 % - Include des différentes parties pour éviter taille immense de fichier
 % --------------------------------------------------------------------
@@ -109,6 +109,9 @@
 %\addbibresource{sources.bib}
 \bibliography{sources.bib}
 
+% Réaliser des annexes
+\usepackage[titletoc]{appendix}
+
 % --------------------------------------------------------------------
 % Police d'écriture
 % --------------------------------------------------------------------
@@ -148,7 +151,7 @@
 {\Huge\bfseries} % Type et style du titre
 
 % Réduction de l'espace au dessus et en dessous des chapitres
-\titlespacing{\chapter}{0pt}{-30pt}{30pt}
+\titlespacing{\chapter}{0pt}{-30pt}{20pt}
 
 % --------------------------------------------------------------------
 % Personalisation des sous-titres
@@ -360,6 +363,12 @@ Page numéro 2, permettant de voir le footer.
 % Afficher la bibliographie avec comme titre Bibliographie et la mettre dans la table des
 % matières
 \printbibliography[heading=bibintoc,title={Bibliographie}]
+
+% --------------------------------------------------------------------
+% Annexes
+% --------------------------------------------------------------------
+
+\input{annexes.tex}
 
 % --------------------------------------------------------------------
 % Fin du rapport
