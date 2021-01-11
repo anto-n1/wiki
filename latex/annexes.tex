@@ -1,0 +1,30 @@
+% Personalisation des chapitres
+\titleformat{\chapter}
+[hang] % Type du chapitre (valeur par défaut)
+{\Huge\bfseries} % Taille et style du numéro du chapitre
+{Annexe \thechapter % Afficher le numéro du chapitre
+\hspace{0.3cm} % Espace horizontal entre numéro et séparateur
+\textcolor{gray75}{\textbar} % Séparateur entre numéro et titre : pipe
+\hspace{0.3cm}}{0cm} % Espace horizontal entre séparateur et chapitre
+{\Huge\bfseries} % Type et style du titre
+
+% Réduction de l'espace au dessus et en dessous des chapitres
+\titlespacing{\chapter}{0pt}{-10pt}{20pt}
+
+% Permet d'écrire 'Annexe A' dans la table des matières
+\begin{appendices}
+
+\begin{landscape}
+
+\chapter{Organismes de cybersécurité}
+
+Les organismes de cybersécurité en France et en Europe.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.80\paperwidth]{imgo.jpeg}
+\end{figure}
+
+\end{landscape}
+
+\end{appendices}
