@@ -251,7 +251,12 @@
 % Création d'environnements
 % --------------------------------------------------------------------
 
-% Désactiver les interlignes dans un environnement
+% Désactiver l'interligne de paragraphe défini avec \setlength{\parindent}
+\newenvironment{nospaceline}{
+    \setlength{\parskip}{1pt}
+}
+
+% Désactiver les alinea dans un environnement
 \newenvironment{noindentation}{
     \setlength{\parindent}{0pt}
 }
