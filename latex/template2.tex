@@ -57,6 +57,9 @@
 % Utiliser des légende pour les images et les tableaux
 \usepackage{caption}
 
+% Permet de placer les tables et figures
+\usepackage{float}
+
 % Ajouter des pages et/ou fichiers PDF externes
 \usepackage{pdfpages}
 
@@ -353,6 +356,11 @@ Corps du texte.
 \section{Section}
 
 Corps du texte.
+
+% Faire apparaître la figure là où elle est déclarée dans le fichier
+% Fais appel au package float
+\begin{figure}[h] % h pour here
+\end{figure}
 
 \newpage
 
