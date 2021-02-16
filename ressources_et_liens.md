@@ -89,6 +89,7 @@ Tous ont un rapport avec l'informatique.
 * **[doseitarm.com](https://doesitarm.com)** : connaître les applications optimisées pour les puces Apple Silicon
 * **[macOS defaults](https://macos-defaults.com/fr)** : astuces chachées sur macOS
 * **[MetaZ](https://metaz.io)** : gestionnaire de métadonnées de fichiers
+* **[Lunar](https://lunar.fyi)** : gérer la luminosité de moniteurs externes
 
 <div id='section-windows'/>
 
