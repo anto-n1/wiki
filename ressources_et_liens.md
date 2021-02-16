@@ -23,6 +23,8 @@ Tous ont un rapport avec l'informatique.
 ##### Tips - astuces
 
 * **[Barrier](https://github.com/debauchee/barrier)** : permet d'utiliser une seule souris et clavier pour plusieurs PC sous Windows/Linux/macOS
+* **[exiftool](https://linux.die.net/man/1/exiftool)** : afficher et modifier des informations de métadonnées sur les fichiers
+* **[SummarizeMD](https://github.com/velthune/summarizeMD)** : script générant les sommaires dans les fichiers Markdown
 
 <div id='section-vie-privee'/>
 
@@ -42,10 +44,15 @@ Tous ont un rapport avec l'informatique.
 
 ##### Linux
 
+* **[Clonezilla](https://clonezilla.org)** : réaliser des images de disques
 * **[Distrotest](https://distrotest.net)** : tester des distributions Linux rapidement avec des VM distantes
 * **[Distrowatch](https://distrowatch.com)** : répertorie les distributions Linux
+* **[Devecot](https://www.dovecot.org)** : serveur mail
+* **[Exim](https://www.exim.org)** : serveur mail UNIX
+* **[Firejail](https://firejail.wordpress.com)** : lancer des applications Linux dans des sandbox
 * **[Flathub](https://flathub.org/home)** : agrégateur d'apps Linux
 * **[iHateRegex](https://ihateregex.io)** : outil en ligne permettant de faire des regex
+* **[molly-guard](https://helpmanual.io/man8/molly-guard)** : demande confirmation avant un redémarrage/extinction pour éviter le redémarrage en se trompant de terminal
 * **[Unixporn](https://www.reddit.com/r/unixporn)** : forum Reddit sur la personnalisation d'UNIX
 * **[The book of secret knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)** : Readme Github contenant une collection d'outils Linux
 
