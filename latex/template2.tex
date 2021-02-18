@@ -23,6 +23,8 @@
 %
 % Avex TeXworks sous Windows :
 % Utiliser la compilation avec Xelatex+MakeIndex+BibTeX
+%
+% Utilisation de pdflatex disponible en utilisant la police lmodern
 % --------------------------------------------------------------------
 
 % --------------------------------------------------------------------
@@ -117,11 +119,10 @@
 % Police d'écriture
 % --------------------------------------------------------------------
 
-% Dans le cas de l'utilisation de pdflatex
-% Dans ce cas, compiler avec pdflatex et non xelatex
+% Pour utiliser lmodern : compiler avec pdflatex et non xelatex
 %\usepackage{lmodern}
 
-% Utilisation de xelatex pour utiliser calibri
+% Utilisation de xelatex pour utiliser des polices classiques
 \usepackage{fontspec}
 \setmainfont{Carlito} % Linux
 %\setmainfont{Helvetica} % macOS
@@ -354,7 +355,7 @@
 
 \chapter{Partie}
 
-Corps du texte.
+Exemple de citation d'annexe en annexe \ref{annexeA}.
 
 \section{Section}
 
