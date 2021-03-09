@@ -97,6 +97,8 @@ Tous ont un rapport avec l'informatique.
 * **[macOS defaults](https://macos-defaults.com/fr)** : astuces chachées sur macOS
 * **[MetaZ](https://metaz.io)** : gestionnaire de métadonnées de fichiers
 * **[Lunar](https://lunar.fyi)** : gérer la luminosité de moniteurs externes
+* **[UTM](https://mac.getutm.app)** : virtualisation open-source basée sur QEMU
+* **[UTM iOS](https://getutm.app)** : virtualisation open-source basée sur QEMU pour iOS
 
 <div id='section-windows'/>
 
