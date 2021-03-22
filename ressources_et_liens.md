@@ -75,6 +75,7 @@ Tous ont un rapport avec l'informatique.
 * **[Hack The Box](https://www.hackthebox.eu)** : plateforme proposant des VM à casser
 * **[How to start hacking?](https://www.reddit.com/r/hacking/comments/a3oicn/how_to_start_hacking_the_ultimate_two_path_guide)** : post Reddit pour commencer le hacking
 * **[PayloadsAllTheThings-Noobs-Fr](https://github.com/TeePee/PayloadsAllTheThings-Noobs-Fr)** : repo github listant payloads/bypass pour sécurité applications web et pentest/CTF
+* **[Reverse Shell Generator](https://www.revshells.com)** : générateur de reverse shell
 * **[Root-me](https://www.root-me.org)** : plateforme d'entraînement au hacking
 * **[Sectools](https://sectools.org)** : regroupe des outils dédiés au hacking
 * **[Termes utilisés dans le monde du hack](https://www.crazyws.fr/culture/termes-utilises-dans-le-monde-du-hack-et-de-la-securite-Q55PK.html)** : liste de mots du monde du hack
