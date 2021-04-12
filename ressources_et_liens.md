@@ -11,7 +11,7 @@ Tous ont un rapport avec l'informatique.
 :small_orange_diamond: [Sécurité](#section-securite)  
 :small_orange_diamond: [Hacking](#section-hacking)  
 :small_orange_diamond: [Développement](#section-developpement)  
-:small_orange_diamond: [Apple macOS](#section-apple-macos)  
+:small_orange_diamond: [Apple macOS - iOS](#section-apple-macos-ios)  
 :small_orange_diamond: [Windows](#section-windows)  
 :small_orange_diamond: [Blogs](#section-blogs)  
 :small_orange_diamond: [Extensions navigateurs](#section-extensions-navigateur)  
@@ -88,9 +88,9 @@ Tous ont un rapport avec l'informatique.
 
 * **[Programmation défensive Bash](https://blog.seboss666.info/2020/04/programmation-defensive-en-bash)** : limiter la surface d'attaque scripts Bash
 
-<div id='section-apple-macos'/>
+<div id='section-apple-macos-ios'/>
 
-##### Apple macOS
+##### Apple macOS - iOS
 
 * **[Crescendo](https://segphault.io/posts/2020/03/crescendo)** : moniteur d'activité très complet pour macOS
 * **[Docker-OSX](https://github.com/sickcodes/Docker-OSX/blob/master/README.md)** : faire tourner macOS dans un conteneur Docker
@@ -98,6 +98,7 @@ Tous ont un rapport avec l'informatique.
 * **[macOS defaults](https://macos-defaults.com/fr)** : astuces chachées sur macOS
 * **[MetaZ](https://metaz.io)** : gestionnaire de métadonnées de fichiers
 * **[Lunar](https://lunar.fyi)** : gérer la luminosité de moniteurs externes
+* **[Samsung iTest](https://www.itest.nz/index.html)** : site internet permettant de tester OneUI depuis l'iPhone
 * **[UTM](https://mac.getutm.app)** : virtualisation open-source basée sur QEMU
 * **[UTM iOS](https://getutm.app)** : virtualisation open-source basée sur QEMU pour iOS
 
