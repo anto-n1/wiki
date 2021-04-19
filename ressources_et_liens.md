@@ -14,6 +14,7 @@ Tous ont un rapport avec l'informatique.
 :small_orange_diamond: [Apple macOS - iOS](#section-apple-macos-ios)  
 :small_orange_diamond: [Windows](#section-windows)  
 :small_orange_diamond: [Blogs](#section-blogs)  
+:small_orange_diamond: [Jeu vidéo](#section-jeu-video)  
 :small_orange_diamond: [Extensions navigateurs](#section-extensions-navigateur)  
 :small_orange_diamond: [Humour](#section-humour)  
 :small_orange_diamond: [Autres](#section-autres)  
@@ -92,12 +93,16 @@ Tous ont un rapport avec l'informatique.
 
 ##### Apple macOS - iOS
 
+* **[Awesome macOS open source applications](https://github.com/serhii-londar/open-source-mac-os-apps)** : liste d'applications open source pour macOS
 * **[Crescendo](https://segphault.io/posts/2020/03/crescendo)** : moniteur d'activité très complet pour macOS
 * **[Docker-OSX](https://github.com/sickcodes/Docker-OSX/blob/master/README.md)** : faire tourner macOS dans un conteneur Docker
 * **[doseitarm.com](https://doesitarm.com)** : connaître les applications optimisées pour les puces Apple Silicon
+* **[Dozer](https://github.com/Mortennn/Dozer)** : masquer les icones dans la bar de menu de macOS
 * **[macOS defaults](https://macos-defaults.com/fr)** : astuces chachées sur macOS
-* **[MetaZ](https://metaz.io)** : gestionnaire de métadonnées de fichiers
+* **[Latest](https://github.com/mangerlahn/Latest)** : application open source permettant de visualiser les mises à jour d'applications
 * **[Lunar](https://lunar.fyi)** : gérer la luminosité de moniteurs externes
+* **[MetaZ](https://metaz.io)** : gestionnaire de métadonnées de fichiers
+* **[Rectangle](https://github.com/rxhanson/Rectangle)** : manager de fenêtre macOS
 * **[Samsung iTest](https://www.itest.nz/index.html)** : site internet permettant de tester OneUI depuis l'iPhone
 * **[UTM](https://mac.getutm.app)** : virtualisation open-source basée sur QEMU
 * **[UTM iOS](https://getutm.app)** : virtualisation open-source basée sur QEMU pour iOS
@@ -120,6 +125,12 @@ Tous ont un rapport avec l'informatique.
 * **[Le journal du hacker](https://www.journalduhacker.net)** : blog regroupant des articles de différentes sources
 * **[Net-Security](https://net-security.fr)** : blog développement, systèmes et sécurité informatique
 
+<div id='section-jeu-vidéo'/>
+
+##### Jeu vidéo
+
+* **[SM64](https://github.com/n64decomp/sm64)** : Super Mario 64 sur Docker, Windows, macOS et Linux
+
 <div id='section-extensions-navigateur'/>
 
 ##### Extensions navigateur
@@ -131,6 +142,8 @@ Tous ont un rapport avec l'informatique.
 ##### Humour
 
 * **[How to exit Vim](https://github.com/hakluke/how-to-exit-vim/blob/master/README.md)** : plein de manières de quitter Vim le meilleur éditeur de texte
+* **[Star War en ASCII](https://www.semageek.com/comment-regarder-star-war-en-ascii-sur-votre-ordinateur)** : regarder Start Wars en ASCII depuis son terminal
+* **[Toddler Password](https://www.toddlerpassword.com)** : générateur de mot de passe par un bébé
 
 <div id='section-autres'/>
 
