@@ -11,9 +11,10 @@ Tous ont un rapport avec l'informatique.
 :small_orange_diamond: [Sécurité](#section-securite)  
 :small_orange_diamond: [Hacking](#section-hacking)  
 :small_orange_diamond: [Développement](#section-developpement)  
-:small_orange_diamond: [Apple macOS](#section-apple-macos)  
+:small_orange_diamond: [Apple macOS - iOS](#section-apple-macos-ios)  
 :small_orange_diamond: [Windows](#section-windows)  
 :small_orange_diamond: [Blogs](#section-blogs)  
+:small_orange_diamond: [Jeu vidéo](#section-jeu-video)  
 :small_orange_diamond: [Extensions navigateurs](#section-extensions-navigateur)  
 :small_orange_diamond: [Humour](#section-humour)  
 :small_orange_diamond: [Autres](#section-autres)  
@@ -76,6 +77,7 @@ Tous ont un rapport avec l'informatique.
 * **[Hack The Box](https://www.hackthebox.eu)** : plateforme proposant des VM à casser
 * **[How to start hacking?](https://www.reddit.com/r/hacking/comments/a3oicn/how_to_start_hacking_the_ultimate_two_path_guide)** : post Reddit pour commencer le hacking
 * **[PayloadsAllTheThings-Noobs-Fr](https://github.com/TeePee/PayloadsAllTheThings-Noobs-Fr)** : repo github listant payloads/bypass pour sécurité applications web et pentest/CTF
+* **[Reverse Shell Generator](https://www.revshells.com)** : générateur de reverse shell
 * **[Root-me](https://www.root-me.org)** : plateforme d'entraînement au hacking
 * **[Sectools](https://sectools.org)** : regroupe des outils dédiés au hacking
 * **[Termes utilisés dans le monde du hack](https://www.crazyws.fr/culture/termes-utilises-dans-le-monde-du-hack-et-de-la-securite-Q55PK.html)** : liste de mots du monde du hack
@@ -88,16 +90,23 @@ Tous ont un rapport avec l'informatique.
 
 * **[Programmation défensive Bash](https://blog.seboss666.info/2020/04/programmation-defensive-en-bash)** : limiter la surface d'attaque scripts Bash
 
-<div id='section-apple-macos'/>
+<div id='section-apple-macos-ios'/>
 
-##### Apple macOS
+##### Apple macOS - iOS
 
+* **[Awesome macOS open source applications](https://github.com/serhii-londar/open-source-mac-os-apps)** : liste d'applications open source pour macOS
 * **[Crescendo](https://segphault.io/posts/2020/03/crescendo)** : moniteur d'activité très complet pour macOS
 * **[Docker-OSX](https://github.com/sickcodes/Docker-OSX/blob/master/README.md)** : faire tourner macOS dans un conteneur Docker
 * **[doseitarm.com](https://doesitarm.com)** : connaître les applications optimisées pour les puces Apple Silicon
+* **[Dozer](https://github.com/Mortennn/Dozer)** : masquer les icones dans la bar de menu de macOS
 * **[macOS defaults](https://macos-defaults.com/fr)** : astuces chachées sur macOS
-* **[MetaZ](https://metaz.io)** : gestionnaire de métadonnées de fichiers
+* **[Latest](https://github.com/mangerlahn/Latest)** : application open source permettant de visualiser les mises à jour d'applications
 * **[Lunar](https://lunar.fyi)** : gérer la luminosité de moniteurs externes
+* **[MetaZ](https://metaz.io)** : gestionnaire de métadonnées de fichiers
+* **[Rectangle](https://github.com/rxhanson/Rectangle)** : manager de fenêtre macOS
+* **[Samsung iTest](https://www.itest.nz/index.html)** : site internet permettant de tester OneUI depuis l'iPhone
+* **[UTM](https://mac.getutm.app)** : virtualisation open-source basée sur QEMU
+* **[UTM iOS](https://getutm.app)** : virtualisation open-source basée sur QEMU pour iOS
 
 <div id='section-windows'/>
 
@@ -117,6 +126,12 @@ Tous ont un rapport avec l'informatique.
 * **[Le journal du hacker](https://www.journalduhacker.net)** : blog regroupant des articles de différentes sources
 * **[Net-Security](https://net-security.fr)** : blog développement, systèmes et sécurité informatique
 
+<div id='section-jeu-vidéo'/>
+
+##### Jeu vidéo
+
+* **[SM64](https://github.com/n64decomp/sm64)** : Super Mario 64 sur Docker, Windows, macOS et Linux
+
 <div id='section-extensions-navigateur'/>
 
 ##### Extensions navigateur
@@ -128,6 +143,8 @@ Tous ont un rapport avec l'informatique.
 ##### Humour
 
 * **[How to exit Vim](https://github.com/hakluke/how-to-exit-vim/blob/master/README.md)** : plein de manières de quitter Vim le meilleur éditeur de texte
+* **[Star War en ASCII](https://www.semageek.com/comment-regarder-star-war-en-ascii-sur-votre-ordinateur)** : regarder Start Wars en ASCII depuis son terminal
+* **[Toddler Password](https://www.toddlerpassword.com)** : générateur de mot de passe par un bébé
 
 <div id='section-autres'/>
 
