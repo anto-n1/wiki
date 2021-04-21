@@ -70,6 +70,7 @@ Tous ont un rapport avec l'informatique.
 
 * **[Altoro Mutual](http://www.altoromutual.com/login.jsp)** : site web fictif de banque non HTTPS avec connexion pour analyse Wireshark
 * **[Avatao](https://avatao.com)** : plateforme d'entraînement au hacking
+* **[ceh.cagy.org](https://ceh.cagy.org)** : questionnaire en ligne gratuit pour apprendre le CEH
 * **[CTF Cheat sheet & Mémo](https://lestutosdeprocessus.fr/ctf-cheat-sheet)** : mémos pour les CTF
 * **[CTF Sites](https://ctfsites.github.io)** : page regroupant des sites web de CTF
 * **[Hack The Box](https://www.hackthebox.eu)** : plateforme proposant des VM à casser
