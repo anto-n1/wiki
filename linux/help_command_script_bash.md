@@ -1,5 +1,6 @@
 # Afficher de l'aide en argument bash
 
+```bash
 verify_all || exit $?
 
 if [[ "$1" == "--help" ]];
@@ -14,6 +15,5 @@ then
 
 else
 
-       
-
 fi
+```
