@@ -13,19 +13,3 @@ Ce répertoire contient les fiches mémos des cours de CCNA : majoritairement de
 * **cisco_ios** montre des commandes utilisable sur tous les équipements Cisco équipés du système d'exploitation IOS.  
 * **reseau** présente des informations et notes à connaître à propos des réseaux en général.  
 * **.images** regroupe les différentes images utilisées dans les fichiers Markdown mais ne possède aucune information importante à lui seul.
-
-### Avancement
-
-**CCNA 1** (v6) :  
-100% - [##################################################]
-
-**CCNA 2** (v6) :  
-100% - [##################################################]
-
-**CCNA 3** (v6) :  
-0% - [--------------------------------------------------]
-
-**CCNA 4** (v6) :  
-0% - [--------------------------------------------------]
-
-<!--50 caractères soit 1 '#' = 2% -->

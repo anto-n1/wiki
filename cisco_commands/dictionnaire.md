@@ -35,7 +35,7 @@
 * **IETF** (Internet Engineering Task Force) = développe, met à jour des technos TCP/IP et RFC
 * **IRTF** (Internet Research Task Force) = recherche à long terme : anti-spam, crypto, P2P...
 * **IS-IS** (Intermediate System-to-Intermediate System) = protocole de routage dynamique
-* **ISOC** (Internet Society) = promouvoit l'évolution et l'utilisation libre d'internet
+* **ISOC** (Internet Society) = association de droit américain promouvant l'évolution et l'utilisation libre d'internet
 
 ## L
 
