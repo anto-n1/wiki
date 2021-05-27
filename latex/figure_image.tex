@@ -1,0 +1,24 @@
+% Deux images côte à côte centrées
+\begin{figure}[H]
+    \centering
+    \begin{tabular}{cc}
+    \includegraphics[height=1.7cm]{image1.png} \hspace{0.3cm} & \hspace{0.3cm} \includegraphics[height=1.7cm]{image2.png}
+    \end{tabular}
+\end{figure}
+
+% Image centrée
+\begin{figure}[H]
+    \centering
+    \begin{tabular}{c}
+    \includegraphics[width=5cm]{image.png}
+\end{tabular}
+
+% Image centrée avec légende
+% H pour "here", permet de placer l'image à l'endroit où elle est déclarée,
+% sinon LaTeX la place là où il trouve de la place
+\begin{figure}[H]
+    \centering
+    \begin{tabular}{c}
+    \includegraphics[width=5cm]{image.png}
+    \caption{Légende de l'image}
+\end{tabular}
