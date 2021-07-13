@@ -1,3 +1,13 @@
+\usepackage{float} % Permet d'utiliser le [H]
+
+% Insertion d'images et répertoire où les trouver
+\usepackage{graphicx}
+\graphicspath{{images/}}
+
+% Utiliser des légende pour les images et les tableaux
+\usepackage{caption}
+
+
 % Deux images côte à côte centrées
 \begin{figure}[H]
     \centering
@@ -9,16 +19,14 @@
 % Image centrée
 \begin{figure}[H]
     \centering
-    \begin{tabular}{c}
     \includegraphics[width=5cm]{image.png}
-\end{tabular}
+\end{figure}
 
 % Image centrée avec légende
 % H pour "here", permet de placer l'image à l'endroit où elle est déclarée,
 % sinon LaTeX la place là où il trouve de la place
 \begin{figure}[H]
     \centering
-    \begin{tabular}{c}
     \includegraphics[width=5cm]{image.png}
     \caption{Légende de l'image}
-\end{tabular}
+\end{figure}
