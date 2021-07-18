@@ -1,0 +1,177 @@
+% --------------------------------------------------------------------
+% TITRE DU RAPPORT
+%
+% Début d'écriture du document : July 12, 2021
+% --------------------------------------------------------------------
+
+%Inspiré de 
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com) with extensive modifications by
+% Vel (vel@LaTeXTemplates.com)
+
+% --------------------------------------------------------------------
+% Nomenclature et règles d'écriture du document
+%
+% - Longueur max d'une ligne : 80 caractères
+% - Mettre des commentaires
+% - Include des différentes parties pour éviter taille immense de fichier
+% --------------------------------------------------------------------
+
+% --------------------------------------------------------------------
+% Compilation du document
+%
+% xelatex document
+% xelatex document
+% bibtex document
+% pdflatex document
+% pdflatex document
+%
+% Avex TeXworks sous Windows :
+% Utiliser la compilation avec Xelatex+MakeIndex+BibTeX
+%
+% Utilisation de pdflatex disponible en utilisant la police lmodern
+% --------------------------------------------------------------------
+
+% --------------------------------------------------------------------
+% Préambule
+% --------------------------------------------------------------------
+
+\documentclass[twoside,twocolumn]{article}
+
+\usepackage[sc]{mathpazo} % Use the Palatino font
+
+\linespread{1.05} % Line spacing - Palatino needs more space between lines
+
+\usepackage{microtype} % Justification du texte
+
+% Encodage (permet de taper les accents sans balises dans le texte notamment)
+\usepackage[utf8]{inputenc}
+
+\usepackage[english]{babel} % Language hyphenation and typographical rules
+
+% Ajouter un espace blanc (ligne blanche) entre les paragraphes
+% Pas besoin d'utiliser '\\' pour ajouter une ligne blanche
+\setlength{\parskip}{1em}
+
+\usepackage[hmarginratio=1:1,top=27mm,right=20mm,left=20mm,columnsep=20pt]{geometry} % Document margins
+
+\usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above floats in tables or figures
+\usepackage{booktabs} % Horizontal rules in tables
+
+\usepackage{enumitem} % Customized lists
+\setlist[itemize]{noitemsep} % Make itemize lists more compact
+
+\usepackage{csquotes}
+
+\usepackage{float}
+
+\usepackage{graphicx}
+\graphicspath{{images/}}
+
+\usepackage{caption}
+
+\usepackage{abstract} % Allows abstract customization
+\renewcommand{\abstractnamefont}{\normalfont\bfseries} % Set the "Abstract" text to bold
+\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text
+
+\usepackage{titlesec} % Allows customization of titles
+\renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+\renewcommand\thesubsection{\Alph{subsection}} % roman numerals for subsections
+
+\titleformat{\section}[block]{\large\scshape\centering\bfseries}{\thesection.}{1em}{} % Change the look of the section titles
+\titleformat{\subsection}[block]{\large}{\thesection.\thesubsection.}{1em}{} % Change the look of the section titles
+\titleformat{\subsubsection}[block]{\normalsize}{\thesection.\thesubsection.\thesubsubsection}{1em}{} % Change the look of the section titles
+
+%\titlespacing{command}{left spacing}{before spacing}{after spacing}[right]
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+
+\usepackage{fancyhdr} % Headers and footers
+\pagestyle{fancy} % All pages have headers and footers
+\fancyhead{} % Blank out the default header
+\fancyfoot{} % Blank out the default footer
+\fancyhead[C]{Web-based AR data visualisation for industry 4.0 - July 2021} % Custom header text
+\fancyfoot[RO,LE]{\thepage} % Custom footer text
+
+\usepackage{color}
+\definecolor{gray}{RGB}{192,192,192}
+
+\usepackage{titling} % Customizing the title section
+
+% Gestion des liens dans le document
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true, % Colorer les liens
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black, % Couleur des liens
+    urlcolor=black,
+    hyperfigures=true, % Ajouter liens du sommaire vers les parties lors du clic
+    citecolor=blue % Couleur des citations
+}
+
+% Bibliographie
+\usepackage[
+    backend=bibtex,
+    babel=hyphen, % Env linguistique dédié aux entrées en langues alternatives
+    backref=true, % Liens dans la bibliographie pour remonter dans le texte
+    backrefstyle=none, % Afficher toutes les utilisations de la référence
+    bibstyle=numeric, % Style pour les clés des références dans la bibliographie
+    citestyle=numeric, % Style pour les clés des références dans le texte
+    sorting=none % Bibliographie triée par ordre d'utilisation des références
+]{biblatex} % Support des bibliographies
+
+% Nom du fichier de sources
+\addbibresource{fichier.bib}
+
+% --------------------------------------------------------------------
+% Titre
+% --------------------------------------------------------------------
+
+\setlength{\droptitle}{-4\baselineskip} % Move the title up
+
+\pretitle{\begin{center}\Huge\bfseries} % Article title formatting
+\posttitle{\end{center}} % Article title closing formatting
+\title{Web-based AR data visualisation for industry 4.0} % Article title
+\author{\textsc{DOUILLARD Antonin}\\
+\normalsize \href{mailto:antonin.douillard@student.kuleuven.be}{antonin.douillard@student.kuleuven.be} % Your email address
+\vspace{0.4cm}\\
+\normalsize KU Leuven - M-Group\\ % Your institution
+}
+\date{\today} % Leave empty to omit a date
+\renewcommand{\maketitlehookd}{%
+\begin{abstract}
+Résumé du document
+\end{abstract}
+}
+
+% --------------------------------------------------------------------
+% Début du document
+% --------------------------------------------------------------------
+
+\begin{document}
+
+% Afficher titre
+\maketitle
+
+% --------------------------------------------------------------------
+% Contenu du document
+% --------------------------------------------------------------------
+
+\section{Section}
+
+\subsection{Subsection}
+
+Lorem ipsum
+
+% --------------------------------------------------------------------
+% Sources
+% --------------------------------------------------------------------
+
+\printbibliography
+
+\end{document}
