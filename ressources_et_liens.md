@@ -63,6 +63,7 @@ Tous ont un rapport avec l'informatique.
 
 * **[CryptoHack](https://cryptohack.org)** : plateforme apprentissage cryptographie
 * **[have i been pwned?](https://haveibeenpwned.com)** : vérifier si une adresse mail a leaké
+* **[Lynis](https://github.com/CISOfy/Lynis)** : outil shell pour vérifier la sécurité/robustesse d'un système Linux
 * **[Safeciphers.org](https://safeciphers.org)** : page regroupant les conf à appliquer pour sécuriser des applications de serveurs Linux
 
 <div id='section-hacking'/>
