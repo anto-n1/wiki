@@ -144,6 +144,7 @@ Tous ont un rapport avec l'informatique.
 ##### Humour
 
 * **[How to exit Vim](https://github.com/hakluke/how-to-exit-vim/blob/master/README.md)** : plein de manières de quitter Vim le meilleur éditeur de texte
+* **[lmgtfy](https://lmgtfy.app/#gsc.tab=0)** : Let me Google that for you
 * **[Star War en ASCII](https://www.semageek.com/comment-regarder-star-war-en-ascii-sur-votre-ordinateur)** : regarder Start Wars en ASCII depuis son terminal
 * **[Toddler Password](https://www.toddlerpassword.com)** : générateur de mot de passe par un bébé
 
@@ -151,9 +152,11 @@ Tous ont un rapport avec l'informatique.
 
 ##### Autres
 
+* **[Awesome IT films](https://alfilatov.com/awesome-IT-films/)** : liste de films, séries et documentaires sur l'informatique
 * **[Ma connexion internet](https://maconnexioninternet.arcep.fr)** : visualiser les sites fibrés ou non (ARCEP)
 * **[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)** : mémo Markdown
 * **[Emoji Tracker](http://www.emojitracker.com/)** : affiche le nombre d'emojis total sur Twitter
+* **[Killed by Google](https://killedbygoogle.com)** : liste des services lancés et fermés par Google
 * **[Overleaf](https://www.overleaf.com)** : éditeur Markdown en ligne
 * **[Vim persistent undo](https://jovicailic.org/2017/04/vim-persistent-undo)** : avoir un undo persistant sur vim
 * **[Wiki.js](https://wiki.js.org)** : serveur wiki pouvant tourner sur Linux, Docker, Windows, macOS
