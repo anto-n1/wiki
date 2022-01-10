@@ -54,8 +54,10 @@ Tous ont un rapport avec l'informatique.
 * **[Flathub](https://flathub.org/home)** : agrégateur d'apps Linux
 * **[iHateRegex](https://ihateregex.io)** : outil en ligne permettant de faire des regex
 * **[molly-guard](https://helpmanual.io/man8/molly-guard)** : demande confirmation avant un redémarrage/extinction pour éviter le redémarrage en se trompant de terminal
-* **[Unixporn](https://www.reddit.com/r/unixporn)** : forum Reddit sur la personnalisation d'UNIX
 * **[The book of secret knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)** : Readme Github contenant une collection d'outils Linux
+* **[Unixporn](https://www.reddit.com/r/unixporn)** : forum Reddit sur la personnalisation d'UNIX
+* **[Vim cheatsheet](https://quickref.me/vim)** : tips sur Vim
+
 
 <div id='section-securite'/>
 
