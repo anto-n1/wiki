@@ -92,8 +92,9 @@ Tous ont un rapport avec l'informatique.
 
 ##### Serveur - hébergement
 
-* **[PulsHeberg](https://pulseheberg.com)** : hébergeur français
 * **[Contabo](https://contabo.com)** : hébergeur allemand pas trop cher
+* **[Infomaniak](https://www.infomaniak.com)** : hébergeur suisse
+* **[PulsHeberg](https://pulseheberg.com)** : hébergeur français
 
 <div id='section-developpement'/>
 
