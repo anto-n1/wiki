@@ -3,13 +3,14 @@
 Cette page regroupe des liens utiles que je consulte plus ou moins régulièrement.  
 Tous ont un rapport avec l'informatique.
 
+Une liste d'outils et liens dédié au hacking est dispo [ici](https://git.antonin.io/antonin/wiki/src/master/pentest/outils.md).
+
 ## Table des matières
 
 :small_orange_diamond: [Tips - astuces](#section-tips-astuces)  
 :small_orange_diamond: [Vie privée](#section-vie-privee)  
 :small_orange_diamond: [Linux](#section-linux)  
 :small_orange_diamond: [Sécurité](#section-securite)  
-:small_orange_diamond: [Hacking](#section-hacking)  
 :small_orange_diamond: [Serveur - hébergement](#section-serveur-hebergement)  
 :small_orange_diamond: [Développement](#section-developpement)  
 :small_orange_diamond: [Apple macOS - iOS](#section-apple-macos-ios)  
@@ -59,34 +60,13 @@ Tous ont un rapport avec l'informatique.
 * **[Unixporn](https://www.reddit.com/r/unixporn)** : forum Reddit sur la personnalisation d'UNIX
 * **[Vim cheatsheet](https://quickref.me/vim)** : tips sur Vim
 
-
 <div id='section-securite'/>
 
 ##### Sécurité
 
 * **[CryptoHack](https://cryptohack.org)** : plateforme apprentissage cryptographie
-* **[have i been pwned?](https://haveibeenpwned.com)** : vérifier si une adresse mail a leaké
 * **[Lynis](https://github.com/CISOfy/Lynis)** : outil shell pour vérifier la sécurité/robustesse d'un système Linux
 * **[Safeciphers.org](https://safeciphers.org)** : page regroupant les conf à appliquer pour sécuriser des applications de serveurs Linux
-
-<div id='section-hacking'/>
-
-##### Hacking
-
-* **[Altoro Mutual](http://www.altoromutual.com/login.jsp)** : site web fictif de banque non HTTPS avec connexion pour analyse Wireshark
-* **[Avatao](https://avatao.com)** : plateforme d'entraînement au hacking
-* **[ceh.cagy.org](https://ceh.cagy.org)** : questionnaire en ligne gratuit pour apprendre le CEH
-* **[CTF Cheat sheet & Mémo](https://lestutosdeprocessus.fr/ctf-cheat-sheet)** : mémos pour les CTF
-* **[CTF Sites](https://ctfsites.github.io)** : page regroupant des sites web de CTF
-* **[Hack The Box](https://www.hackthebox.eu)** : plateforme proposant des VM à casser
-* **[How to start hacking?](https://www.reddit.com/r/hacking/comments/a3oicn/how_to_start_hacking_the_ultimate_two_path_guide)** : post Reddit pour commencer le hacking
-* **[PayloadsAllTheThings-Noobs-Fr](https://github.com/TeePee/PayloadsAllTheThings-Noobs-Fr)** : repo github listant payloads/bypass pour sécurité applications web et pentest/CTF
-* **[Reverse Shell Generator](https://www.revshells.com)** : générateur de reverse shell
-* **[Root-me](https://www.root-me.org)** : plateforme d'entraînement au hacking
-* **[Sectools](https://sectools.org)** : regroupe des outils dédiés au hacking
-* **[Termes utilisés dans le monde du hack](https://www.crazyws.fr/culture/termes-utilises-dans-le-monde-du-hack-et-de-la-securite-Q55PK.html)** : liste de mots du monde du hack
-* **[Vulnhub](https://www.vulnhub.com)** : base de données de VM vulnérables
-* **[Wuzz](https://github.com/asciimoo/wuzz/blob/master/README.md)** : interface CLI pour l'inspection HTTP
 
 <div id='section-serveur-hebergement'/>
 
