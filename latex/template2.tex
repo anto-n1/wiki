@@ -237,7 +237,7 @@
 
   % Suppression des lignes horizontales
   \renewcommand{\headrulewidth}{0pt}
-  \renewcommand{\footrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{1pt}
 
 }
 
@@ -253,6 +253,9 @@
   % Suppression des lignes horizontales
   \renewcommand{\headrulewidth}{0pt}
   \renewcommand{\footrulewidth}{1pt}
+
+  \fancyfoot[L]{NOM Prénom}
+  \fancyfoot[R]{\thepage/\pageref{LastPage}} % Affichage du type 1/5
 
 }
 
