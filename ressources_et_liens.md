@@ -149,6 +149,7 @@ Une liste d'outils et liens dédié au hacking est dispo [ici](https://git.anton
 * **[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)** : mémo Markdown
 * **[Emoji Tracker](http://www.emojitracker.com/)** : affiche le nombre d'emojis total sur Twitter
 * **[Killed by Google](https://killedbygoogle.com)** : liste des services lancés et fermés par Google
+* **[Killed by Microsoft](https://killedbymicrosoft.info)** : liste des services lancés et fermés par Microsoft
 * **[Overleaf](https://www.overleaf.com)** : éditeur Markdown en ligne
 * **[Vim persistent undo](https://jovicailic.org/2017/04/vim-persistent-undo)** : avoir un undo persistant sur vim
 * **[Wiki.js](https://wiki.js.org)** : serveur wiki pouvant tourner sur Linux, Docker, Windows, macOS
