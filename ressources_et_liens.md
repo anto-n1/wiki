@@ -90,7 +90,7 @@ Une liste d'outils et liens dédié au hacking est dispo [ici](https://git.anton
 * **[Crescendo](https://segphault.io/posts/2020/03/crescendo)** : moniteur d'activité très complet pour macOS
 * **[Docker-OSX](https://github.com/sickcodes/Docker-OSX/blob/master/README.md)** : faire tourner macOS dans un conteneur Docker
 * **[doseitarm.com](https://doesitarm.com)** : connaître les applications optimisées pour les puces Apple Silicon
-* **[Dozer](https://github.com/Mortennn/Dozer)** : masquer les icones dans la bar de menu de macOS
+* **[Dozer](https://github.com/Mortennn/Dozer)** : masquer les icones dans la barre de menu de macOS
 * **[Indie Apps Catalog](https://indiecatalog.app)** : site répertoriant des applications sur tous les store Apple
 * **[macOS defaults](https://macos-defaults.com/fr)** : astuces chachées sur macOS
 * **[Latest](https://github.com/mangerlahn/Latest)** : application open source permettant de visualiser les mises à jour d'applications
