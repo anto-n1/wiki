@@ -159,5 +159,7 @@ Une liste d'outils et liens dédié au hacking est dispo [ici](https://git.anton
 * **[Killed by Google](https://killedbygoogle.com)** : liste des services lancés et fermés par Google
 * **[Killed by Microsoft](https://killedbymicrosoft.info)** : liste des services lancés et fermés par Microsoft
 * **[Overleaf](https://www.overleaf.com)** : éditeur Markdown en ligne
+* **[Submarine Cable Map](https://www.submarinecablemap.com)** : carte des cables sous marins
+* **[Track awesome list](https://www.trackawesomelist.com/sindresorhus/awesome)** site répertoriant des listes d'outils
 * **[Vim persistent undo](https://jovicailic.org/2017/04/vim-persistent-undo)** : avoir un undo persistant sur vim
 * **[Wiki.js](https://wiki.js.org)** : serveur wiki pouvant tourner sur Linux, Docker, Windows, macOS
