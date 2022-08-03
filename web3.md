@@ -2,8 +2,8 @@
 
 * [Computer science](#computer-science)  
     :small_orange_diamond: [Web browsers](#web-browsers)  
-    :small_orange_diamond: [Search engines](#search-engines)
-    :small_orange_diamond: [Storage](#storage)
+    :small_orange_diamond: [Search engines](#search-engines)  
+    :small_orange_diamond: [Storage](#storage)  
     :small_orange_diamond: [Domain Name Services](#dns)
 * [Entertainment](#entertainment)  
     :small_orange_diamond: [Audio](#audio)  
@@ -12,7 +12,6 @@
 * [Metaverse](#metaverse)  
 * [Social](#social)  
 * [News](#news)  
-* [Pornography](#pornography)  
 
 <div id="computer-science"/>
 
@@ -88,9 +87,3 @@
 ## News
 
 Medium → Rally
-
-<div id="pornography"/>
-
-## Pornography
-
-Pokmi - token $PKN
