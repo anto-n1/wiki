@@ -10,6 +10,7 @@ Une liste d'outils et liens dédié au hacking est dispo [ici](https://git.anton
 :small_orange_diamond: [Tips - astuces](#section-tips-astuces)  
 :small_orange_diamond: [Vie privée](#section-vie-privee)  
 :small_orange_diamond: [Linux](#section-linux)  
+:small_orange_diamond: [Docker](#section-docker)
 :small_orange_diamond: [Sécurité](#section-securite)  
 :small_orange_diamond: [Serveur - hébergement](#section-serveur-hebergement)  
 :small_orange_diamond: [Développement](#section-developpement)  
@@ -59,6 +60,13 @@ Une liste d'outils et liens dédié au hacking est dispo [ici](https://git.anton
 * **[The book of secret knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)** : Readme Github contenant une collection d'outils Linux
 * **[Unixporn](https://www.reddit.com/r/unixporn)** : forum Reddit sur la personnalisation d'UNIX
 * **[Vim cheatsheet](https://quickref.me/vim)** : tips sur Vim
+
+<div id='section-docker'/>
+
+##### Docker
+
+* **[Watchtower](https://github.com/containrrr/watchtower)** : automatiser la mise à jour d'images Docker
+* **[Composerize](https://www.composerize.com)** : transformer des commandes docker run en docker-compose
 
 <div id='section-securite'/>
 
